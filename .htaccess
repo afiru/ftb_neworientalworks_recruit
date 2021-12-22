@@ -1,0 +1,9 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /anken/kobe/ryouhin_jutaku/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /anken/kobe/ryouhin_jutaku/index.php [L]
+</IfModule>
