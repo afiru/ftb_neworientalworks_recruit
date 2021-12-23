@@ -35,7 +35,3 @@
     <div class="pc_only"><?php get_template_part('include_files/header/header_pc'); ?></div>
     <div class="sp_only"><?php get_template_part('include_files/header/header_sp'); ?></div>
 </div>
-<div id="scroll_on" class="base_header">
-    <div class="pc_only"><?php get_template_part('include_files/header/header_pc'); ?></div>
-    <div class="sp_only"><?php get_template_part('include_files/header/header_sp'); ?></div>
-</div>
