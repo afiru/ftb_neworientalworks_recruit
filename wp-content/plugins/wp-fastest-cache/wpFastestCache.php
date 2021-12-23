@@ -3,7 +3,7 @@
 Plugin Name: WP Fastest Cache
 Plugin URI: http://wordpress.org/plugins/wp-fastest-cache/
 Description: The simplest and fastest WP Cache system
-Version: 0.9.3
+Version: 0.9.5
 Author: Emre Vona
 Author URI: http://tr.linkedin.com/in/emrevona
 Text Domain: wp-fastest-cache
@@ -105,6 +105,7 @@ GNU General Public License for more details.
 			add_action('wp_ajax_wpfc_toolbar_save_settings', array($this, "wpfc_toolbar_save_settings_callback"));
 			add_action('wp_ajax_wpfc_toolbar_get_settings', array($this, "wpfc_toolbar_get_settings_callback"));
 
+			//add_action('wp_ajax_wpfc_cache_path_save_settings', array($this, "wpfc_cache_path_save_settings_callback"));
 
 			add_action( 'wp_ajax_wpfc_save_timeout_pages', array($this, 'wpfc_save_timeout_pages_callback'));
 			add_action( 'wp_ajax_wpfc_save_exclude_pages', array($this, 'wpfc_save_exclude_pages_callback'));
@@ -161,7 +162,7 @@ GNU General Public License for more details.
 
 
 
-			if($this->isPluginActive('classic-editor/classic-editor.php')){
+			if($this->isPluginActive('classic-editor/classic-editor.php') || $this->isPluginActive('disable-gutenberg/disable-gutenberg.php')){
 				// to create cache for single content
 				add_action("add_meta_boxes", array($this, "add_meta_box"), 10, 2);
 				add_action('admin_notices', array($this, 'single_preload_inline_js'));
@@ -802,6 +803,29 @@ GNU General Public License for more details.
 			}
 		}
 
+		public function wpfc_cache_path_save_settings_callback(){
+			if(current_user_can('manage_options')){
+				foreach($_POST as $key => &$value){
+					$value = esc_html(esc_sql($value));
+				}
+
+				$path_arr = array(
+								  "cachepath" => sanitize_text_field($_POST["cachepath"]),
+							  	  "optimizedpath" => sanitize_text_field($_POST["optimizedpath"])
+							);
+
+				if(get_option("WpFastestCachePathSettings") === false){
+					add_option("WpFastestCachePathSettings", $path_arr, 1, "no");
+				}else{
+					update_option("WpFastestCachePathSettings", $path_arr);
+				}
+
+				die(json_encode(array("success" => true)));
+			}else{
+				wp_die("Must be admin");
+			}
+		}
+
 		public function wpfc_toolbar_save_settings_callback(){
 			if(current_user_can('manage_options')){
 				if(is_array($_GET["roles"]) && !empty($_GET["roles"])){
@@ -1128,7 +1152,7 @@ GNU General Public License for more details.
 				// Yet Another Stars Rating
 				if($_POST["action"] == "yasr_send_visitor_rating"){
 					$to_clear_parents = false;
-					$post_id = $_POST["post_id"];
+					$post_id = sanitize_text_field($_POST["post_id"]);
 				}
 
 				// All In One Schema.org Rich Snippets

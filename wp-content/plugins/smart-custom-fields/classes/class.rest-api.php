@@ -1,14 +1,21 @@
 <?php
 /**
- * Smart_Custom_Fields_Rest_API
- * Version    : 1.0.1
- * Author     : robssanches
- * Created    : July 14, 2018
- * Modified   : July 22, 2020
- * License    : GPLv2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * @package smart-custom-fields
+ * @author inc2734
+ * @license GPL-2.0+
+ */
+
+/**
+ * Smart_Custom_Fields_Rest_API class.
  */
 class Smart_Custom_Fields_Rest_API {
+
+	/**
+	 * Post Type
+	 *
+	 * @var array
+	 */
+	protected $post_type = array( 'post', 'page' );
 
 	/**
 	 * __construct
@@ -25,8 +32,8 @@ class Smart_Custom_Fields_Rest_API {
 			SCF_Config::PREFIX . 'api/v2',
 			'/search/posts',
 			array(
-				'methods'  => 'GET',
-				'callback' => array( $this, 'get_all_posts' ),
+				'methods'             => 'GET',
+				'callback'            => array( $this, 'get_all_posts' ),
 				'permission_callback' => function() {
 					return current_user_can( 'edit_posts' );
 				},
@@ -40,7 +47,7 @@ class Smart_Custom_Fields_Rest_API {
 	public function get_all_posts() {
 		$all_posts = get_posts(
 			array(
-				'post_type'      => array( 'post', 'page' ),
+				'post_type'      => $this->get_post_type(),
 				'post_status'    => 'publish',
 				'orderby'        => 'date',
 				'order'          => 'ASC',
@@ -58,5 +65,13 @@ class Smart_Custom_Fields_Rest_API {
 		}
 
 		return $source;
+	}
+
+	/**
+	 * Get posts type.
+	 */
+	public function get_post_type() {
+		$post_type = $this->post_type;
+		return apply_filters( SCF_Config::PREFIX . 'rest_api_post_type', $post_type );
 	}
 }
