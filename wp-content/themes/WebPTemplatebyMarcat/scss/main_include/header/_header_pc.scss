@@ -1,0 +1,93 @@
+.pcHeader{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.pcHeaderWap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonPcHeader{
+    display: block;
+    @include ontener_width(1200 , 200);
+}
+.pcHeaderNav{
+    @include ontener_width(1200 , 725);
+}
+.pcHeaderUl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pcHeaderUl li{
+    @include ontener_width(725 , 145);
+}
+.pcHeaderUl li a{
+    @include paddingPercent(145 , 10 , 0 , 10 , 0);
+    display: block;
+    position: relative;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.pcHeaderUl li a:before{
+    width: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.pcHeaderUl li a:hover:before{
+    background: #C2FF30;
+    //@include ontener_width(145 , 35);
+    transition: all 0.4s;
+    width: 35px;
+}
+.pcHeaderUl li a:after{
+    content:"";
+    position: absolute;
+    right: 0;
+    width: 1px;
+    height: 21px;
+    background: #006FDB;
+    transform:skewX(-25deg);
+}
+
+.buttonContactHeader{
+    @include ontener_width(1200 , 200);
+}
+.buttonContactHeaderLink{
+    @include buttontype14_kai(#006FDB,#006FDB,2px,#FFF,#C2FF30,#C2FF30,#FFF); display:block;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include kadomaru(50px);
+    font-weight: 600;
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    text-decoration: none;
+    text-align: center;
+}
+.arrowBottonPcHeader{
+    width: 100%;
+    background: url(../img/icon/Wh_iconarrow.png) no-repeat 90% center;
+    background-size: auto 60%;
+    display: block;
+}
+.buttonContactHeaderLink:hover .arrowBottonPcHeader{
+    background: url(../img/icon/Bl_iconarrow.png) no-repeat 90% center;
+    background-size: auto 60%;
+}

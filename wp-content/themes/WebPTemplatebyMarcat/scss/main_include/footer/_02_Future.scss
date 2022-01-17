@@ -1,10 +1,28 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/17, 9:49:29
-    Author     : SPG-1105
-*/
+.bgFuture {
+    background: url(../img/footer/bgFuturePc.jpg) no-repeat top center;
+    background-size: auto 100%;
+    @include media($sp) {
+        background: url(../img/footer/bgFutureSp.jpg) no-repeat top center;
+        background-size: auto 100%;
+    }
+}
+.future {
+    
+}
+.h2Future {
+    color: #fff;
+    letter-spacing: 0.23em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    @include rs_font_size(30px,2.5vw,5.333333333333333vw);
+    //フォント（px）【PC】:30px |【Tab】30px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        height: 67.73333333333333vw;
+        @include lineheight(20 , 31);
+    }
+}
 

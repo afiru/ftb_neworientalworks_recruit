@@ -1,10 +1,12 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/17, 9:49:40
-    Author     : SPG-1105
-*/
+footer {
+    letter-spacing: 0.05em;
+    @include rs_font_size(11px,0.9166666666666666vw,2.933333333333333vw);
+    //フォント（px）【PC】:11px |【Tab】11px |【sp】 11px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include paddingPercent(1920 , 17 , 0 , 17 , 0);
+    @include media($sp) {
+        @include lineheight(11 , 13.25)
+        @include paddingPercent(375 , 17 , 0 , 17 , 0);
+    }
+}
 
