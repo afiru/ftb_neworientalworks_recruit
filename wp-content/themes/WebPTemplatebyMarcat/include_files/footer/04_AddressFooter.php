@@ -1,1 +1,1 @@
-<footer class="t_center">Copyright © 2021- NEWORIENTALWORKS Inc. All Rights Reserved.</footer>
+<footer class="t_center">Copyright © 2021- NEWORIENTALWORKS Inc. <br class="sp_only">All Rights Reserved.</footer>

@@ -1,19 +1,45 @@
 .mainFooter {
     @include paddingPercent(1200 , 52 , 0 , 146 , 0);
+    @include media($sp) {
+        @include paddingPercent(375 , 33 , 0 , 49 , 0);
+    }
+}
+.logoMainFooterWap {
+    @include ontener_width(1200 , 358);
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 0 , auto , 0 , auto);
+    }
 }
 .logoMainFooter {
     display: block;
     width: 100%;
 }
 .txtLogoMainFooter {
-    @include marginPercent(417 , 24 , 0 , 0 , 0);
+    @include marginPercent(358 , 24 , 0 , 0 , 0);
     @include lineheight(17 , 26.5);
     @include rs_font_size(17px,1.4166666666666667vw,4.266666666666667vw);
     //フォント（px）【PC】:17px |【Tab】17px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include marginPercent(350 , 24 , 0 , 0 , 0);
+    }
 }
 .mainFooterBox {
-    @include ontener_width(1200 , 742);
+    @include ontener_width(1200 , 762);
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 38.5 , auto , 0 , auto);
+    }
+}
+.navMainFooter {
+    @include ontener_width(762 , 185);
+    @include media($sp) {
+        @include ontener_width(350 , 160);
+        &:nth-child(n+3) {
+            @include marginPercent(160 , 16 , 0 , 0 , 0);
+        }
+    }
 }
 .h2NavMainFooter {
     @include rs_font_size(17px,1.4166666666666667vw,4.533333333333333vw);
@@ -21,22 +47,43 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .txtNavMainFooter {
+    @include marginPercent(185 , 3 , 0 , 0 , 0);
     @include rs_font_size(12px,1vw,3.2vw);
     //フォント（px）【PC】:12px |【Tab】12px |【sp】 12px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include marginPercent(160 , 3 , 0 , 0 , 0);
+    }
 }
 .ulMainFooter {
-    @include marginPercent(128 , 19 , 0 , 0 , 0);
+    @include marginPercent(185 , 19 , 0 , 0 , 0);
+    @include media($sp) {
+        @include marginPercent(160 , 12 , 0 , 0 , 0);
+    }  
 }
 .liMainFooter {
-    @include marginPercent(128 , 20 , 0 , 0 , 0);
-    @include paddingPercent(128 , 0 , 0 , 0 , 10);
+    @include marginPercent(185 , 20 , 0 , 0 , 0);
     @include rs_font_size(16px,1.3333333333333333vw,3.7333333333333334vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 14px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include marginPercent(160 , 18 , 0 , 0 , 0);
+    }
     a {
         display: block;
         text-decoration: none;
         color: #fff;
+    }
+}
+.arrowMainFooter {
+    width: 100%;
+    display: block;
+    background: url(../img/footer/arrowMainFooter.svg) no-repeat 0% center;
+    background-size: auto 55%;
+    @include paddingPercent(128 , 0 , 0 , 0 , 15);
+    @include media($sp) {
+        background: url(../img/footer/arrowMainFooter.svg) no-repeat 0% center;
+        background-size: auto 55%;
+        @include paddingPercent(160 , 0 , 0 , 0 , 11);
     }
 }
