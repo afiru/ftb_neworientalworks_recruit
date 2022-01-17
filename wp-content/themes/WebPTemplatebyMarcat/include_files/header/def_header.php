@@ -26,16 +26,15 @@
 <script type='text/javascript' src="<?php echo get_bloginfo('template_url'); ?>/js/animsition.min.js"></script>
 <script type="text/javascript" src='<?php echo get_bloginfo('template_url'); ?>/js/config.js'> </script>
 <script type="text/javascript" src='<?php echo get_bloginfo('template_url'); ?>/js/bxslider_setting.js'> </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" id='def_set_css' type="text/css" href="<?php echo get_bloginfo('template_url'); ?>/css/basestyle.css?ver=<?php echo date('Y-m-d'); ?>" media="all">
 </head>
 <body id="page_top">
 <div id="page_wapper_master">
 <?php echo get_php_customzer('body_after_code'); ?>
 <div id="scroll_off" class="base_header">
-    <div class="pc_only"><?php get_template_part('include_files/header/header_pc'); ?></div>
-    <div class="sp_only"><?php get_template_part('include_files/header/header_sp'); ?></div>
-</div>
-<div id="scroll_on" class="base_header">
     <div class="pc_only"><?php get_template_part('include_files/header/header_pc'); ?></div>
     <div class="sp_only"><?php get_template_part('include_files/header/header_sp'); ?></div>
 </div>

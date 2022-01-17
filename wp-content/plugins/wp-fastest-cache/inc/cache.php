@@ -687,6 +687,12 @@
 				}
 			}
 
+			// for Divi Theme
+			if(defined('DONOTCACHEPAGE') && (get_template() == "Divi")){
+				return $buffer."<!-- DONOTCACHEPAGE is defined as TRUE -->";
+			}
+
+
 			if($this->exclude_page($buffer)){
 				$buffer = preg_replace('/<\!--WPFC_PAGE_TYPE_[a-z]+-->/i', '', $buffer);	
 				return $buffer;
@@ -846,6 +852,14 @@
 					$content = $this->cdn_rewrite($content);
 
 					$content = $this->fix_pre_tag($content, $buffer);
+
+					if(preg_match("/<link[^\>]+href\s*\=\s*[\'\"][^\"\']+\.\.[\"\'][^\>]+>/", $content)){
+						/*
+						to check that resources have been successfully optimized
+						<link rel='stylesheet'  href='//site.com/wp-content/cache/wpfc-minified/895p0t5d/..' media='all' />
+						*/
+						return $buffer."<!-- Cache has NOT been created due to optimized resource -->";
+					}
 
 					if($this->cacheFilePath){
 						if($this->is_html()){

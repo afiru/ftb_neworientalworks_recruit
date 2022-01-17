@@ -268,8 +268,8 @@ function meta_headcustomtags() {
     global $cat;
     if ( is_category() ) { 
         $catdate = get_cat_tax_img('category',$cat);
-        $title = $catdate['SEO_Title'];
-        $description = $catdate['SEO_Description'];
+        $title = SCF::get_term_meta($cat,'category','seo_title');
+        $description = SCF::get_term_meta($cat,'category','seo_description');
         $now_url = get_category_link($cat);
         $blog_title = get_bloginfo('name');
         $aiosp_opengraph_dimg = $catdate['OGimage'];
