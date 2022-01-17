@@ -69,7 +69,6 @@
 }
 .buttonContactHeaderLink{
     @include buttontype14_kai(#006FDB,#006FDB,2px,#FFF,#C2FF30,#C2FF30,#FFF); display:block;
-    //(#006FDB,#006FDB,1px,#FFF,#C2FF30,#C2FF30,#C2FF30,#FFF);
     height: 50px;
     display: flex;
     justify-content: center;
@@ -81,11 +80,6 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     text-decoration: none;
     text-align: center;
-    &:hover{
-        background: #FFF;
-        border: 1px solid #006FDB;
-        color: #006FDB;
-    }
 }
 .arrowBottonPcHeader{
     width: 100%;

@@ -52,8 +52,15 @@
     }
 }
 .spHeaderNav{
+    display: none;
     background: #F6FBFF;
-    @include paddingPercent(375 , 34 , 0 , 0 , 0);
+    @include paddingPercent(375 , 34 , 0 , 175 , 0);
+    overflow-y: auto;
+    position: fixed;
+    top:50px;
+    width: 100%;
+    z-index: 10;
+    height: 100vh;
 }
 .spHeaderNavUl{
     @include ontener_width(375 , 350);
@@ -90,4 +97,22 @@
 .spHeaderNavLiSub a{
     color: #00275B;
     text-decoration: none;
+}
+.spHeaderNavContactBtn{
+    @include marginPercent(350 , 60 , auto , 0 , auto);
+    @include ontener_width(350 , 200);
+}
+.spHeaderNavContactBtnLink{
+    @include buttontype14_kai(#006FDB,#006FDB,2px,#FFF,#C2FF30,#FFF,#FFF);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include kadomaru(50px);
+    font-weight: 600;
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    text-decoration: none;
+    text-align: center;
 }
