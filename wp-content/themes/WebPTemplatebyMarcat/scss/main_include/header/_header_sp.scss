@@ -1,0 +1,93 @@
+.spHeader{
+    height: 13.333333333333334vw;
+    display: flex;
+    align-items: center;
+}
+.spHeaderWap{
+    @include ontener_width(375 , 350);
+    margin: 0 auto;
+}
+.buttonPcHeader{
+    width: 213.32px;
+    display: block;
+}
+.sp_menu_button{
+    width: 40px;
+    height: 40px;
+    background: #006FDB;
+    @include kadomaru(10px);
+    position: relative;
+    span{
+        width: 22px;
+        height: 1px;
+        background: #FFF;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+.sp_menu_button{
+    &.off{
+         span:nth-child(1){
+            top:10px;
+        }
+        span:nth-child(2){
+            top:20px;
+        }
+        span:nth-child(3){
+            top:30px;
+        }
+    }
+    &.on{
+        span:nth-child(1){
+            top:10px;
+        }
+        span:nth-child(2){
+            top:20px;
+        }
+        span:nth-child(3){
+            top:30px;
+        }
+    }
+}
+.spHeaderNav{
+    background: #F6FBFF;
+    @include paddingPercent(375 , 34 , 0 , 0 , 0);
+}
+.spHeaderNavUl{
+    @include ontener_width(375 , 350);
+    margin: 0 auto;
+}
+.spHeaderNavLi{
+    @include marginPercent(350 , 45 , auto , 0 , auto);
+    color: #00275B;
+    
+}
+.btnSubNavi{
+   @include paddingPercent(350 , 0 , 0 , 10 , 0);
+   border-bottom: 1px solid #00275B;
+}
+.HeaderNavEnTitle{
+     font-weight: 600;
+     letter-spacing: 0.1em;
+    @include rs_font_size(20px,1.6666666666666667vw,5.333333333333333vw);
+    //フォント（px）【PC】:20px |【Tab】20px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.HeaderNavJaTitle{
+    @include marginPercent(350 , 0 , auto , 0 , 20);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.spHeaderNavUlSub {
+    @include marginPercent(350 , 10 , auto , 0 , auto);
+}
+.spHeaderNavLiSub{
+    @include marginPercent(350 , 0 , auto , 25 , auto);
+}
+.spHeaderNavLiSub a{
+    color: #00275B;
+    text-decoration: none;
+}
