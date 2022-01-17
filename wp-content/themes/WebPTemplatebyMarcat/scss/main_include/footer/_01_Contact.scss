@@ -1,10 +1,8 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/17, 9:49:23
-    Author     : SPG-1105
-*/
+.footerContact {
+    @include marginPercent(1920 , 182 , auto , 146 , auto);
+}
+.ftContact {
+    background: url(../img/.jpg) no-repeat top center;
+    background-size: auto 100%;
+}
 
