@@ -1,10 +1,42 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/17, 9:49:34
-    Author     : SPG-1105
-*/
-
+.mainFooter {
+    @include paddingPercent(1200 , 52 , 0 , 146 , 0);
+}
+.logoMainFooter {
+    display: block;
+    width: 100%;
+}
+.txtLogoMainFooter {
+    @include marginPercent(417 , 24 , 0 , 0 , 0);
+    @include lineheight(17 , 26.5);
+    @include rs_font_size(17px,1.4166666666666667vw,4.266666666666667vw);
+    //フォント（px）【PC】:17px |【Tab】17px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.mainFooterBox {
+    @include ontener_width(1200 , 742);
+}
+.h2NavMainFooter {
+    @include rs_font_size(17px,1.4166666666666667vw,4.533333333333333vw);
+    //フォント（px）【PC】:17px |【Tab】17px |【sp】 17px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.txtNavMainFooter {
+    @include rs_font_size(12px,1vw,3.2vw);
+    //フォント（px）【PC】:12px |【Tab】12px |【sp】 12px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.ulMainFooter {
+    @include marginPercent(128 , 19 , 0 , 0 , 0);
+}
+.liMainFooter {
+    @include marginPercent(128 , 20 , 0 , 0 , 0);
+    @include paddingPercent(128 , 0 , 0 , 0 , 10);
+    @include rs_font_size(16px,1.3333333333333333vw,3.7333333333333334vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 14px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+    }
+}
