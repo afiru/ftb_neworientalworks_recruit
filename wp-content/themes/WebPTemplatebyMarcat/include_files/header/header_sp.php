@@ -25,6 +25,11 @@
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">
+                     <a href="<?php echo get_permalink(2); ?>#message">
+                        <span class="spHeaderNavLiSubmenu">代表挨拶</span>
+                    </a>
+                </li>
+                 <li class="spHeaderNavLiSub">
                      <a href="<?php echo get_permalink(2); ?>#company">
                         <span class="spHeaderNavLiSubmenu">会社情報</span>
                     </a>
@@ -39,11 +44,7 @@
                         <span class="spHeaderNavLiSubmenu">沿革</span>
                     </a>
                 </li>
-                 <li class="spHeaderNavLiSub">
-                     <a href="<?php echo get_permalink(2); ?>#message">
-                        <span class="spHeaderNavLiSubmenu">代表挨拶</span>
-                    </a>
-                </li>
+
             </ul>           
         </li>
         
