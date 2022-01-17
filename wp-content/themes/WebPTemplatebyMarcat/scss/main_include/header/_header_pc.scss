@@ -68,26 +68,18 @@
     @include ontener_width(1200 , 200);
 }
 .buttonContactHeaderLink{
+    @include buttontype14_kai(#006FDB,#006FDB,2px,#FFF,#C2FF30,#C2FF30,#FFF); display:block;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #006FDB;
-    border: 1px solid #006FDB;
     @include kadomaru(50px);
     font-weight: 600;
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
-    color: #FFF;
     text-decoration: none;
-    transition-duration: 0.5s;
     text-align: center;
-    &:hover{
-        background: #FFF;
-        border: 1px solid #006FDB;
-        color: #006FDB;
-    }
 }
 .arrowBottonPcHeader{
     width: 100%;
@@ -96,6 +88,6 @@
     display: block;
 }
 .buttonContactHeaderLink:hover .arrowBottonPcHeader{
-    background: url(../img/icon/Bl_iconarrow.png) no-repeat right center;
+    background: url(../img/icon/Bl_iconarrow.png) no-repeat 90% center;
     background-size: auto 60%;
 }
