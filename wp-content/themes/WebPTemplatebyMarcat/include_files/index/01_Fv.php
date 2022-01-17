@@ -1,4 +1,4 @@
-<div class="indexFv">
+<div class="ovhidden indexFv">
     <div class="wapper po_re indexFvWap">        
         <div class="indexFvSlider">
             <?php 
