@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="348" height="108" viewBox="0 0 348 108">
+  <defs>
+    <filter id="パス_356" x="0" y="0" width="241.503" height="29.072" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_29" x="0" y="78" width="242" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="長方形_30" x="0" y="38" width="348" height="29" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_1329" data-name="グループ 1329" transform="translate(-13 -483)">
+    <g transform="matrix(1, 0, 0, 1, 13, 483)" filter="url(#パス_356)">
+      <path id="パス_356-2" data-name="パス 356" d="M0,0H237.5V24.072H0Z" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 13, 483)" filter="url(#長方形_29)">
+      <rect id="長方形_29-2" data-name="長方形 29" width="238" height="25" transform="translate(0 78)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 13, 483)" filter="url(#長方形_30)">
+      <rect id="長方形_30-2" data-name="長方形 30" width="344" height="24" transform="translate(0 38)" fill="#fff"/>
+    </g>
+    <text id="地域を愛し_地域に貢献する" data-name="地域を愛し、地域に貢献する" transform="translate(17 500.536)" font-size="16" font-family="YuGothic-Bold, Yu Gothic" font-weight="700" letter-spacing="0.11em"><tspan x="0" y="0">地域を愛し、地域に貢献する</tspan></text>
+    <text id="新しい未来へ突き進む企業へ" transform="translate(17 579)" font-size="16" font-family="YuGothic-Bold, Yu Gothic" font-weight="700" letter-spacing="0.11em"><tspan x="0" y="0">新しい未来へ突き進む企業へ</tspan></text>
+    <g id="グループ_495" data-name="グループ 495" transform="translate(17 524.5)">
+      <text id="人と人との繋がりと伝統を受け継ぎながら" transform="translate(0 14)" font-size="16" font-family="YuGothic-Bold, Yu Gothic" font-weight="700" letter-spacing="0.11em"><tspan x="0" y="0">人と人との繋がりと伝統を受け継ぎながら</tspan></text>
+    </g>
+  </g>
+</svg>
