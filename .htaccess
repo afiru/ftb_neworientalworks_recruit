@@ -19,11 +19,11 @@ RewriteRule ^login_55385(.*)$ wp-login.php$1 [L]
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /anken/ftb/neworientalworks_recruit.com/
+RewriteBase /anken/ftb/neworientalworks.com/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /anken/ftb/neworientalworks_recruit.com/index.php [L]
+RewriteRule . /anken/ftb/neworientalworks.com/index.php [L]
 </IfModule>
 
 # END WordPress
