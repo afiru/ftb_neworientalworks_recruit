@@ -5,7 +5,7 @@
 @import 'sass_base/_page_animete';
 @import 'sass_base/icon_arrow';
 @import 'sass_base/coding_guideline';
-
+@import 'sass_base/_color';
 .wapper {
     @include wapper_setting();    
 }
@@ -42,6 +42,12 @@ svg {
 .text_justify {
     text-align: justify;
     text-justify: inter-ideograph;    
+}
+.ovhidden {
+    overflow: hidden;
+}
+.po_re {
+    position: relative;
 }
 //トップページ部分
 @import 'main_include/header/_header_pc';

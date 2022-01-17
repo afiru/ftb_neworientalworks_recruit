@@ -1,4 +1,4 @@
-<div class="indexFv">
+<div class="ovhidden indexFv">
     <div class="wapper po_re indexFvWap">        
         <div class="indexFvSlider">
             <?php 
@@ -67,15 +67,7 @@
                     </a>
                 </li>
 
-                <li class="liIndexFvList liIndexFvList02">
-                    <a class="btnIndexFv" href="<?php echo get_the_permalink(2); ?>" target="">
-                        <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/index/btnIndexFv02.png" alt="採用情報" width="187" height="187" />
-                        <section class="txtIndexFvList">
-                            <h2 class="t_center h2TxtIndexFvList">採用情報</h2>
-                            <p class="oswald t_center pTxtIndexFvList">RECRUIT</p>
-                        </section>
-                    </a>
-                </li>
+           
 
                 <li class="liIndexFvList liIndexFvList02">
                     <a class="btnIndexFv" href="http://www.tsukemenichimori.com/" target="_blank">
