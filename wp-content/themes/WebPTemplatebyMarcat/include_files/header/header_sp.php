@@ -25,7 +25,7 @@
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">
-                     <a href="<?php echo get_permalink(2); ?>">
+                     <a href="<?php echo get_permalink(2); ?>#company">
                         <span class="spHeaderNavLiSubmenu">会社情報</span>
                     </a>
                 </li>
