@@ -15,7 +15,7 @@
             }
         ?>
         <div class="buttonContactHeader">
-            <a class="buttonPcHeader" href="<?php echo home_url('/contact/'); ?>">
+            <a class="buttonContactHeaderLink" href="<?php echo home_url('/contact/'); ?>">
                 <span class="arrowBottonPcHeader">お問い合わせ</span>
             </a>
         </div>
