@@ -49,3 +49,13 @@ $(function(){
         }
     });
 });
+
+//ハンバーガー
+$('.sp_menu_button').on('click',function(){
+    $('.spHeaderNav').slideToggle();
+    if($(this).hasClass('off')){
+        $(this).removeClass('off').addClass('on');
+    }else {
+        $(this).removeClass('on').addClass('off');
+    }
+});
