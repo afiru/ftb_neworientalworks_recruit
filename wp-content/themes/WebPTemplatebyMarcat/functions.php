@@ -176,3 +176,16 @@ function stringOverFlow($strings, $length) {
     $output = mb_strimwidth($output, 0, $length, "...", "UTF-8");
     return $output;
 }
+
+$TODAY = strtotime(date('Y-m-d'));
+function check_new_post($date) {
+    global $TODAY;
+    $date = strtotime($date);
+    $dayDiff = abs($TODAY - $date) / 86400; //(60 * 60 * 24)
+    return ($dayDiff < 14);
+}
+function getNewFlug($date) {
+    if(check_new_post( get_post_time($date) )) {
+        echo '<span class="entitle new">NEW</span>';
+    }
+}
