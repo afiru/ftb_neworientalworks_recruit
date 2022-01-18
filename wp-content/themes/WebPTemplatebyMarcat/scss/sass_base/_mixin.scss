@@ -7,6 +7,7 @@
 $pc: new-breakpoint(min-width 1025px 16);//PC時（基本ベース）
 $nomal_pc: new-breakpoint(max-width 1366px 14);//PC時（解像度　1366pxの時の指定）
 $big_pc: new-breakpoint(max-width 1920px 12);//PC時（解像度　1366pxの時の指定）
+$pc_wap: new-breakpoint(max-width 1200px 8);//1200px以下
 
 //タブレット時
 $tab: new-breakpoint(max-width 1024px 8);//タブレット横
@@ -187,6 +188,11 @@ $fg-gutter: $gutter;
 @mixin wapper_setting() {
     @include media($pc) {
         width: $pc_wapper_size;
+        margin-left:auto;
+		margin-right:auto;
+    }
+    @include media($pc_wap) {
+        width: 100%;
         margin-left:auto;
 		margin-right:auto;
     }

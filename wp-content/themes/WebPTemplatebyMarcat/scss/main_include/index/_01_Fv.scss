@@ -1,9 +1,220 @@
+.bgIndexMain{
+    background: url(../img/index/BgFv.jpg) no-repeat top;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    @include media($sp){
+        background: unset;
+    }
+}
 .indexFv{
-    
+    @include media($sp){
+        padding: 0 0 30% 0;
+    }
 }
 .indexFvWap{
-    
 }
 .indexFvSlider{
+    position: relative;
+    @include ontener_width(1200 , 1125);
+    @include media($sp){
+        width: 100%;
+    }
+}
+.indexFvSliderSet{
+    height: 825px;
+    @include media($pc_wap){
+        height: 60vw;
+    }
+    @include media($sp){
+        height: 146.66666666666666vw;
+    }
+}
+.indexFvSliderSet{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500%;
+    .bx-wrapper {
+        overflow: hidden;
+    }
+    .bx-viewport {
+        width: 500% !important;
+        height: 825px !important;
+        position: absolute !important;
+        right: 0 !important;
+        top: 0 !important;
+        @include media($pc_wap){
+            height: 60vw !important;
+        }
+        @include media($sp){
+            height: 146.66666666666666vw !important;
+        }
+    }
+}
+.ulIndexFv{
+    height: 825px;
+    @include media($pc_wap){
+        height: 60vw;
+    }
+    @include media($sp){
+        height: 146.66666666666666vw;
+    }
+}
+.liIndexFv {
+    width: 100% !important;
+    height: 825px;
+    background-size: auto 100% !important;
+    background-position: right center !important;
+    @include media($pc_wap){
+        height: 60vw;
+    }
+    @include media($sp){
+        height: 146.66666666666666vw;
+    }
+}
+.logoIndexFv{
+    @include ontener_width(1200 , 622);
+    position: absolute;
+    z-index: 99;
+    top:15.104166666666666vw;
+    left:0;
+    right: 0;
+    margin: auto;
+    @include media($sp){
+        top:56.266666666666666vw;
+        @include ontener_width(375 , 271);
+    }
+}
+.navIndexFv{
     
+}
+.ulIndexFv{
+    
+}
+.liIndexFvList{
+    @include ontener_width(1200 , 187);
+    position: absolute;
+    z-index: 999;
+    @include media($sp){
+        @include ontener_width(375 , 83);
+    }
+}
+.liIndexFvList01{
+    top:0;
+    right: 10%;
+    @include media($sp){
+        top:77%;
+        right: 3%;
+    }
+}
+.liIndexFvList02{
+    right: 0%;
+    top:25%;
+    @include media($sp){
+        top:85%;
+        right: 26%;
+    }
+}
+.liIndexFvList03{
+    top:50%;
+    right: 0%;
+    @include media($sp){
+        top:90%;
+        right: 52%;
+    }
+}
+.liIndexFvList04{
+    top:75%;
+    right: 10%;
+    @include media($sp){
+        top:90%;
+        right: 77%;
+    }
+}
+.btnIndexFv{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.txtIndexFvList{
+    position: absolute;
+    background: rgba(194, 255, 48, 0.7);
+    opacity: 0;
+     z-index: 9999;
+    top:0;
+    left:0;
+    right: 0;
+    @include kadomaru(100px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    transition-duration: 0.5s;
+}
+.btnIndexFv:hover .txtIndexFvList{
+    opacity: 1;
+    width: 100%;
+    animation: powan 0.5s;
+}
+@keyframes powan {
+    0% {
+            transform: scale(0, 0);
+            opacity: 0;
+    }
+    100% {
+            transform: scale(1, 1);
+            opacity: 1;
+    }
+}
+.h2TxtIndexFvList{
+    width: 100%;
+    color: #006FDB;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    @include rs_font_size(21px,1.75vw,5.6vw);
+    //フォント（px）【PC】:21px |【Tab】21px |【sp】 21px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.pTxtIndexFvList{
+    @include marginPercent(187 , 10 , auto , 0 , auto);
+    width: 100%;
+    color: #006FDB;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    @include rs_font_size(14px,1.1666666666666667vw,3.7333333333333334vw);
+    //フォント（px）【PC】:14px |【Tab】14px |【sp】 14px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.scrollIndexFv{
+    position: absolute;
+    right: -5%;
+    bottom: 0%;
+    z-index: 999;
+    @include media($pc_wap){
+        right: 2%;
+        bottom: -14%;
+    }
+}
+.txtScrollIndexFv{
+    color: #00275B;
+    letter-spacing: 0.24em;
+    @include rs_font_size(18px,1.5vw,4.266666666666667vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.borderBoxIndexFv{
+    
+}
+.brBoxIndexFv{
+    display: block;
+    width: 1px;
+    height: 7.291666666666667vw;
+    background: #006FDB;
+    margin: 15% auto 0 auto;
+    @include media($sp){
+        height: 19.866666666666667vw;
+    }
 }
