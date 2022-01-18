@@ -1,19 +1,37 @@
 .indexRecruit {
     @include marginPercent(1920 , 196 , 0 , 0 , 0);
+    @include media($sp) {
+        @include marginPercent(375 , 0 , 0 , 0 , 0);
+        @include paddingPercent(375 , 100 , auto , 0 , auto);
+    }
 }
 .titleIndexRecruit {
     @include ontener_width(1200 , 555);
+    @include media($sp) {
+        @include ontener_width(375 , 193);
+        @include marginPercent(193 , 0 , auto , 0 , 10);
+    }
 }
 .h1TitleIndexRecruit {
     @include ontener_width(555 , 365);
+    @include media($sp) {
+        width: 100%;
+    }
 }
 .navIndexRecruit {    
     @include ontener_width(1200 , 794);
     @include marginPercent(1200 , 30 , 0 , 0 , 0);
+    @include media($sp) {
+        @include ontener_width(375 , 370);
+        @include marginPercent(370 , 10 , 0 , 0 , 0);
+    }
 }
 .navIndexRecruitWap {
     position: relative;
     @include paddingPercent(794 , 70 , 0 , 70 , 0 );
+    @include media($sp) {
+        @include paddingPercent(370 , 22 , 0 , 22 , 0 );
+    }
 }
 .bgIndexRecruit {
     position: absolute;
@@ -23,16 +41,24 @@
     right: 0;
     background: #004ADB;
     @include kadomaru(185px);
-    
+    @include media($sp) {
+        z-index: 1
+    }
 }
 .ulIndexRecruit {
     position: relative;
     z-index: 10;
-    @include ontener_width(794 ,732)
+    @include ontener_width(794 ,732);
+    @include media($sp) {
+        @include ontener_width(370 ,340);
+        @include marginPercent(340 , 0 , auto , 0 , auto);
+    }
 }
 .liIndexRecruit {
-    
     @include ontener_width(732 , 216);
+    @include media($sp) {
+        @include ontener_width(340 , 108);
+    }
 }
 .btnIndexRecruit {
     .nomal {
@@ -53,18 +79,26 @@
 .btnMoreIndexRecruitWap {
     position: relative;
     @include marginPercent(794 , -30 , 0 , 0 , 90 );
+    @include media($sp) {
+        @include marginPercent(340 , 0 , 0 , 0 , 0 );
+    }
 }
 .bgPhotoIndexRecruit {
-width: 58.33%;
+    width: 58.33%;
     position: absolute;
     display: block;
     top: 0;
     left: 61%;
+    @include media($sp) {
+        width: 66.33%;
+        top: -25%;
+        left: 44%;
+        z-index: 0;
+    }
     img {
         display: block;
     }
 }
-//ボタン
 .btnMoreIndexRecruit {
     @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
     display: flex;
@@ -80,17 +114,17 @@ width: 58.33%;
     @include ontener_width(732 , 340);
     @include media($sp) {
         height: 16vw;
-        @include ontener_width(348 , 340);
-        @include marginPercent(340 , 50 , auto , 0 , auto);
+        @include ontener_width(370 , 340);
+        @include marginPercent(340 , 47 , auto , 0 , auto);
     }
 }
 .arrowBtnMoreIndexRecruit {
     width: 100%;
     display: block;
-    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 69% center;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 77% center;
     background-size: auto 55%;
     @include media($sp) {
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 69% center;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 74% center;
         background-size: auto 55%;
     }
 }
