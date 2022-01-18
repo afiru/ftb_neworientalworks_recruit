@@ -1,10 +1,53 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/17, 9:52:36
-    Author     : SPG-1105
-*/
+.indexRecruit {
+    @include marginPercent(1920 , 196 , 0 , 0 , 0);
+}
+.titleIndexRecruit {
+    @include ontener_width(1200 , 555);
+}
+.h1TitleIndexRecruit {
+    @include ontener_width(555 , 365);
+}
+.navIndexRecruit {
+    background: #004ADB;
+    @include ontener_width(1200 , 732)
+    @include marginPercent(732 , 30 , 0 , 0 , 0);
+}
+.ulIndexRecruit {
+    @include paddingPercent(732 , 70 , 0 , 83 , 0);
+}
+.liIndexRecruit {
+    @include ontener_width(732 , 216);
+}
 
+
+//ボタン
+.btnMoreIndexRecruit {
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include kadomaru(50px);
+    @include ontener_width(1200 , 340);
+    @include marginPercent(340 , 89 , auto , 0 , auto);
+    @include media($sp) {
+        height: 16vw;
+        @include ontener_width(348 , 340);
+        @include marginPercent(340 , 50 , auto , 0 , auto);
+    }
+}
+.arrowBtnMoreIndexRecruit {
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 69% center;
+    background-size: auto 55%;
+    @include media($sp) {
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 69% center;
+        background-size: auto 55%;
+    }
+}
