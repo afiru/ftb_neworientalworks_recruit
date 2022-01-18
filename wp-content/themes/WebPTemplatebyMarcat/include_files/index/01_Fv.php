@@ -20,12 +20,12 @@
                             $sp_img = get_scf_img_url('imgSliderSp');
                         ?>
                         <style>
-                            .liIndexSlide<?php echo $i; ?> {
+                            .liIndexFv<?php echo $i; ?> {
                                 background: url(<?php echo $pc_img[0]; ?>) no-repeat top center;
                                 background-size: auto 100%;
                             }
                             @media screen and (max-width: 750px) {
-                                .liIndexSlide<?php echo $i; ?> {
+                                .liIndexFv<?php echo $i; ?> {
                                     background: url(<?php echo $sp_img[0]; ?>) no-repeat top center;
                                     background-size: auto 100%;
                                 }
@@ -71,7 +71,7 @@
 
            
 
-                <li class="liIndexFvList liIndexFvList02">
+                <li class="liIndexFvList liIndexFvList03">
                     <a class="btnIndexFv" href="http://www.tsukemenichimori.com/" target="_blank">
                         <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/index/btnIndexFv03.png" alt="つけ麺いちもり" width="187" height="187" />
                         <section class="txtIndexFvList">
@@ -81,7 +81,7 @@
                     </a>
                 </li>
 
-                <li class="liIndexFvList liIndexFvList02">
+                <li class="liIndexFvList liIndexFvList04">
                     <a class="btnIndexFv" href="<?php echo get_the_permalink(30); ?>" target="">
                         <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/index/btnIndexFv04.png" alt="事業内容" width="187" height="187" />
                         <section class="txtIndexFvList">

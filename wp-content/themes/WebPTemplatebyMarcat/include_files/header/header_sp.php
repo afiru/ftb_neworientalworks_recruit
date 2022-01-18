@@ -16,7 +16,6 @@
             <div class="btnSubNavi jsbtnSubNavi">
                 <span class="HeaderNavEnTitle">COMPANY</span>
                 <span class="HeaderNavJaTitle">私たちについて</span>
-                <span class="HeaderNaviconPlus"></span>
             </div>
             <ul class="spHeaderNavUlSub spHeaderNavUlSub01">
                 <li class="spHeaderNavLiSub">
@@ -52,7 +51,6 @@
             <div class="btnSubNavi jsbtnSubNavi">
                 <span class="HeaderNavEnTitle">BUSINESS</span>
                 <span class="HeaderNavJaTitle">事業内容</span>
-                <span class="HeaderNaviconPlus"></span>
             </div>
             <ul class="spHeaderNavUlSub spHeaderNavUlSub01">
                 <li class="spHeaderNavLiSub">
@@ -82,7 +80,6 @@
             <div class="btnSubNavi jsbtnSubNavi">
                 <span class="HeaderNavEnTitle">RECRUIT</span>
                 <span class="HeaderNavJaTitle">採用情報</span>
-                <span class="HeaderNaviconPlus"></span>
             </div>
             <ul class="spHeaderNavUlSub spHeaderNavUlSub01">
                 <li class="spHeaderNavLiSub">
@@ -107,7 +104,6 @@
             <div class="btnSubNavi jsbtnSubNavi">
                 <span class="HeaderNavEnTitle">INFORMATION</span>
                 <span class="HeaderNavJaTitle">お知らせ・その他</span>
-                <span class="HeaderNaviconPlus"></span>
             </div>
             <ul class="spHeaderNavUlSub spHeaderNavUlSub01">
                  <li class="spHeaderNavLiSub">
