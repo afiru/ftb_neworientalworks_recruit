@@ -48,6 +48,7 @@
     //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
+        letter-spacing: 0.03em;
         @include ontener_width(348 , 96);
     }
 }
@@ -59,6 +60,7 @@
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    letter-spacing: 0.13em;
     @include ontener_width(1200 , 80);
     @include marginPercent(80 , 0 , 30 , 0 , 0);
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
