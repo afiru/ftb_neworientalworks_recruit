@@ -1,10 +1,110 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/17, 9:52:42
-    Author     : SPG-1105
-*/
-
+.indexNews {
+    @include marginPercent(1920 , 196 , auto , 0 , auto);
+    @include media($sp) {
+        @include ontener_width(375 , 348)
+        @include marginPercent(348 , 129 , auto , 0 , auto);
+    }
+}
+.indexNewsFx {
+    justify-content: flex-start;
+    @include ontener_width(1200 , 416);
+    @include media($sp) {
+        @include ontener_width(348 , 133);
+    }
+}
+.h1IndexNewsFx {
+    @include ontener_width(416 , 239);
+    @include media($sp) {
+        width: 100%;
+    }
+}
+.txtTitleIndexCompany {
+    @include marginPercent(120 , 0 , 0 , 0 , 39);
+    @include rs_font_size(30px,2.5vw,4.266666666666667vw);
+    //フォント（px）【PC】:30px |【Tab】30px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include marginPercent(133 , 10 , 0 , 0 , 0);
+    }
+}
+.IndexNewsArchives {
+    border-top: solid 1px #999999;
+    @include marginPercent(1200 , 42 , 0 , 0 , 0);
+    @include media($sp) {
+        @include marginPercent(348 , 30 , 0 , 0 , 0);
+    }
+}
+.IndexNewsArchive {
+   border-bottom: solid 1px #999999;
+   justify-content: flex-start;
+   @include paddingPercent(1200 , 20 , 0 , 20 , 23);
+   @include media($sp) {
+        @include paddingPercent(348 , 20 , 0 , 20 , 0);
+    }
+}
+.dateIndexNewsArchive {
+    @include ontener_width(1200 , 162);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(348 , 96);
+    }
+}
+.new {
+    height: 30px;
+    color: #fff;
+    background: #006FDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    @include ontener_width(1200 , 80);
+    @include marginPercent(80 , 0 , 30 , 0 , 0);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        height: 8vw;
+        @include ontener_width(348 , 80);
+        @include marginPercent(80 , 0 , 0 , 0 , 0);
+    }
+}
+.h3IndexNewsArchive {
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include marginPercent(348 , 10 , 0 , 0 , 0);
+    }
+}
+.btnMoreIndexNews {
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include kadomaru(50px);
+    @include ontener_width(1200 , 340);
+    @include marginPercent(340 , 89 , auto , 0 , auto);
+    @include media($sp) {
+        height: 16vw;
+        @include ontener_width(348 , 340);
+        @include marginPercent(340 , 50 , auto , 0 , auto);
+    }
+}
+.arrowBtnMoreIndexNews {
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 69% center;
+    background-size: auto 55%;
+    @include media($sp) {
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 69% center;
+        background-size: auto 55%;
+    }
+}

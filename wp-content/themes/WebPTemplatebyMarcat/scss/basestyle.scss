@@ -54,10 +54,10 @@ svg {
 @import 'main_include/header/_header_sp';
 //トップページ部分
 @import 'main_include/index/_index';
-
-@import 'main_include/page/_contact';
-@import 'main_include/page/_confirm';
-@import 'main_include/page/_thanks';
+//全固定ページ共通部分
+@import 'main_include/page/defo/_pageFvConfig';
+//company
+@import 'main_include/page/company/_company';
 
 //フッター部分
 @import 'main_include/footer/_footer';

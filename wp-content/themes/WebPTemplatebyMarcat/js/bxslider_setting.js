@@ -1,14 +1,13 @@
-//call("//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js", function(){
-//    $(document).ready(function(){
-//        $('.クラス名').bxSlider({ //bxsliderを使用しているulクラスを指定
-//            pager: false,
-//            minSlides: 3,
-//            maxSlides: 3,
-//            moveSlides: 1,
-//            slideWidth: 280,
-//            controls:true,
-//            auto: true,
-//            slideMargin: 20
-//        });
-//    });
-//});
+$(document).ready(function(){
+    $('.jsUlIndexFv').bxSlider({ //bxsliderを使用しているulクラスを指定
+        mode:'fade',
+        pager: false,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        slideWidth: 1485,
+        controls:false,
+        auto: true,
+        slideMargin: 0
+    });
+});
