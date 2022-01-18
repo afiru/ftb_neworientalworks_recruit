@@ -8,7 +8,7 @@
         </div>
         
         <?php 
-            $args = array('post_type' => 'slider','cat'=>1,'posts_per_page'=>5,'order'=>'DESC','orderby'=>'date');
+            $args = array('cat'=>1,'posts_per_page'=>5,'order'=>'DESC','orderby'=>'date');
             $query1 = new WP_Query( $args );
             if ( $query1->have_posts() ): 
         ?>
@@ -16,7 +16,7 @@
             <?php $i=1; while ( $query1->have_posts() ):$query1->the_post(); ?>
             <a class="display_flex_center display_row IndexNewsArchive">
                 <time class="dateIndexNewsArchive"><?php echo get_the_date('Y.m.d',$post->ID); ?></time>
-                <?php getNewFlug(); ?>
+                <?php getNewFlug(get_the_date('Y-m-d',$post->ID)); ?>
                 <h3 class="h3IndexNewsArchive"><?php echo stringOverFlow(get_the_title($post->ID),255); ?></h3>
             </a>
             <?php $i++; endwhile; wp_reset_postdata(); ?>
