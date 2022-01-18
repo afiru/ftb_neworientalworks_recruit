@@ -21,6 +21,8 @@
 .txtTitleIndexCompany {
     font-weight: 600;
     letter-spacing: 0.21em;
+    display: flex;
+    align-items: center;
     @include marginPercent(120 , 0 , 0 , 0 , 30);
     @include rs_font_size(30px,2.5vw,4.266666666666667vw);
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 16px
