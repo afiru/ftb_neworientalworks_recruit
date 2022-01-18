@@ -28,5 +28,10 @@
                 </li>
             </ul>
         </nav>
+        <div class="btnMoreIndexBusinessWap">
+            <a class="btnMoreIndexBusiness" href="<?php echo get_category_link(1); ?>">
+                <span class="arrowBtnMoreIndexBusiness">詳しくはこちら</span>
+            </a>
+        </div>
     </div>   
 </div>

@@ -1,5 +1,5 @@
 .indexRecruit {
-    @include marginPercent(1920 , 196 , 0 , 0 , 0);
+    @include paddingPercent(1920 , 196 , 0 , 0 , 0);
     @include media($sp) {
         @include marginPercent(375 , 0 , 0 , 0 , 0);
         @include paddingPercent(375 , 100 , auto , 0 , auto);

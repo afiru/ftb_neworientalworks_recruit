@@ -1,8 +1,9 @@
 .indexNews {
-    @include marginPercent(1920 , 196 , auto , 0 , auto);
+    @include paddingPercent(1920 , 196 , auto , 0 , auto);
     @include media($sp) {
-        @include ontener_width(375 , 348)
-        @include marginPercent(348 , 129 , auto , 0 , auto);
+        @include ontener_width(375 , 348);
+        @include paddingPercent(348 , 129 , auto , 0 , auto);
+        @include marginPercent(348 , 0 , auto , 0 , auto);
     }
 }
 .indexNewsFx {

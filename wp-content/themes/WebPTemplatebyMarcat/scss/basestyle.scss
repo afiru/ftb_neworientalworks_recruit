@@ -32,7 +32,7 @@ svg {
     .pc_order_#{$i} {
         order: $i;
         @include media($sp) {
-            order: auto;
+            order: unset;
         }
     }
     .fw_#{$i*100} {
