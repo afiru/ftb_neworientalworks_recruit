@@ -14,23 +14,25 @@
             <div class="indexFvSliderSet"><!--これでポジションとかを設定してしまおう-->                
                 <ul class="ulIndexFv jsUlIndexFv">
                     <?php $i=1; while ( $query1->have_posts() ):$query1->the_post(); ?>
-                    <li class="liIndexFv liIndexFv<?php echo $i; ?>"></li>
+                    <li class="liIndexFv liIndexFv<?php echo $i; ?>">
                         <?php
                             $pc_img = get_scf_img_url('imgSliderPc');
                             $sp_img = get_scf_img_url('imgSliderSp');
                         ?>
-                    <style>
-                        .liIndexSlide<?php echo $i; ?> {
-                            background: url(<?php echo $pc_img[0]; ?>) no-repeat top center;
-                            background-size: auto 100%;
-                        }
-                        @media screen and (max-width: 750px) {
+                        <style>
                             .liIndexSlide<?php echo $i; ?> {
-                                background: url(<?php echo $sp_img[0]; ?>) no-repeat top center;
+                                background: url(<?php echo $pc_img[0]; ?>) no-repeat top center;
                                 background-size: auto 100%;
                             }
-                        }
-                    </style>
+                            @media screen and (max-width: 750px) {
+                                .liIndexSlide<?php echo $i; ?> {
+                                    background: url(<?php echo $sp_img[0]; ?>) no-repeat top center;
+                                    background-size: auto 100%;
+                                }
+                            }
+                        </style>
+                    </li>
+
                     <?php $i++; endwhile; wp_reset_postdata(); ?>
                 </ul>
             </div>
