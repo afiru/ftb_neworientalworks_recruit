@@ -41,13 +41,15 @@
     }
     &.on{
         span:nth-child(1){
-            top:10px;
+            opacity: 0;
         }
         span:nth-child(2){
-            top:20px;
+        top: 20px;
+        transform: rotate(-45deg);
         }
         span:nth-child(3){
-            top:30px;
+            top: 20px;
+            transform: rotate(45deg);
         }
     }
 }
@@ -72,8 +74,40 @@
     
 }
 .btnSubNavi{
-   @include paddingPercent(350 , 0 , 0 , 10 , 0);
+   padding: 0 0 10px 0;
    border-bottom: 1px solid #00275B;
+   position: relative;
+   transition-duration: 0.5s;
+    &:before{
+        content: "";
+        width: 10px;
+        display: block;
+        height: 2px;
+        background: #00275B;
+        position: absolute;
+        right: 20px;
+        top:10px;
+    }
+    &:after{
+        content: "";
+        width: 10px;
+        display: block;
+        height: 2px;
+        background: #00275B;
+        position: absolute;
+        right: 20px;
+        top:10px;
+        transform: rotate(90deg);
+        opacity: 1;
+    }
+    &.off:after{
+       transform: rotate(180deg);
+       opacity: 1;
+   }
+   &.on:after{
+        transform: rotate(90deg);
+        opacity: 1;
+   }
 }
 .HeaderNavEnTitle{
      font-weight: 600;
@@ -83,13 +117,14 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .HeaderNavJaTitle{
-    @include marginPercent(350 , 0 , auto , 0 , 20);
+    margin: 0 0 0 14px;
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .spHeaderNavUlSub {
     @include marginPercent(350 , 10 , auto , 0 , auto);
+    display: none;
 }
 .spHeaderNavLiSub{
     @include marginPercent(350 , 0 , auto , 25 , auto);
@@ -105,6 +140,7 @@
 .spHeaderNavContactBtnLink{
     @include buttontype14_kai(#006FDB,#006FDB,2px,#FFF,#C2FF30,#FFF,#FFF);
     height: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,4 +151,10 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     text-decoration: none;
     text-align: center;
+}
+.spHeaderNavLiSubmenu{
+    display: block;
+    width: 100%;
+    background: url(../img/icon/spHeaderNavLiSubmenu.png) no-repeat 95% center;
+    background-size: auto 60%;
 }
