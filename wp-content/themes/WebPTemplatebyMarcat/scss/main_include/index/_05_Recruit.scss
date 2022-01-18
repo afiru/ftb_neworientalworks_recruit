@@ -8,18 +8,55 @@
     @include ontener_width(555 , 365);
 }
 .navIndexRecruit {
+    position: relative;
+    @include ontener_width(1200 , 732);
+}
+.navIndexRecruitWap {
+
+}
+.bgIndexRecruit {
+    position: absolute;
+    width: 500%;
+    height: 19.21875vw;
+    top: 0;
+    right: 0;
     background: #004ADB;
-    @include ontener_width(1200 , 732)
+    @include kadomaru(185px);
     @include marginPercent(732 , 30 , 0 , 0 , 0);
 }
 .ulIndexRecruit {
-    @include paddingPercent(732 , 70 , 0 , 83 , 0);
+    position: relative;
+    z-index: 10;
+    top: 100px;
 }
 .liIndexRecruit {
+    
     @include ontener_width(732 , 216);
 }
+.btnIndexRecruit {
+    .nomal {
+        display: block;
+    }
+    .hover {
+        display: none;
+    }
+    &:hover {
+        .nomal {
+            display: none;
+        }
+        .hover {
+            display: block;
+        }
+    }
+}
+.btnMoreIndexRecruitWap {
 
-
+}
+.bgPhotoIndexRecruit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 //ボタン
 .btnMoreIndexRecruit {
     @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
