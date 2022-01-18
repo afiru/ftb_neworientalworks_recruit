@@ -19,7 +19,9 @@
     }
 }
 .txtTitleIndexCompany {
-    @include marginPercent(120 , 0 , 0 , 0 , 39);
+    font-weight: 600;
+    letter-spacing: 0.21em;
+    @include marginPercent(120 , 0 , 0 , 0 , 30);
     @include rs_font_size(30px,2.5vw,4.266666666666667vw);
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
