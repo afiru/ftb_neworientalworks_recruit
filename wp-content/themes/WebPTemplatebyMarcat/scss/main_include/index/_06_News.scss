@@ -1,10 +1,10 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/17, 9:52:42
-    Author     : SPG-1105
-*/
-
+.indexNews {
+    @include marginPercent(1920 , 196 , auto , 0 , auto);
+}
+.indexNewsFx {
+    justify-content: flex-start;
+    @include ontener_width(1200 , 416);
+}
+.h1IndexNewsFx {
+    width: 100%;
+}
