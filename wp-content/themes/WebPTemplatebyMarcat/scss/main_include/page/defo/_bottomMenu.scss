@@ -1,10 +1,6 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 10:52:18
-    Author     : SPG-1105
-*/
-
+.mainFooter{
+    @include marginPercent(1920 , 245 , auto , 0 , auto);
+    @include media($sp){
+        @include marginPercent(375 , 59 , auto , 0 , auto);
+    }
+}

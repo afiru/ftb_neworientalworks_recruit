@@ -1,10 +1,29 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 16:52:55
-    Author     : SPG-1105
-*/
-
+.telShopInfo{
+    @include marginPercent(237 , 6 , 0 , 0 , 0);
+    display: block;
+    color: #000;
+    text-decoration: none;
+    @include rs_font_size(16px,1.3333333333333333vw,3.7333333333333334vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 14px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.ServiceEstateFx{
+    align-items: center;
+}
+.photoServiceEstate{
+    @include ontener_width(1200 , 518);
+    @include media($sp){
+        width: 100%;
+    }
+}
+.txtServiceEstate{
+    @include ontener_width(1200 , 504);
+    @include lineheight(18 , 38);
+    @include rs_font_size(18px,1.5vw,4.8vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        @include ontener_width(375 , 350);
+        @include marginPercent(375 , 44 , auto , 0 , auto);
+    }
+}
