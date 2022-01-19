@@ -14,7 +14,7 @@
         ?>
         <article class="IndexNewsArchives">
             <?php $i=1; while ( $query1->have_posts() ):$query1->the_post(); ?>
-            <a class="display_flex_center display_row IndexNewsArchive">
+            <a href="<?php echo get_the_permalink($post->ID); ?>" class="display_flex_center display_row IndexNewsArchive">
                 <time class="dateIndexNewsArchive"><?php echo get_the_date('Y.m.d',$post->ID); ?></time>
                 <?php getNewFlug(get_the_date('Y-m-d',$post->ID)); ?>
                 <h3 class="h3IndexNewsArchive"><?php echo stringOverFlow(get_the_title($post->ID),255); ?></h3>
