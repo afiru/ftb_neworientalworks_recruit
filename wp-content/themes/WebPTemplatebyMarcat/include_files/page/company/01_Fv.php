@@ -1,4 +1,4 @@
-<div class="pageFv display_flex_center bgCompanyPageFv">
+<div class="pageFv display_flex_center bgCompanyPageFv01">
     <!--
     Pc:../img/page/company/bgCompanyPageFvPc.jpg
     Sp:../img/page/company/bgCompanyPageFvSp.jpg

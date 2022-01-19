@@ -13,9 +13,9 @@
         <div class="picMainCompanySocial">
             <figure class="photoMainCompanySocial">
                 <picture>
-                    <source media="(min-width: 768px)" srcset="<?php echo get_bloginfo('template_url'); ?>/img/company/photoMainCompanySocialPc.jpg"><!--PC画像-->
-                    <source media="(max-width: 768px)" srcset="<?php echo get_bloginfo('template_url'); ?>/img/company/photoMainCompanySocialSp.jpg"><!--SP画像-->
-                    <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/company/photoMainCompanySocialPc.jpg" alt="" width="311" height="298" />
+                    <source media="(min-width: 768px)" srcset="<?php echo get_bloginfo('template_url'); ?>/img/page/company/photoMainCompanySocialPc.jpg"><!--PC画像-->
+                    <source media="(max-width: 768px)" srcset="<?php echo get_bloginfo('template_url'); ?>/img/page/company/photoMainCompanySocialSp.jpg"><!--SP画像-->
+                    <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/photoMainCompanySocialPc.jpg" alt="" width="311" height="298" />
                 </picture> 
             </figure>
             <p class="t_center txtPicMainCompanySocial">※当社の活動が新聞でも取り上げられました。</p>
@@ -27,7 +27,7 @@
             </p>
             <section class="po_re MainCompanySocialLxc">
                 <figure class="picMainCompanySocialLxc">
-                    <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/company/picMainCompanySocialLxc.png" alt="活動実績" width="121" height="121" />
+                    <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/picMainCompanySocialLxc.png" alt="活動実績" width="121" height="121" />
                 </figure>
                 <p class="txtMainCompanySocialLxc">
                     新型コロナウィルスで蔓延時に次亜塩素酸水を<br>無料で地域のお客様にお配りさせて頂きました。

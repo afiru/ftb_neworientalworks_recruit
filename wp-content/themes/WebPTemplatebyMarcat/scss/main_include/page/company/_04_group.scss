@@ -1,10 +1,56 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 10:51:33
-    Author     : SPG-1105
-*/
-
+.bgCompanyGroup {
+    background: url(../img/page/company/bgCompanyGroup.png) no-repeat;
+    background-size: auto 100%;
+    background-position: bottom 0 right 0;
+    height: 765px;
+    @include media($sp) {
+        background-position: top 400px left 0;
+        height: 106.13333333333334vw;
+    }
+}
+.companyGroup  {
+    @include marginPercent(1200 , 231 , auto , 0 , auto);
+    @include media($sp) {
+        @include marginPercent(375 , 108 , auto , 0 , auto);
+    }
+}
+.companyGroupMain {
+    margin: 0 0 0 0;
+    @include ontener_width(1200 , 765);
+    @include paddingPercent(765 , 71 , 0 , 0 , 0);
+    @include media($sp) {
+        @include ontener_width(375 , 336);
+    }
+}
+.bgCompanyGroupMain {
+    position: absolute;
+    width: 500%;
+    height: 516px;
+    top: -5%;
+    right: 0;
+    background: #F2F2F2;
+    z-index: -1;
+    @include media($sp) {
+        height: 106.13333333333334vw;
+    }
+}
+.ulCompanyGroupMain {
+    border-top: solid 1px #999999;
+    margin: 0 0 0 0;
+    @include ontener_width(765 , 656);
+    @include media($sp) {
+        @include ontener_width(336 , 300);
+        @include marginPercent(300 , 0 , auto , 0 , auto);
+    }
+}
+.liCompanyGroupMain {
+    font-weight: 600;
+    border-bottom: solid 1px #999999;
+    @include paddingPercent(656 , 29.5 , 0 , 29.5 , 0);
+    @include rs_font_size(20px,1.6666666666666667vw,4.266666666666667vw);
+    //フォント（px）【PC】:20px |【Tab】20px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include paddingPercent(300 , 29.5 , 0 , 29.5 , 0);
+    }
+}

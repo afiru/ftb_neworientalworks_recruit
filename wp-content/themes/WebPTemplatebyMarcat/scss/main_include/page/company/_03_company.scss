@@ -1,10 +1,83 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 10:51:27
-    Author     : SPG-1105
-*/
+.bgCompanyCompany {
+    background: url(../img/page/company/companyCompanyWap.png) no-repeat;
+    background-size: auto 100%;
+    background-position: bottom 0 left 0;
+    height: 765px;
+    @include media($sp) {
+        background-position: top 400px left 0;
+        height: 106.13333333333334vw;
+    }
+}
+.companyCompany {
+    @include marginPercent(1200 , 231 , auto , 0 , auto);
+    @include media($sp) {
+        @include marginPercent(375 , 171 , auto , 0 , auto);
+    }
+}
+.companyCompanyMain {
+    margin: 0 0 0 auto;
+    @include ontener_width(1200 , 815);
+    @include media($sp) {
+        @include ontener_width(375 , 336);
+    }
+}
+.bgCompanyCompanyMain {
+    position: absolute;
+    width: 500%;
+    height: 630px;
+    top: -5%;
+    left: 0;
+    background: #F6FBFF;
+    z-index: -1;
+    @include media($sp) {
+        height: 215.46666666666667vw;
+    }
+}
+.companyCompanyMain {
+    @include paddingPercent(815 , 41 , 0 , 0 , 0);
+    @include media($sp) {
+        @include paddingPercent(336 , 30 , 0 , 0 , 0);
+    }
+    table {
+        border-top: solid 1px #999999;
+        margin: 0 0 0 auto;
+        @include ontener_width(815 , 751);
+        @include media($sp) {
+            border-top: none;
+            @include ontener_width(336 , 300);
+            @include marginPercent(300 , 0 , auto , 0 , auto);
+        }
+    }
+    tr {
+        border-bottom: solid 1px #999999;
+    }
+}
+.thCompanyCompanyMain {
+    text-align: left;
+    @include ontener_width(751 , 131);
+    @include paddingPercent(751 , 29.5 , 0 , 29.5 , 0);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        width: 100%;
+        display: block;
+        @include paddingPercent(300 , 20.5 , 0 , 7 , 0);
+    }
+}
+.tdCompanyCompanyMain {
+    text-align: left;
+    @include lineheight(18 , 20);
+    @include paddingPercent(751 , 29.5 , 0 , 29.5 , 0);
+    @include rs_font_size(18px,1.5vw,4.8vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        width: 100%;
+        display: block;
+        @include paddingPercent(300 , 0 , 0 , 28.5 , 0);
+    }
+}
+
+
 

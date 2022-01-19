@@ -1,10 +1,13 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 10:51:14
-    Author     : SPG-1105
-*/
-
+.bgCompanyPageFv01 {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: url(../img/page/company/bgCompanyPageFvPc.jpg);
+    background-size: auto 100%;
+    @include media($sp){
+        height: 40vw;
+        background: url(../img/page/company/bgCompanyPageFvSp.jpg);
+        background-size: auto 100%;
+    }
+}

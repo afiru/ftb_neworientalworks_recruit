@@ -1,10 +1,73 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 10:51:21
-    Author     : SPG-1105
-*/
+.companyMessage {
+    @include marginPercent(1920 , 84.5 , auto , 0 , auto);
+    @include media($sp) {
+        @include marginPercent(375 , 40 , auto , 0 , auto);
+    }
+}
+.cntCompanyMessage {
+    @include marginPercent(1200 , 83.5 , auto , 0 , auto);
+    @include media($sp) {
+        @include marginPercent(375 , 30 , auto , 0 , auto);
+    }
+}
+.h2CntCompanyMessage {
+    text-align: center;
+    font-weight: 600;
+    @include lineheight(30 , 48)
+    @include rs_font_size(30px,2.5vw,5.333333333333333vw);
+    //フォント（px）【PC】:30px |【Tab】30px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        
+    }
+}
+.bgTxtCntCompanyMessage {
+    background: url(../img/page/company/bgTxtCntCompanyMessage.png) no-repeat;
+    background-size: auto 50%;
+    background-position: bottom 47% right 0;
+    @include media($sp) {
+        background: none;
+    }
+}
+.txtCntCompanyMessage {
+    @include marginPercent(1200 , 75.7 , auto , 0 , auto);
+    @include lineheight(18 , 40);
+    @include rs_font_size(18px,1.5vw,4.8vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(375 , 350)
+        @include marginPercent(350 , 39 , auto , 0 , auto);
+    }
+}
+.namePageCompanyWap {
+    font-weight: 600;
+    justify-content: flex-end;
+    @include ontener_width(1200 , 284);
+    @include marginPercent(284 , 40 , 0 , 0 , auto);
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 70 , 0 , 0 , 0);
+    }
+}
+.positionPageCompany {
+    letter-spacing: 0.08em;
+    @include rs_font_size(20px,1.6666666666666667vw,4.8vw);
+    //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(350 , 99);
+    }
+}
+.namePageCompany {
+    letter-spacing: 0.25em;
+    @include marginPercent(284 , 0 , 0 , 0 , 18);
+    @include rs_font_size(28px,2.3333333333333335vw,6.4vw);
+    //フォント（px）【PC】:28px |【Tab】28px |【sp】 24px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(350 , 134);
+        @include marginPercent(134 , 0 , 0 , 0 , 10);
+    }
+}
 
