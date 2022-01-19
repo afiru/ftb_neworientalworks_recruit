@@ -1,10 +1,46 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 18:29:06
-    Author     : SPG-1105
-*/
-
+.recruitMerit{
+    @include marginPercent(1920 , 333 , auto , 0 , auto);
+}
+.h1RecruitMerit{
+    margin: -0.5% auto 0 auto;
+    font-weight: 600;
+    @include rs_font_size(40px,3.3333333333333335vw,4.8vw);
+    //フォント（px）【PC】:40px |【Tab】40px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.bgRecruitMerit{
+    @include paddingPercent(1920 , 140 , auto , 48 , auto);
+}
+.recruitMeritWap{
+    
+}
+.recruitMeritCnt{
+    @include ontener_width(1200 , 360);
+}
+.iconRecruitMerit{
+    @include ontener_width(360 , 108);
+    position: absolute;
+    top:-18%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.secRecruitMeritCnt{
+    @include paddingPercent(360 , 72 , 23 , 27 , 23);
+    @include kadomaru(5px);
+    background: #FFF;
+}
+.h3RecruitMeritCnt{
+    font-weight: 600;
+    @include lineheight(20 , 30);
+    @include rs_font_size(20px,1.6666666666666667vw,5.333333333333333vw);
+    //フォント（px）【PC】:20px |【Tab】20px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.txtRecruitMeritCnt{
+    @include marginPercent(360 , 36.4 , auto , 0 , auto);
+    @include lineheight(16 , 25);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}

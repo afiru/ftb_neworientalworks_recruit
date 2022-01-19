@@ -1,10 +1,42 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 18:29:06
-    Author     : SPG-1105
-*/
+.recruitLike{
+    @include media($sp){
+        @include marginPercent(375 , 39 , auto , 0 , auto);
+    }
+}
+.bgRecruitLikeMain{
+    height: 616px;
+    background: url(../img/page/recruit/bgRecruitLikeMain.png) no-repeat center top;
+    background-size: auto 100%;
+}
+.h1RecruitLikeMain{
+    
+}
+.h1RecruitLikeMain{
+    @include ontener_width(1200 , 703.13);
+    margin: 0 auto;
+}
+.txtRecruitLikeMain{
+    @include marginPercent(1200 , 104.8 , auto , 0 , auto);
+    @include lineheight(20 , 50);
+    font-weight: 600;
+    @include rs_font_size(25px,2.0833333333333335vw,4.266666666666667vw);
+    //フォント（px）【PC】:25px |【Tab】25px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.bigTxtRecruitLikeMain{
+    @include marginPercent(1200 , 228 , auto , 0 , auto);
+    @include lineheight(20 , 50);
+    font-weight: 600;
+    @include rs_font_size(25px,2.0833333333333335vw,4.266666666666667vw);
+    //フォント（px）【PC】:25px |【Tab】25px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    
+}
+.bgRecruitLikeMain{
+    @include marginPercent(1200 , 162 , auto , 0 , auto);
+    @include media($sp){
+        @include marginPercent(375 , 52.5 , auto , 0 , auto);
+    }
+}
+
 
