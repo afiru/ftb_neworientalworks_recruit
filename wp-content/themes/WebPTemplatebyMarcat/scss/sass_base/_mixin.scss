@@ -189,22 +189,22 @@ $fg-gutter: $gutter;
     @include media($pc) {
         width: $pc_wapper_size;
         margin-left:auto;
-		margin-right:auto;
+        margin-right:auto;
     }
     @include media($pc_wap) {
         width: 100%;
         margin-left:auto;
-		margin-right:auto;
+        margin-right:auto;
     }
     @include media($tab) {
         width: 98%;
         margin-left:auto;
-		margin-right:auto;
+        margin-right:auto;
     }
     @include media($sp) {
         width: 100%;
         margin-left:auto;
-		margin-right:auto;
+        margin-right:auto;
     }
 }
 
@@ -212,17 +212,17 @@ $fg-gutter: $gutter;
     @include media($pc) {
         width: $pc_innner_wapper_size;
         margin-left:auto;
-		margin-right:auto;
+        margin-right:auto;
     }
     @include media($tab) {
         width: 98%;
         margin-left:auto;
-		margin-right:auto;
+        margin-right:auto;
     }
     @include media($sp) {
         width: 100%;
         margin-left:auto;
-		margin-right:auto;
+        margin-right:auto;
     }
 }
 

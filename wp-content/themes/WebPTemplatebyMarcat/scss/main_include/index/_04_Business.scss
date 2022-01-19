@@ -1,10 +1,99 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/17, 9:52:29
-    Author     : SPG-1105
-*/
-
+.indexBussiness {
+    @include paddingPercent(1920 , 142 , 0 , 0 , 0);
+    @include media($sp) {
+        @include ontener_width(375 , 350)
+        @include paddingPercent(350 , 70 , 0 , 0 , 0);
+        @include marginPercent(350 , 0 , auto , 0 , auto);
+    }
+}
+.titleIndexBussiness {
+    @include ontener_width(1200 , 620);
+    @include marginPercent(620 , 0 , 0 , 0 , auto);
+    @include media($sp) {
+        justify-content: flex-end;
+        @include ontener_width(350 , 235);
+    }
+}
+.h1TitleIndexBussiness {
+    @include ontener_width(620 , 426);
+    @include media($sp) {
+        width: 100%;
+    }
+}
+.rubyTitleIndexBussiness {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 0.21em;
+    @include rs_font_size(30px,2.5vw,5.333333333333333vw);
+    //フォント（px）【PC】:30px |【Tab】30px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include marginPercent(235 , 10 , 0 , 0 , 0);
+    }
+}
+.navIndexBussiness {
+    width: 100%;
+    @include marginPercent(1200 , 55 , 0 , 0 , 0);
+    @include media($sp) {
+        @include marginPercent(350 , 25 , 0 , 0 , 0);
+    }
+}
+.ulIndexBussiness {
+    width: 100%;
+}
+.liIndexBussiness {
+    @include ontener_width(1200 , 380);
+    @include media($sp) {
+        width: 100%;
+        &:nth-child(n+2) {
+            @include marginPercent(350 , 36 , 0 , 0 , 0);
+        }
+    }
+}
+.btnIndexBussiness {
+    display: block;
+    text-decoration: none;
+    @include media($sp) {
+        
+    }
+}
+.txtBtnIndexBussiness {
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    @include marginPercent(380 , 10 , 0 , 0 , 0);
+    @include media($sp) {
+        @include marginPercent(350 , 10 , 0 , 0 , 0);
+    }
+}
+.btnMoreIndexBusiness {
+        @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include kadomaru(50px);
+    @include ontener_width(1200 , 340);
+    @include marginPercent(340 , 63 , auto , 0 , auto);
+    @include media($sp) {
+        height: 16vw;
+        @include ontener_width(350 , 340);
+        @include marginPercent(340 , 20 , auto , 0 , auto);
+    }
+}
+.arrowBtnMoreIndexBusiness {
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+    background-size: auto 55%;
+    @include media($sp) {
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+        background-size: auto 55%;
+    }
+}
