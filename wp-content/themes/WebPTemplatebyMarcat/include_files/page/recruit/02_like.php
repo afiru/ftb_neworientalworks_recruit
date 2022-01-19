@@ -1,4 +1,4 @@
-<div id="like" class=" recruitLike">
+<div id="like" class="recruitLike">
     <section class="wapper titleCompany">
         <h2 class="t_center oswald cl_006FDB h2TitleCompany">RECRUIT</h2>
         <h3 class="t_center cl_006FDB h3TitleCompany">採用情報</h3>

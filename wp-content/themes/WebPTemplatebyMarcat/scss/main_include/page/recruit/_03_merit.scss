@@ -9,6 +9,7 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .bgRecruitMerit{
+    @include marginPercent(1920 , -20 , auto , 0 , auto);
     @include paddingPercent(1920 , 140 , auto , 48 , auto);
 }
 .recruitMeritWap{
