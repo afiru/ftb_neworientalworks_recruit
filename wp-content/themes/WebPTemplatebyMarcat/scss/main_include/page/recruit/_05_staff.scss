@@ -1,10 +1,65 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 18:29:06
-    Author     : SPG-1105
-*/
-
+.bgRecruitStaff{
+    @include marginPercent(1920 , 111 , auto , 0 , auto);
+    padding-top: 1px;
+    height: 306px;
+    background: url(../img/page/recruit/bgRecruitStaffPc.png) no-repeat center bottom;
+    background-size: auto;
+    position: relative;
+    @include media($tab){
+        height: 37vw;
+        background: url(../img/page/recruit/bgRecruitStaffPc.png) no-repeat center bottom;
+        background-size: auto;
+    }
+}
+.recruitStaffWap{
+    @include marginPercent(1920 , 90 , auto , 0 , auto);
+    @include media($tab) {
+        margin-top: 20.68%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.btnRecruitStaffCnt{
+    @include ontener_width(1200 , 510);
+    @include marginPercent(1200 , 0 , 0 , 0 , auto);
+    @include media($tab) {
+        width: 48%;
+    }
+}
+.H2BtnRecruitStaffCnt{
+    font-weight: 600;
+    color: #FFF;
+    @include rs_font_size(50px,4.166666666666667vw,7.466666666666667vw);
+    //フォント（px）【PC】:50px |【Tab】50px |【sp】 28px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.btnRecruitStaff{
+    @include marginPercent(510 , 35 , auto , 0 , auto);
+    @include ontener_width(510 , 340);
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include kadomaru(50px);
+    @include media($sp) {
+        height: 16vw;
+        @include marginPercent(340 , 50 , auto , 0 , auto);
+    }
+}
+.arrowBtnRecruitStaff {
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+    background-size: auto 55%;
+    @include media($sp) {
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+        background-size: auto 55%;
+    }
+}

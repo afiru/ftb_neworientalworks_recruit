@@ -17,6 +17,7 @@
     <?php get_template_part('include_files/page/service/06_ziOrient'); ?>
     <?php get_template_part('include_files/page/service/07_restaurant'); ?>
     <?php get_template_part('include_files/page/service/08_realestate'); ?>
+    <?php get_template_part('include_files/page/service/09_btmNav'); ?>
 <?php endwhile; // end of the loop. ?>
 </main>
 <?php get_footer(); ?>

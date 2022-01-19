@@ -1,10 +1,9 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 10:52:03
-    Author     : SPG-1105
-*/
-
+.pageFv {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    @include media($sp){
+        height: 40vw;
+    }
+}
