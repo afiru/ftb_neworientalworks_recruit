@@ -1,10 +1,48 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 18:29:06
-    Author     : SPG-1105
-*/
-
+.recruitEntryBtnWap{
+    @include marginPercent(1200 , 110 , auto , 0 , auto);
+    display: flex;
+    justify-content: center;
+}
+.recruitEntryBtn{
+    @include ontener_width(1200 , 568);
+}
+.recruitEntryBtn{
+    display: block;
+    transition-duration: 0.5s;
+    position: relative;
+    &:hover{
+        opacity: 0.6;
+    }
+}
+.recruitEntryBtnWap02{
+    @include marginPercent(1200 , 78 , auto , 0 , auto);
+}
+.recruitEntryBtn02Link{
+    @include ontener_width(1200 , 340);
+    margin: 0 auto;
+   @include buttontype14_kai(#FFF,#006FDB,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include kadomaru(50px);
+    @include media($sp) {
+        height: 16vw;
+        @include marginPercent(340 , 50 , auto , 0 , auto);
+    }
+}
+.recruitEntryArrow02{
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+    background-size: auto 55%;
+    @include media($sp) {
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+        background-size: auto 55%;
+    }
+}
