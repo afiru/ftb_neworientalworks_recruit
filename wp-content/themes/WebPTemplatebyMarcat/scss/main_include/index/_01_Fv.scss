@@ -8,7 +8,7 @@
 }
 .indexFv{
     @include media($sp){
-        padding: 0 0 30% 0;
+        padding: 0 0 21% 0;
     }
 }
 .indexFvWap{
@@ -98,8 +98,17 @@
     @include media($sp){
         @include ontener_width(375 , 83);
     }
+    &:before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 998;
+        @include kadomaru(100px);
+        box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.2);
+    }
 }
-.liIndexFvList01{
+.liIndexFvList01,.liIndexFvList01:before{
     top:0;
     right: 10%;
     @include media($sp){
@@ -107,7 +116,7 @@
         right: 3%;
     }
 }
-.liIndexFvList02{
+.liIndexFvList02,.liIndexFvList01:before{
     right: 0%;
     top:25%;
     @include media($sp){
@@ -115,7 +124,7 @@
         right: 26%;
     }
 }
-.liIndexFvList03{
+.liIndexFvList03,.liIndexFvList01:before{
     top:50%;
     right: 0%;
     @include media($sp){
@@ -123,7 +132,7 @@
         right: 52%;
     }
 }
-.liIndexFvList04{
+.liIndexFvList04,.liIndexFvList01:before{
     top:75%;
     right: 10%;
     @include media($sp){
@@ -136,6 +145,11 @@
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 }
 .txtIndexFvList{
     position: absolute;
@@ -174,9 +188,12 @@
     color: #006FDB;
     font-weight: 600;
     letter-spacing: 0.07em;
-    @include rs_font_size(21px,1.75vw,5.6vw);
-    //フォント（px）【PC】:21px |【Tab】21px |【sp】 21px
+    @include rs_font_size(21px,1.75vw,3.2vw);
+    //フォント（px）【PC】:21px |【Tab】21px |【sp】 12px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        letter-spacing: -0.06em;
+    }
 }
 .pTxtIndexFvList{
     @include marginPercent(187 , 10 , auto , 0 , auto);
@@ -184,8 +201,8 @@
     color: #006FDB;
     font-weight: 400;
     letter-spacing: 0.3em;
-    @include rs_font_size(14px,1.1666666666666667vw,3.7333333333333334vw);
-    //フォント（px）【PC】:14px |【Tab】14px |【sp】 14px
+    @include rs_font_size(14px,1.1666666666666667vw,2.6666666666666665vw);
+    //フォント（px）【PC】:14px |【Tab】14px |【sp】 10px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .scrollIndexFv{

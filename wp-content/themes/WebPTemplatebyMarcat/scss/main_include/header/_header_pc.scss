@@ -68,7 +68,7 @@
     @include ontener_width(1200 , 200);
 }
 .buttonContactHeaderLink{
-    @include buttontype14_kai(#006FDB,#006FDB,2px,#FFF,#C2FF30,#C2FF30,#FFF); display:block;
+    @include buttontype14_kai(#006FDB,#006FDB,2px,#FFF,#C2FF30,#C2FF30,#006FDB); display:block;
     height: 50px;
     display: flex;
     justify-content: center;
