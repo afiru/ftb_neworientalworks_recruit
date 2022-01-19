@@ -1,6 +1,52 @@
-.mainFooter{
+.btmNav{
     @include marginPercent(1920 , 245 , auto , 0 , auto);
     @include media($sp){
         @include marginPercent(375 , 59 , auto , 0 , auto);
     }
+}
+.ulBtmNav{
+    display: flex;
+    justify-content: center;
+}
+.liBtmNav{
+    width: 50%;
+    @include media($sp){
+        width: 100%;
+    }
+}
+.btnBtmNav {
+    display: block;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    @include media($sp){
+        height: 53.333333333333336vw;
+    }
+}
+.btnBtmNavCompanyCompany{
+    background: url(../img/btnBtmNavRecruit01.jpg) no-repeat center top;
+    background-size: auto 100%;
+}
+.btnBtmNavCompanyRecruit{
+    background: url(../img/btnBtmNavRecruit02..jpg) no-repeat center top;
+    background-size: auto 100%;
+}
+.h2SecBtmNav{
+    @include rs_font_size(30px,2.5vw,8vw);
+    //フォント（px）【PC】:30pxpx |【Tab】30px |【sp】 30px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    color: #FFF;
+    letter-spacing: 0.23em;
+    font-weight: 600;
+}
+.txtSecBtmNav{
+    margin: 5% auto 0 auto;
+    color: #FFF;
+    text-decoration: none;
+    letter-spacing: 0.3em;
+    @include rs_font_size(20px,1.6666666666666667vw,5.333333333333333vw);
+    //フォント（px）【PC】:20px |【Tab】20px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
