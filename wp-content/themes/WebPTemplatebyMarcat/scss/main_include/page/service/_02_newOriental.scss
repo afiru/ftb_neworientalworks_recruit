@@ -1,10 +1,171 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 16:52:23
-    Author     : SPG-1105
-*/
+.ServiceCnt{
+    @include marginPercent(1200 , 54 , auto , 0 , auto);
+    @include media($sp){
+        @include marginPercent(375 , 39 , auto , 0 , auto);
+    }
+}
+.companySocialWap{
+    
+}
+.titleCompany{
+    
+}
+.h2TitleCompany{
+    letter-spacing: 0.22em;
+    font-weight: 600;
+    @include rs_font_size(40px,3.3333333333333335vw,8vw);
+    //フォント（px）【PC】:40px |【Tab】40px |【sp】 30px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.h3TitleCompany{
+    @include marginPercent(1200 , 5 , auto , 0 , auto);
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    @include rs_font_size(18px,1.5vw,4.266666666666667vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+     @include media($sp){
+        @include marginPercent(375 , 5 , auto , 0 , auto);
+    }
+}
+.bdTitleCompanyWap{
+    @include marginPercent(1200 , 18.5 , auto , 0 , auto);
+    @include media($sp){
+        @include marginPercent(375 , 20.5 , auto , 0 , auto);
+    }
+}
+.bdTitleCompany{
+    display: block;
+    margin: 0 auto;
+    width: 2px;
+    height: 56px;
+    background: #00275B;
+    @include media($sp){
+        height: 14.933333333333334vw;
+    }
+}
+.shopServiceMargin{
+    @include marginPercent(1200 , 84 , auto , 0 , auto);
+    @include media($sp){
+        @include marginPercent(375 , 47 , auto , 0 , auto);
+    }
+}
+.h1ShopService{
+    height: 32px;
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    @include rs_font_size(25px,2.0833333333333335vw,4.266666666666667vw);
+    //フォント（px）【PC】:25pxpx |【Tab】25px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        height: 5.6vw; 
+        @include ontener_width(375 , 350);
+        margin: 0 auto;
+    }
+}
+.h1ShopServiceSpan{
+    padding: 0 2% 0 0;
+    background: #FFF;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+}
+.h1ShopService:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #999999;
+    position: absolute;
+    top:50%;
+    z-index: 0;
+    @include media($sp){
+        top:30%;
+    }
+}
+
+.shopInfo{
+    @include marginPercent(1200 , 42 , auto , 0 , auto);
+    justify-content: flex-start;
+    @include media($sp){
+        @include marginPercent(375 , 40.5 , auto , 0 , auto);
+        @include ontener_width(375 , 350);
+    }
+}
+.shopInfoCnt{
+    @include marginPercent(1200 , 0 , 0 , 64 , 0);
+    @include ontener_width(1200 , 600);
+    display: flex;
+    //justify-content: flex-start;
+    @include media($sp){
+        width: 100%;
+    }
+}
+.photoShopInfo{
+    @include ontener_width(600 , 334);
+}
+.secShopInfo{
+    @include ontener_width(600 , 237);
+    position: relative;
+}
+.h3SecShopInfo{
+    font-weight: 600;
+    @include rs_font_size(20px,1.6666666666666667vw,4.266666666666667vw);
+    //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.txtShopInfo{
+    @include marginPercent(200 , 7 , auto , 0 , auto);
+    @include rs_font_size(16px,1.3333333333333333vw,3.7333333333333334vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 14px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include lineheight(14 , 19);
+}
+.btnSecShopInfoWap{
+    @include ontener_width(237 , 200);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @include media($sp){
+        width: 100%;
+    }
+}
+.btnSecShopInfo{
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include kadomaru(50px);
+    @include rs_font_size(16px,1.3333333333333333vw,2.6666666666666665vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 10px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        height: 9.778666666666666vw;
+        @include marginPercent(340 , 50 , auto , 0 , auto);
+    }
+}
+.arrowSecShopInfo {
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 92% center;
+    background-size: auto 55%;
+    @include media($sp) {
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 90% center;
+        background-size: auto 55%;
+    }
+}
+.shopRestaurantLxc{
+    @include paddingPercent(1920 , 115 , 0 , 115 , 0);
+    @include media($sp){
+        margin: -7% auto 0 auto;
+    }
+}
 

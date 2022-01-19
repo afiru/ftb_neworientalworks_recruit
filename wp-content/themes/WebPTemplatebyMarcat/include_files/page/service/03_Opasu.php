@@ -1,6 +1,6 @@
 <div class="ServiceCnt ServiceCnt02">
     <section class="wapper shopService">
-        <h1 class="h1ShopService">オーパスワン運営</h1>
+        <h1 class="h1ShopService"><span class="h1ShopServiceSpan">オーパスワン運営</span></h1>
         <?php 
             $args = array('cat'=>5,'posts_per_page'=>5,'order'=>'DESC','orderby'=>'date');
             $query1 = new WP_Query( $args );

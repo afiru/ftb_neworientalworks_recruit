@@ -3,11 +3,11 @@
     @include marginPercent(1920 , 296 , auto , 0 , auto);
     @include paddingPercent(1920 , 150 , 0 , 0 , 0);
     @include media($tab){
-        padding: 10% 0 0 0;
+        padding: 10% 0 0% 0;
     }
     @include media($sp){
         @include marginPercent(375 , 104 , auto , 0 , auto);
-        padding: 20% 0 0 0;
+        padding: 20% 0 20% 0;
     }
 }
 .indexCompanyInner{
@@ -76,6 +76,7 @@
      @include media($sp){
         @include ontener_width(350 , 340);
         @include marginPercent(350 , 52 , auto , 0 , auto);
+        position: relative;
     }
 }
 .btnIndexCompany{
