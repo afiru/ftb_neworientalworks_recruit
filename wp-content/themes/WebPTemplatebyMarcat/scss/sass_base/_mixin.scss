@@ -10,7 +10,7 @@ $big_pc: new-breakpoint(max-width 1920px 12);//PC時（解像度　1366pxの時�
 $pc_wap: new-breakpoint(max-width 1200px 8);//1200px以下
 
 //タブレット時
-$tab: new-breakpoint(max-width 1024px 8);//タブレット横
+$tab: new-breakpoint(max-width 1200px 8);//タブレット横
 $tab_tate: new-breakpoint(max-width 768px 6);//タブレット縦
 
 //スマホ時
