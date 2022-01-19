@@ -1,8 +1,16 @@
-<?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<div class="wapper recruitEntryBtnWap">
+    <a class="recruitEntryBtn" href="<?php echo get_permalink(35); ?>#employee">
+        <picture>
+            <source media="(min-width: 768px)" srcset="<?php echo get_bloginfo('template_url'); ?>/img/recruit/recruitEntryBtn01Pc.png"><!--PC画像-->
+            <source media="(max-width: 768px)" srcset="<?php echo get_bloginfo('template_url'); ?>/img/recruit/recruitEntryBtn01Sp.png"><!--SP画像-->
+            <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/recruit/recruitEntryBtn01Pc.png" alt="正社員募集" width="580" height="195" />
+        </picture>
+    </a>
+    <a class="recruitEntryBtn" href="<?php echo get_permalink(35); ?>#parttime">
+        <picture>
+            <source media="(min-width: 768px)" srcset="<?php echo get_bloginfo('template_url'); ?>/img/recruit/recruitEntryBtn02Pc.png"><!--PC画像-->
+            <source media="(max-width: 768px)" srcset="<?php echo get_bloginfo('template_url'); ?>/img/recruit/recruitEntryBtn02Sp.png"><!--SP画像-->
+            <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/recruit/recruitEntryBtn02Pc.png" alt="アルバイト募集" width="580" height="195" />
+        </picture>
+    </a>
+</div>

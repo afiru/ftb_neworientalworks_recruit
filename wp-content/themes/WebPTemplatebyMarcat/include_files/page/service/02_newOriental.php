@@ -10,7 +10,7 @@
     </div>
     
     <section class="wapper shopService shopServiceMargin"><!--Marginの設定はshopServiceMarginを使おう-->
-        <h1 class="h1ShopService">ニューオリエンタルワークス運営</h1>
+        <h1 class="h1ShopService"><span class="h1ShopServiceSpan">ニューオリエンタルワークス運営</span></h1>
         <?php 
             $args = array('cat'=>4,'posts_per_page'=>5,'order'=>'DESC','orderby'=>'date');
             $query1 = new WP_Query( $args );

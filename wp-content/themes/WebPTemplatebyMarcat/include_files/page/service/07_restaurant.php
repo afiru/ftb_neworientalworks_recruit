@@ -14,7 +14,7 @@
             <article class="display_flex_stretch display_row shopInfo">
                 <div class="display_flex_stretch shopInfoCnt">
                     <a class="photoShopInfo" href="" target="_blank">
-                        <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/service/ichimori.jpg" alt="つけ麺　いちもり" width="280" height="230" />
+                        <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/service/ichimori.jpg" alt="つけ麺　いちもり" width="280" height="230" />
                     </a>
                     <section class="secShopInfo">
                         <h3 class="h3SecShopInfo">つけ麺　いちもり</h3>
