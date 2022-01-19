@@ -1,16 +1,31 @@
 .bgRecruitStaff{
     @include marginPercent(1920 , 111 , auto , 0 , auto);
+    padding-top: 1px;
     height: 306px;
-    background: url(../img/page/recruit/bgRecruitStaffPc.png) no-repeat center top;
-    background-size: 100% auto;
-    
+    background: url(../img/page/recruit/bgRecruitStaffPc.png) no-repeat center bottom;
+    background-size: auto;
     position: relative;
+    @include media($tab){
+        height: 37vw;
+        background: url(../img/page/recruit/bgRecruitStaffPc.png) no-repeat center bottom;
+        background-size: auto;
+    }
 }
 .recruitStaffWap{
+    @include marginPercent(1920 , 90 , auto , 0 , auto);
+    @include media($tab) {
+        margin-top: 20.68%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .btnRecruitStaffCnt{
     @include ontener_width(1200 , 510);
     @include marginPercent(1200 , 0 , 0 , 0 , auto);
+    @include media($tab) {
+        width: 48%;
+    }
 }
 .H2BtnRecruitStaffCnt{
     font-weight: 600;
