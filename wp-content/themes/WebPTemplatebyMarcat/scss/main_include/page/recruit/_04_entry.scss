@@ -2,9 +2,13 @@
     @include marginPercent(1200 , 110 , auto , 0 , auto);
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
 }
 .recruitEntryBtn{
     @include ontener_width(1200 , 568);
+    @include media($sp){
+        width: 100%;
+    }
 }
 .recruitEntryBtn{
     display: block;
@@ -16,6 +20,10 @@
 }
 .recruitEntryBtnWap02{
     @include marginPercent(1200 , 78 , auto , 0 , auto);
+    @include media($sp){
+        @include ontener_width(375 , 350);
+        @include marginPercent(375 , 55 , auto , 0 , auto);
+    }
 }
 .recruitEntryBtn02Link{
     @include ontener_width(1200 , 340);
@@ -34,6 +42,7 @@
     @include media($sp) {
         height: 16vw;
         @include marginPercent(340 , 50 , auto , 0 , auto);
+        width: 100%;
     }
 }
 .recruitEntryArrow02{
@@ -42,7 +51,7 @@
     background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
     background-size: auto 55%;
     @include media($sp) {
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 70% center;
         background-size: auto 55%;
     }
 }

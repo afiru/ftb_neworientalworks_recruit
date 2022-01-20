@@ -25,13 +25,29 @@
         height: 53.333333333333336vw;
     }
 }
-.btnBtmNavCompanyCompany{
-    background: url(../img/btnBtmNavRecruit01.jpg) no-repeat center top;
+.btnBtmNavCompanyAboutus{
+    background: url(../img/btnBtmNavCompanyAboutus.jpg) no-repeat center top;
     background-size: auto 100%;
+    @include media($sp){
+        background: url(../img/btnBtmNavCompanyAboutusSp.jpg) no-repeat center top;
+        background-size: auto 100%;
+    }
+}
+.btnBtmNavCompanyService{
+    background: url(../img/btnBtmNavCompanyService.jpg) no-repeat center top;
+    background-size: auto 100%;
+    @include media($sp){
+        background: url(../img/btnBtmNavCompanyServiceSp.jpg) no-repeat center top;
+        background-size: auto 100%;
+    }
 }
 .btnBtmNavCompanyRecruit{
-    background: url(../img/btnBtmNavRecruit02..jpg) no-repeat center top;
+    background: url(../img/btnBtmNavCompanyRecruit.jpg) no-repeat center top;
     background-size: auto 100%;
+    @include media($sp){
+        background: url(../img/btnBtmNavCompanyRecruitSp.jpg) no-repeat center top;
+        background-size: auto 100%;
+    }
 }
 .h2SecBtmNav{
     @include rs_font_size(30px,2.5vw,8vw);
