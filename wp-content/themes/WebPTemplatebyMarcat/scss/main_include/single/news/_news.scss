@@ -1,91 +1,88 @@
-.catNewsWap {
-    @include marginPercent(1200 , 70 , auto , 0 , auto);
+.singleNews {
+    @include marginPercent(1200 , 75 , auto , 246 , auto);
     @include media($sp) {
-        @include marginPercent(375 , 45 , auto , 0 , auto);
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 46 , auto , 125 , auto);
     }
 }
-.h2CatNewsWap {
+.newIconTime {
+    display: flex;
+    .new {
+        @include marginPercent(80 , 0 , 40 , 0 , 0);
+        @include media($sp) {
+            @include marginPercent(80 , 0 , 9 , 0 , 0);
+        }
+    }
+}
+.timeSingleNews {
+    display: flex;
+    align-items: center;
+}
+.cntSingleNews {
+    @include marginPercent(1200 , 10 , 0 , 0 , 0);
+    @include media($sp) {
+            @include marginPercent(350 , 15 , 0 , 0 , 0);
+    }
+}
+.h2SingleNews {
+    border-bottom: solid 1px #999999;
     font-weight: 600;
-    @include rs_font_size(30px,2.5vw,7.466666666666667vw);
-    //フォント（px）【PC】:30px |【Tab】30px |【sp】 28px
+    @include rs_font_size(25px,2.0833333333333335vw,4.8vw);
+    //フォント（px）【PC】:25px |【Tab】25px |【sp】 18px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include paddingPercent(1200 , 0 , 0 , 22 , 0);
     @include media($sp) {
-        @include ontener_width(375 , 350);
-        @include marginPercent(350 , 0 , auto , 0 , auto);
+        @include paddingPercent(350 , 0 , 0 , 17 , 0);
     }
 }
-.archivesNews {
-    @include marginPercent(1200 , 57 , 0 , 0 , 0);
+.singleNewsLxc {
+    @include marginPercent(1200 , 34 , 0 , 0 , 0);
     @include media($sp) {
-        @include ontener_width(375 , 350);
-        @include marginPercent(350 , 30 , auto , 0 , auto);
+        @include marginPercent(350 , 27 , 0 , 0 , 0);
+    }
+    p {
+        @include lineheight(16 , 30);
+        @include rs_font_size(16px,1.3333333333333333vw,4.8vw);
+        //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 18px
+        //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+        @include media($sp) {
+            @include lineheight(18 , 30);
+        }
     }
 }
-.pagenateWap {
-    @include marginPercent(1200 , 120 , 0 , 260 , 0);
+.btnSingleNewsWap {
+    @include marginPercent(1200 , 177 , auto , 0 , auto);
     @include media($sp) {
-        @include marginPercent(375 , 50 , 0 , 98 , 0);
+        @include marginPercent(350 , 161 , auto , 0 , auto);
     }
 }
-.pagenate {
+.btnSingleNews {
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
     text-align: center;
-}
-.current {
-    border: solid 1px #707070;
-    color: #707070;
-    @include ontener_width(1200 , 30);
-    @include paddingPercent(1200 , 5 , 10 , 5 , 10);
-    @include marginPercent(1200 , 0 , 0 , 0 , 5);
-    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
-    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
-    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include kadomaru(50px);
+    @include ontener_width(1200 , 340);
+    @include marginPercent(340 , 0 , auto , 0 , auto);
     @include media($sp) {
-        @include ontener_width(375 , 30);
-        @include paddingPercent(375 , 5 , 10 , 5 , 10);
+        height: 16vw;
+        @include ontener_width(350 , 340);
+        @include marginPercent(340 , 0 , auto , 0 , auto);
     }
 }
-.smaller {
-    text-decoration: none;
-    border: solid 1px #707070;
-    color: #707070;
-    @include ontener_width(1200 , 30);
-    @include paddingPercent(1200 , 5 , 10 , 5 , 10);
-    @include marginPercent(1200 , 0 , 0 , 0 , 5);
-    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
-    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
-    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+.arrowBtnSingleNews {
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 83% center;
+    background-size: auto 55%;
     @include media($sp) {
-        @include ontener_width(375 , 30);
-        @include paddingPercent(375 , 5 , 10 , 5 , 10);
-        @include marginPercent(375 , 0 , 0 , 0 , 5);
-    }
-}
-.larger {
-    text-decoration: none;
-    border: solid 1px #707070;
-    color: #707070;
-    @include ontener_width(1200 , 30);
-    @include paddingPercent(1200 , 5 , 10 , 5 , 10);
-    @include marginPercent(1200 , 0 , 0 , 0 , 5);
-    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
-    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
-    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
-    @include media($sp) {
-        @include ontener_width(375 , 30);
-        @include paddingPercent(375 , 5 , 10 , 5 , 10);
-        @include marginPercent(375 , 0 , 0 , 0 , 5);
-    }
-}
-
-.previouspostslink {
-    text-decoration: none;
-    color: #707070;
-}
-.nextpostslink {
-    text-decoration: none;
-    color: #707070;
-    @include marginPercent(1200 , 0 , 0 , 0 , 5);
-    @include media($sp) {
-        @include marginPercent(375 , 0 , 0 , 0 , 5);
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 83% center;
+        background-size: auto 55%;
     }
 }

@@ -6,3 +6,96 @@
         background-size: auto 100%;
     }
 }
+
+//お知らせ一覧
+.catNewsWap {
+    @include marginPercent(1200 , 70 , auto , 0 , auto);
+    @include media($sp) {
+        @include marginPercent(375 , 45 , auto , 0 , auto);
+    }
+}
+.h2CatNewsWap {
+    font-weight: 600;
+    @include rs_font_size(30px,2.5vw,7.466666666666667vw);
+    //フォント（px）【PC】:30px |【Tab】30px |【sp】 28px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 0 , auto , 0 , auto);
+    }
+}
+.archivesNews {
+    @include marginPercent(1200 , 57 , 0 , 0 , 0);
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 30 , auto , 0 , auto);
+    }
+}
+.pagenateWap {
+    @include marginPercent(1200 , 120 , 0 , 260 , 0);
+    @include media($sp) {
+        @include marginPercent(375 , 50 , 0 , 98 , 0);
+    }
+}
+.pagenate {
+    text-align: center;
+}
+.current {
+    border: solid 1px #707070;
+    color: #707070;
+    @include ontener_width(1200 , 30);
+    @include paddingPercent(1200 , 5 , 10 , 5 , 10);
+    @include marginPercent(1200 , 0 , 0 , 0 , 5);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(375 , 30);
+        @include paddingPercent(375 , 5 , 10 , 5 , 10);
+    }
+}
+.smaller {
+    text-decoration: none;
+    border: solid 1px #707070;
+    color: #707070;
+    @include ontener_width(1200 , 30);
+    @include paddingPercent(1200 , 5 , 10 , 5 , 10);
+    @include marginPercent(1200 , 0 , 0 , 0 , 5);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(375 , 30);
+        @include paddingPercent(375 , 5 , 10 , 5 , 10);
+        @include marginPercent(375 , 0 , 0 , 0 , 5);
+    }
+}
+.larger {
+    text-decoration: none;
+    border: solid 1px #707070;
+    color: #707070;
+    @include ontener_width(1200 , 30);
+    @include paddingPercent(1200 , 5 , 10 , 5 , 10);
+    @include marginPercent(1200 , 0 , 0 , 0 , 5);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(375 , 30);
+        @include paddingPercent(375 , 5 , 10 , 5 , 10);
+        @include marginPercent(375 , 0 , 0 , 0 , 5);
+    }
+}
+
+.previouspostslink {
+    text-decoration: none;
+    color: #707070;
+}
+.nextpostslink {
+    text-decoration: none;
+    color: #707070;
+    @include marginPercent(1200 , 0 , 0 , 0 , 5);
+    @include media($sp) {
+        @include marginPercent(375 , 0 , 0 , 0 , 5);
+    }
+}
