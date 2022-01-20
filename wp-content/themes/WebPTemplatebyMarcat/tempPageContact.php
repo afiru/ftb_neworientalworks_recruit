@@ -1,6 +1,6 @@
 <?php
     /**
-     * Template Name: エントリー
+     * Template Name: お問い合わせ
      * Template Post Type: page
      */
 ?>
