@@ -1,6 +1,10 @@
 .topPrivacy {
     @include marginPercent(1920 , 69 , auto , 0 , auto );
-
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(375 , 50 , auto , 0 , auto );
+    }
+    
 }
 .txtTopPrivacy {
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);

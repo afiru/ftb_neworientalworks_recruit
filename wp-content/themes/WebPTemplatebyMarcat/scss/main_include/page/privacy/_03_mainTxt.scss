@@ -1,5 +1,9 @@
 .btmPrivacy {
     @include marginPercent(1920 , 133, auto , 0 , auto );
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(375 , 30 , auto , 0 , auto );
+    }
 }
 .h2BtmPrivacy {
     font-weight: 600;
@@ -8,10 +12,16 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include paddingPercent(1200 , 0 , 0 , 47 , 0 );
     border-bottom: 1px solid #999;
+    @include media($sp) {
+        @include paddingPercent(375 , 0 , 0 , 30 , 0 );
+    }
 }
 .secBtmPrivacy {
     @include paddingPercent(1200 , 40 , 0 , 40 , 0 );
     border-bottom: 1px solid #999;
+    @include media($sp) {
+        @include paddingPercent(350 , 30 , 0 , 70 , 0 );
+    }
 }
 .h3SecBtmPrivacy {
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
@@ -25,13 +35,22 @@
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include lineheight(16,30);
+    @include media($sp) {
+        @include marginPercent(350 , 15 , 0 , 0 , 0 );
+    }
 }
 
 .h3SecBtmPrivacy02 {
     @include marginPercent(1200 , 49 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include marginPercent(350 , 72 , 0 , 0 , 0 );
+    }
 }
 .h3SecBtmPrivacy03 {
     @include marginPercent(1200 , 36 , 0 , 0 , 0 );
+    @include media($sp) {
+        @include marginPercent(350 , 80 , 0 , 0 , 0 );
+    }
 }
 .txtSecBtmPrivacySecond {
     @include marginPercent(1200 , 95 , 0 , 0 , 0 );
@@ -48,6 +67,10 @@
 .btnContactThanksWap {
     @include marginPercent(1200 , 242 , auto , 140 , auto );
     @include ontener_width(1200 , 340);
+    @include media($sp) {
+        @include ontener_width(350 , 350 );
+        @include marginPercent(350 , 211 , auto , 121 , auto );
+    }
 }
 
 .btnContactThanks{
@@ -67,7 +90,7 @@
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 10px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
-        height: 9.778666666666666vw;
+        height: 16vw;
     }
 }
 .arrowBtnContactThanks {
