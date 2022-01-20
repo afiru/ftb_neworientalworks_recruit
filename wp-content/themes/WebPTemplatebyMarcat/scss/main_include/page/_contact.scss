@@ -1,3 +1,91 @@
 @charset "utf-8";
 
-
+.contactMain {
+    @include marginPercent(1920 , 100 , 0 , 0 , 0);
+}
+.formStep {
+    @include ontener_width(1200 , 345);
+    @include marginPercent(345 , 0 , auto , 0 , auto);
+    picture {
+        display: block;
+    }
+}
+.mainForm {
+    @include marginPercent(1200 , 116 , auto , 0 , auto);
+}
+.tableMainForm {
+    @include ontener_width(1200 , 836);
+    @include marginPercent(836 , 0 , auto , 0 , auto);
+    tr {
+        height: 65px;
+        vertical-align: middle;
+    }
+}
+.thMainForm {
+    text-align: left;
+    vertical-align: middle;
+    @include ontener_width(836 , 286);
+    @include paddingPercent(286 , 63 , 0 , 0 , 0);
+}
+.hissuThFx {
+    letter-spacing: 0.17em;
+    @include ontener_width(286 , 60);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.titleThFx {
+    letter-spacing: 0.17em;
+    @include lineheight(16 , 17.25);
+    @include ontener_width(286 , 226);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.tdMainForm {
+    width: 100%;
+    @include paddingPercent(550 , 63 , 0 , 0 , 0);
+    .inputW100 {
+        height: 60px;
+        width: 100%;
+        border: none;
+        background: #F4F4F4;
+        letter-spacing: 0.17em;
+        @include kadomaru(10px);
+        @include paddingPercent(550 , 22 , 32 , 22 , 32)
+        @include rs_font_size(18px,1.5vw,4.8vw);
+        //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+        //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    }
+}
+.postNumMainForm {
+    display: flex;
+    @include ontener_width(550 , 301);
+}
+.inputNumMainForm {
+    @include ontener_width(301 , 115);
+}
+.hyphenNumMainForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include ontener_width(301 , 71);
+    @include rs_font_size(20px,1.6666666666666667vw,5.333333333333333vw);
+    //フォント（px）【PC】:20px |【Tab】20px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.cl_AAAAAA {
+    color: #AAAAAA;
+}
+.inputTxtW100 {
+    height: 225px;
+    width: 100%;
+    border: none;
+    background: #F4F4F4;
+    letter-spacing: 0.17em;
+    @include kadomaru(10px);
+    @include paddingPercent(550 , 22 , 32 , 22 , 32)
+    @include rs_font_size(18px,1.5vw,4.8vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
