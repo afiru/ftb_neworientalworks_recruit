@@ -4,10 +4,32 @@
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
                     <span class="cl_FF3D3B hissuThFx">必須</span>
-                    <span class="titleThFx">お名前(会社名)</span>
+                    <span class="titleThFx">希望職種</span>
                 </div>
             </th>
-            <td class="tdMainForm">[mwform_text name="お名前(会社名)" id="name" class="inputW100" size="60" maxlength="255" placeholder="山田太郎"]</td>
+            <td class="tdMainForm">
+                <div class="display_flex_stretch tdMainFormFx">
+                    [mwform_checkbox name="希望職種" id="job" class="inputCheack" children="正社員,アルバイト" separator=","]
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th class="thMainForm">
+                <div class="display_flex_stretch thFx">
+                    <span class="cl_FF3D3B hissuThFx">必須</span>
+                    <span class="titleThFx">希望勤務地<br>(アルバイトのみ)</span>
+                </div>
+            </th>
+            <td class="tdMainForm">[mwform_text name="希望勤務地" id="kinmuchi" class="inputW100" size="60" maxlength="255" placeholder="立花SOCIO"]</td>
+        </tr>
+        <tr>
+            <th class="thMainForm">
+                <div class="display_flex_stretch thFx">
+                    <span class="cl_FF3D3B hissuThFx">必須</span>
+                    <span class="titleThFx">お名前</span>
+                </div>
+            </th>
+            <td class="tdMainForm">[mwform_text name="お名前" id="name" class="inputW100" size="60" maxlength="255" placeholder="山田太郎"]</td>
         </tr>
         <tr>
             <th class="thMainForm">
@@ -18,8 +40,6 @@
             </th>
             <td class="tdMainForm">[mwform_text name="フリガナ" id="kana" class="inputW100" size="60" maxlength="255" placeholder="ヤマダタロウ"]</td>
         </tr>
-        
-
         <tr>
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
@@ -29,17 +49,15 @@
             </th>
             <td class="tdMainForm">[mwform_email name="メールアドレス" id="mail" class="inputW100" size="60" maxlength="255" placeholder="neworientalworks@ne.jp"]</td>
         </tr>
-        
         <tr>
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
                     <span class="cl_FF3D3B hissuThFx">必須</span>
-                    <span class="titleThFx">メールアドレス<br>（確認用）</span>
+                    <span class="titleThFx">メールアドレス<br>(確認用)</span>
                 </div>
             </th>
-            <td class="tdMainForm">[mwform_email name="メールアドレス（確認用）" id="re_mail" class="inputW100" size="60" maxlength="255" placeholder="neworientalworks@ne.jp"]</td>
+            <td class="tdMainForm">[mwform_email name="メールアドレス確認用" id="remail" class="inputW100" size="60" maxlength="255" placeholder="neworientalworks@ne.jp"]</td>
         </tr>
-
         <tr>
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
@@ -49,7 +67,19 @@
             </th>
             <td class="tdMainForm">[mwform_text name="お電話番号" id="tel" class="inputW100" size="60" maxlength="255" placeholder="090-1234-5678"]</td>
         </tr>
-        
+        <tr>
+            <th class="thMainForm">
+                <div class="display_flex_stretch thFx">
+                    <span class="cl_FF3D3B hissuThFx">任意</span>
+                    <span class="titleThFx">性別</span>
+                </div>
+            </th>
+            <td class="tdMainForm">
+                <div class="display_flex_stretch tdMainFormFx">
+                    [mwform_checkbox name="性別" id="woman" class="inputCheack" children="男,女" separator=","]
+                </div>
+            </td>
+        </tr>
         <tr>
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
@@ -78,10 +108,10 @@
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
                     <span class="cl_FF3D3B hissuThFx">必須</span>
-                    <span class="titleThFx">ご要望</span>
+                    <span class="titleThFx">その他</span>
                 </div>
             </th>
-            <td class="tdMainForm">[mwform_textarea name="ご要望" id="contact" class="inputTxtW100" maxlength="2000" cols="50" rows="5"]</td>
+            <td class="tdMainForm">[mwform_textarea name="その他" id="contact" class="inputTxtW100" maxlength="2000" cols="50" rows="5" placeholder="志望動機、自己PR等"]</td>
         </tr>
     </table>
 </div>
