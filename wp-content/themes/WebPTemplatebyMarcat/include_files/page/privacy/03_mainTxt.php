@@ -24,7 +24,7 @@
         <h3 class="h3SecBtmPrivacy">3.個人情報の第三者提供</h3>
         <p class="text_justify txtSecBtmPrivacy">当社は、ご利用者様の同意なしに第三者へご利用者様の個人情報の提供は行いません。但し個人情報に適用される法律その他の規範により、当社が従うべき法令上の義務等の特別な事情がある場合は、この限りではありません。</p>
     </section>
-    <section class="secBtmPrivacy">
+    <section class="secBtmPrivacy secBtmPrivacyBnone">
         <h3 class="h3SecBtmPrivacy">4.個人情報の開示・修正等の手続</h3>
         <p class="text_justify txtSecBtmPrivacy">
             ・個人情報の開示・修正等の手続<br>

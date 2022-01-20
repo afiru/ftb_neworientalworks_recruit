@@ -34,13 +34,13 @@
                 <p class="cl_fff txtNavMainFooter">事業内容</p>
                 <ul class="ulMainFooter">
                     <li class="liMainFooter">
-                        <a href="<?php echo get_permalink(2); ?>#amusement"><span class="arrowMainFooter">アミューズメント事業</span></a>
+                        <a href="<?php echo get_permalink(30); ?>#amusement"><span class="arrowMainFooter">アミューズメント事業</span></a>
                     </li>
                     <li class="liMainFooter">
-                        <a href="<?php echo get_permalink(2); ?>#eat"><span class="arrowMainFooter">飲食事業</span></a>
+                        <a href="<?php echo get_permalink(30); ?>#eat"><span class="arrowMainFooter">飲食事業</span></a>
                     </li>
                     <li class="liMainFooter">
-                        <a href="<?php echo get_permalink(2); ?>#estate"><span class="arrowMainFooter">不動産事業</span></a>
+                        <a href="<?php echo get_permalink(30); ?>#estate"><span class="arrowMainFooter">不動産事業</span></a>
                     </li>
                 </ul>
             </nav>
