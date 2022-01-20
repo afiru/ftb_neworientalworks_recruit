@@ -1,5 +1,6 @@
 .recruitMerit{
     @include marginPercent(1920 , 333 , auto , 0 , auto);
+    position: relative;
 }
 .h1RecruitMerit{
     margin: -0.5% auto 0 auto;
@@ -7,16 +8,38 @@
     @include rs_font_size(40px,3.3333333333333335vw,4.8vw);
     //フォント（px）【PC】:40px |【Tab】40px |【sp】 18px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        @include lineheight(24 , 32);
+        position: absolute;
+        top:-2.5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
 }
 .bgRecruitMerit{
     @include marginPercent(1920 , -20 , auto , 0 , auto);
-    @include paddingPercent(1920 , 140 , auto , 48 , auto);
+    @include paddingPercent(1920 , 140 , 0 , 48 , 0);
+    @include media($sp){
+        @include paddingPercent(345 , 107 , 0 , 67 , 0);
+    }
 }
 .recruitMeritWap{
-    
+    @include media($sp){
+        @include ontener_width(375 , 347);
+        margin: 0 auto;
+    }
 }
 .recruitMeritCnt{
+    @include paddingPercent(360 , 72 , 23 , 27 , 23);
     @include ontener_width(1200 , 360);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    @include kadomaru(10px);
+    background: #FFF;
+    @include media($sp){
+        @include marginPercent(347 , 81 , auto , 0 , auto);
+        width: 100%;
+    }
 }
 .iconRecruitMerit{
     @include ontener_width(360 , 108);
@@ -25,11 +48,14 @@
     left: 0;
     right: 0;
     margin: 0 auto;
+    @include media($sp){
+        @include ontener_width(375 , 104);
+        top:-10%;
+    }
 }
 .secRecruitMeritCnt{
-    @include paddingPercent(360 , 72 , 23 , 27 , 23);
-    @include kadomaru(5px);
-    background: #FFF;
+    @include media($sp){   
+    }
 }
 .h3RecruitMeritCnt{
     font-weight: 600;
@@ -44,4 +70,7 @@
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        @include marginPercent(347 , 28 , auto , 0 , auto);
+    }
 }
