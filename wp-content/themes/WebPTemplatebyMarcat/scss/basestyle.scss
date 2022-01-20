@@ -81,8 +81,15 @@ svg {
 @import 'main_include/page/staff/_staff';
 //news
 @import 'main_include/category/news/_news';
+@import 'main_include/single/news/_news';
 //outline
 @import 'main_include/page/outline/_outline';
+//outline
+@import 'main_include/page/outline/_outline';
+//sitemap
+@import 'main_include/page/sitemap/_sitemap';
+//privacy
+@import 'main_include/page/privacy/_privacy';
 //フッター部分
 @import 'main_include/footer/_footer';
 @import 'lightbox.min';
