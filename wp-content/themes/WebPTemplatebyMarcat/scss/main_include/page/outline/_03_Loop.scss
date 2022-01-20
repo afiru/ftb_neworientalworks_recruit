@@ -1,0 +1,125 @@
+.outlineLoopWap{
+    
+}
+.outlineLoop{
+    @include paddingPercent(1920 , 18 , 18 , 18 , 18);
+    @include marginPercent(1920 , 79.5 , auto , 0 , auto);
+    @include kadomaru(5px);
+    @include media($sp){
+        @include paddingPercent(375 , 15 , 15 , 15 , 15);
+        @include marginPercent(375 , 40.5 , auto , 0 , auto);
+        @include ontener_width(375 , 350);
+         @include kadomaru(10px);
+    }
+}
+.h2OutlineLoop{
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    @include kadomaru(5px);
+    @include rs_font_size(30px,2.5vw,5.333333333333333vw);
+    //フォント（px）【PC】:30px |【Tab】30px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        height: 10.666666666666666vw;
+    }
+}
+.outlineLoopPost{
+    @include ontener_width(1156 , 1100);
+    margin: 0 auto;
+    @include media($sp){
+        @include ontener_width(350 , 323);
+    }
+}
+.tableOutlineLoopPost{
+    width: 100%;
+    @include media($sp){
+        display: block;
+    }
+    tbody{
+        @include media($sp){
+            display: block;
+            width: 100%;
+        }
+    }
+    tr{
+        border-bottom: 1px solid #999999;
+        @include media($sp){
+            display: block;
+        }
+    }
+}
+.thOutlineLoopPost{
+    @include paddingPercent(1100 , 30.5 , 0 , 30.5 , 21);
+    @include ontener_width(1100 , 130);
+    font-weight: 600;
+    text-align: left;
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        @include paddingPercent(300 , 19.5 , 0 , 6 , 0);
+        width: 100%;
+        display: block;
+    }
+}
+.tdOutlineLoopPost{
+    @include paddingPercent(1100 , 30.5 , 21 , 30.5 , 0);
+    @include ontener_width(1100 , 970);
+    @include lineheight(16 , 28);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        @include paddingPercent(300 , 0 , 0 , 19.5 , 0);
+        display: block;
+        width: 100%;
+    }
+}
+.btnToEntryWap{
+    @include marginPercent(1200 , 50 , auto , 0 , auto);
+    @include ontener_width(1200 , 340);
+    @include media($sp){
+        @include marginPercent(375 , 50 , auto , 0 , auto);
+        @include ontener_width(375 , 340);
+    }
+}
+.btnToEntry{
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include kadomaru(50px);
+    @include media($sp) {
+        height: 16vw;
+        width: 100%;
+    }
+}
+.btnToEntry .arrow {
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
+    background-position: 80% center;
+    background-size: auto 55%;
+    @include media($sp) {
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
+        background-position: 80% center;
+        background-size: auto 55%;
+    }
+}
+.btnToEntryarrow02{
+    background-position: 80% center;
+    @include media($sp) {
+        background-position: 80% center;
+    }
+}

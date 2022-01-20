@@ -12,7 +12,7 @@
                         <?php foreach( scf::get('outlines') as $field ): ?>
                         <tr>
                             <th class="thOutlineLoopPost"><?php echo $field['th']; ?></th>
-                            <td class="thOutlineLoopPost"><?php echo nl2br($field['td']); ?></td>
+                            <td class="tdOutlineLoopPost"><?php echo nl2br($field['td']); ?></td>
                         </tr>
                         <?php endforeach; ?>
                     </table>
@@ -20,12 +20,13 @@
             <?php $i++; endwhile; wp_reset_postdata(); ?>
         <?php endif; ?>
         
-        <div class="btnToEntryWap">
-            <a class="btnToEntry" href="<?php echo get_permalink(37); ?>">
-                <span class="arrow">正社員エントリー</span>
-            </a>
-        </div>
+        
     </section>
+    <div class="btnToEntryWap">
+        <a class="btnToEntry" href="<?php echo get_permalink(37); ?>">
+            <span class="arrow btnToEntryarrow01">正社員エントリー</span>
+        </a>
+    </div>
     
     <section class="outlineLoop brder_FFB330">
         <?php 
@@ -40,7 +41,7 @@
                         <?php foreach( scf::get('outlines') as $field ): ?>
                         <tr>
                             <th class="thOutlineLoopPost"><?php echo $field['th']; ?></th>
-                            <td class="thOutlineLoopPost"><?php echo nl2br($field['td']); ?></td>
+                            <td class="tdOutlineLoopPost"><?php echo nl2br($field['td']); ?></td>
                         </tr>
                         <?php endforeach; ?>
                     </table>
@@ -48,10 +49,11 @@
             <?php $i++; endwhile; wp_reset_postdata(); ?>
         <?php endif; ?>
         
-        <div class="btnToEntryWap">
-            <a class="btnToEntry" href="<?php echo get_permalink(37); ?>">
-                <span class="arrow">アルバイトエントリー</span>
-            </a>
-        </div>
+       
     </section>
+    <div class="btnToEntryWap">
+        <a class="btnToEntry" href="<?php echo get_permalink(37); ?>">
+            <span class="arrow btnToEntryarrow02">アルバイトエントリー</span>
+        </a>
+    </div>
 </div>
