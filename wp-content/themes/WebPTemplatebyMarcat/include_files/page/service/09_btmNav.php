@@ -1,7 +1,7 @@
 <nav class="btmNav">
     <ul class="display_flex_stretch display_row ulBtmNav">
         <li class="liBtmNav">
-            <a href="<?php echo get_permalink(2); ?>" class="display_flex_center btnBtmNav btnBtmNavCompany01 btnBtmNavCompanyCompany">
+            <a href="<?php echo get_permalink(2); ?>" class="display_flex_center btnBtmNav btnBtmNavCompany01 btnBtmNavCompanyAboutus">
                 <section class="secBtmNav">
                     <h2 class="t_center h2SecBtmNav">私たちについて</h2>
                     <p class="t_center oswald txtSecBtmNav">COMPANY</p>
