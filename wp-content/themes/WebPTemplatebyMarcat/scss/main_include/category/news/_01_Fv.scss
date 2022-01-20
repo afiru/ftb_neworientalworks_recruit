@@ -1,8 +1,8 @@
-.BgContest {
-    background: url(../img/.jpg) no-repeat top center;
+.bgCatNewsFv {
+    background: url(../img/category/news/bgCatNewsFvPc.jpg) no-repeat top center;
     background-size: auto 100%;
-}
-
-.h2CatNewsWap {
-    color: red;
+    @include media($sp) {
+        background: url(../img/category/news/bgCatNewsFvSp.jpg) no-repeat top center;
+        background-size: auto 100%;
+    }
 }
