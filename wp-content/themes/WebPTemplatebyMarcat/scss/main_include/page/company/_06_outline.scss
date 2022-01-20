@@ -1,10 +1,93 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : 2022/01/18, 10:51:46
-    Author     : SPG-1105
-*/
-
+.companyOutline {
+    @include marginPercent(1920 , 177 , auto , 0 , auto);
+    @include media($sp) {
+        @include marginPercent(375 , 107 , auto , 0 , auto);
+    }
+}
+.companyOutlineMain {
+    background: #F6FBFF;
+    z-index: -1;
+    @include marginPercent(1200 , -30 , 0 , 0 , 0);
+    @include paddingPercent(1200 , 84 , 0 , 84 , 0);
+    @include media($sp) {
+        @include marginPercent(375 , -30 , 0 , 0 , 0);
+        @include paddingPercent(375 , 56 , 0 , 84 , 0);
+    }
+}
+.companyOutlineMainWap {
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 0 , auto , 0 , auto);
+    }
+}
+.btnCompanyOutlineMain {
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.12em;
+    background: #fff;
+    border: solid 2px #006FDB;
+    width: 100%;
+    @include kadomaru(10px);
+    @include media($sp) {
+        height: 21.333333333333332vw;
+    }
+}
+.txtBtnCompanyOutlineMain {
+    font-weight: 600;
+    @include rs_font_size(30px,2.5vw,6.4vw);
+    //フォント（px）【PC】:30px |【Tab】30px |【sp】 24px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.trigerCompanyOutlineFx {
+    display: flex;
+    justify-content: flex-start;
+    @include media($sp) {
+        
+    }
+}
+.yearCompanyOutline {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    @include rs_font_size(16px,1.3333333333333333vw,3.7333333333333334vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 14px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include ontener_width(1200 , 159);
+    @include paddingPercent(159 , 20 , 0 , 20 , 40);
+    @include media($sp) {
+        letter-spacing: 0;
+        @include ontener_width(350 , 101);
+        padding: 3% 0 0 3%;
+    }
+}
+.dotCompanyOutline {
+    display: flex;
+    align-items: center;
+    @include paddingPercent(68 , 0 , 0 , 0 , 45);
+    @include media($sp) {
+        padding: 3% 0 0 8%;
+    }
+}
+.detailCompanyOutline {
+    letter-spacing: 0.12em;
+    @include lineheight(16 , 26);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include paddingPercent(1200 , 20 , 0 , 20 , 30);
+    @include media($sp) {
+        @include lineheight(16 , 20);
+        padding: 1% 3% 4% 3%;
+    }
+}
+.companyOutlineMainLxc {
+    &:nth-child(n+2) {
+        @include marginPercent(1200 , 16 , 0 , 0 , 0);
+        @include media($sp) {
+            @include marginPercent(350 , 33 , 0 , 0 , 0);
+        }
+    }
+}
