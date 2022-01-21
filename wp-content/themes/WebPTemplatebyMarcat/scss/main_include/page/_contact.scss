@@ -168,6 +168,7 @@
     }
 }
 .buttonConfirm {
+    cursor: pointer;
     @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
     display: flex;
     align-items: center;
@@ -185,14 +186,21 @@
         width: 100%;
     }
 }
-.buttonConfirm {
-    width: 100%;
-    display: block;
-    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
-    background-size: auto 15%;
-    @include media($sp) {
+.buttonConfirm{
+    &:after {
+        content:"";
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top:0;
+        left: 0; 
         background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
         background-size: auto 15%;
+        @include media($sp) {
+            background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+            background-size: auto 15%;
+        }
     }
 }
 .error {
