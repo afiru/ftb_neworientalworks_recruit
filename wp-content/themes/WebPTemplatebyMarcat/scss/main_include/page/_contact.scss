@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-.contactMain {
-    @include marginPercent(1920 , 100 , 0 , 459 , 0);
+.contactWap {
+    @include marginPercent(1200 , 100 , auto , 459 , auto);
     @include media($sp) {
         @include ontener_width(375 , 350);
         @include marginPercent(350 , 47 , auto , 185 , auto);
