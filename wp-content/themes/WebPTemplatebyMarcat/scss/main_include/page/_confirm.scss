@@ -1,2 +1,114 @@
 @charset "utf-8";
 
+.FormConfrim {
+    .postNumMainForm {
+        align-items: center;
+    }
+    .inputNumMainForm {
+        @include ontener_width(301 , 40);
+        @include media($sp) {
+            @include ontener_width(350 , 40);
+        }
+    }
+    .hyphenNumMainForm {
+        @include ontener_width(301 , 20);
+        @include paddingPercent(20 , 0 , 10 , 0 , 0);
+        @include media($sp) {
+            width: 8.42%;
+            padding: 0 0 0 0;
+        }
+    }
+    .tableMainForm tr .thMainForm {
+        @include media($sp) {
+            @include paddingPercent(350 , 60 , 0 , 0 , 0);
+        }
+    }
+    .tdMainForm {
+        @include lineheight(18 , 24);
+        @include rs_font_size(18px,1.5vw,4.8vw);
+        //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+        //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    }
+}
+.buttonThanksBack {
+    display: block;
+    @include ontener_width(1200 , 750);
+    @include marginPercent(750 , 0 , auto , 0 , auto);
+    @include media($sp) {
+        @include ontener_width(350 , 340);
+    }
+}
+.buttonBack {
+    cursor: pointer;
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include ontener_width(750 , 340);
+    @include kadomaru(50px);
+    @include media($sp) {
+        height: 16vw;
+        width: 100%;
+    }
+}
+.buttonBack{
+    &:after {
+        content:"";
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top:0;
+        left: 0; 
+        transform: rotate(180deg);
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 77% center;
+        background-size: auto 15%;
+        @include media($sp) {
+            background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 77% center;
+            background-size: auto 15%;
+        }
+    }
+}
+.buttonThanks {
+    cursor: pointer;
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    @include ontener_width(750 , 340);
+    @include kadomaru(50px);
+    @include media($sp) {
+        height: 16vw;
+        width: 100%;
+        @include marginPercent(340 , 35 , 0 , 0 , 0);
+    }
+}
+.buttonThanks{
+    &:after {
+        content:"";
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top:0;
+        left: 0; 
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+        background-size: auto 15%;
+        @include media($sp) {
+            background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+            background-size: auto 15%;
+        }
+    }
+}
