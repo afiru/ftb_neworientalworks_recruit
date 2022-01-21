@@ -51,7 +51,7 @@ svg {
 }
 //パンくず
 .breadCrumbList{
-    @include marginPercent(1200 , 10 , auto , 0 , auto);
+    @include marginPercent(1200 , 13 , auto , 0 , auto);
     @include media($sp){
         display: none;
     }

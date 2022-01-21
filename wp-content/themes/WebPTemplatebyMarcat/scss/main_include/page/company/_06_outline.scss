@@ -1,5 +1,5 @@
 .companyOutline {
-    @include marginPercent(1920 , 177 , auto , 0 , auto);
+    @include marginPercent(1920 , 191 , auto , 0 , auto);
     @include media($sp) {
         @include marginPercent(375 , 107 , auto , 0 , auto);
     }
@@ -7,8 +7,8 @@
 .companyOutlineMain {
     background: #F6FBFF;
     z-index: -1;
-    @include marginPercent(1200 , -30 , 0 , 0 , 0);
-    @include paddingPercent(1200 , 84 , 0 , 84 , 0);
+    @include marginPercent(1200 , -32 , 0 , 0 , 0);
+    @include paddingPercent(1200 , 85 , 0 , 84 , 0);
     @include media($sp) {
         @include marginPercent(375 , -30 , 0 , 0 , 0);
         @include paddingPercent(375 , 56 , 0 , 84 , 0);
@@ -40,7 +40,7 @@
 }
 .iconBtnCompanyOutlineMain {
     position: absolute;
-    right: 5%;
+    right: 3%;
     width: 26px;
     height: 26px;
 }
@@ -70,10 +70,15 @@
     }
     &.on .bdBtnCompanyOutlineMain{
         background: #FFF;
+        transform: rotate(44deg);
+        &:nth-last-child(2) {
+            transform: rotate(-44deg);
+        }
     }
 }
 .txtBtnCompanyOutlineMain {
     font-weight: 600;
+    letter-spacing: 0.1em;
     @include rs_font_size(30px,2.5vw,6.4vw);
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 24px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
@@ -86,6 +91,19 @@
     justify-content: flex-start;
     @include media($sp) {
         
+    }
+}
+.trigerCompanyOutlineFx {
+    &:nth-child(1) {
+        .yearCompanyOutline {
+        @include paddingPercent(1200 , 40 , 0 , 20 , 40);
+    }
+    .dotCompanyOutline {
+        @include paddingPercent(1200 , 40 , 0 , 20 , 39);
+    }
+    .detailCompanyOutline {
+        @include paddingPercent(1200 , 40 , 0 , 20 , 30);
+    }
     }
 }
 .yearCompanyOutline {
@@ -107,13 +125,13 @@
 .dotCompanyOutline {
     display: flex;
     align-items: center;
-    @include paddingPercent(68 , 0 , 0 , 0 , 45);
+    @include paddingPercent(68 , 0 , 0 , 0 , 39);
     @include media($sp) {
         padding: 3% 0 0 8%;
     }
 }
 .detailCompanyOutline {
-    letter-spacing: 0.12em;
+    letter-spacing: 0.03em;
     @include lineheight(16 , 26);
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
@@ -126,7 +144,7 @@
 }
 .companyOutlineMainLxc {
     &:nth-child(n+2) {
-        @include marginPercent(1200 , 16 , 0 , 0 , 0);
+        @include marginPercent(1200 , 47 , 0 , 0 , 0);
         @include media($sp) {
             @include marginPercent(350 , 33 , 0 , 0 , 0);
         }
