@@ -209,3 +209,41 @@
         @include marginPercent(350 , 13 , 0 , 0 , 0);
     }
 }
+
+//エントリー
+.tdMainFormFx {
+    @include ontener_width(550 , 271);
+    @include rs_font_size(20px,1.6666666666666667vw,5.333333333333333vw);
+    //フォント（px）【PC】:20px |【Tab】20px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(350 , 270);
+    }
+}
+tr {
+    &:nth-child(8) {
+        .tdMainFormFx {
+            @include ontener_width(550 , 165);
+            @include media($sp) {
+                @include ontener_width(350 , 165);
+            }
+        }
+    }
+    &:nth-child(11) {
+        .thMainForm {
+            vertical-align: top;
+            @include paddingPercent(286 , 80 , 0 , 0 , 0);
+            @include media($sp) {
+                @include paddingPercent(350 , 20 , 0 , 0 , 0);
+            }
+        }   
+    }
+}
+.horizontal-item {
+    label {
+        cursor: pointer;
+    }
+    .inputCheack {
+        cursor: pointer;
+    }
+}
