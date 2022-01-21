@@ -110,7 +110,9 @@
 .bgindexCompany{
     margin: -10% 0 0 0;
     height: 337px;
-    @include ontener_width(1200 , 1120);
+    //@include ontener_width(1200 , 1120);
+    //height: 17.552083333333332vw;
+    width: 58.333333333333336vw;
     background: url(../img/index/bgindexCompanyPc.png) no-repeat center top;
     background-size:auto 100%;
     position: absolute;

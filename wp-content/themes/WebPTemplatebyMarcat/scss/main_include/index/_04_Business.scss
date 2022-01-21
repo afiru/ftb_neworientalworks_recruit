@@ -68,7 +68,7 @@
     }
 }
 .btnMoreIndexBusiness {
-        @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
     display: flex;
     align-items: center;
     text-align: center;
@@ -90,10 +90,10 @@
 .arrowBtnMoreIndexBusiness {
     width: 100%;
     display: block;
-    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 77% center;
     background-size: auto 55%;
     @include media($sp) {
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 75% center;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 77% center;
         background-size: auto 55%;
     }
 }
