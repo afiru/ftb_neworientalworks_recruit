@@ -29,6 +29,8 @@
     @include media($sp) {
         width: 100%;
     }
+}
+.tableMainForm {
     tr {
         height: 65px;
         vertical-align: middle;
@@ -46,12 +48,19 @@
                 }
             }    
         }
-    }
-    
+        &:nth-child(8) {
+            .thMainForm {
+                vertical-align: top;
+                @include paddingPercent(286 , 80 , 0 , 0 , 0);
+                @include media($sp) {
+                    @include paddingPercent(350 , 20 , 0 , 0 , 0);
+                }
+            }   
+        }
+    }  
 }
 .thMainForm {
-    text-align: left;
-    vertical-align: middle;
+    text-align: left;  
     @include ontener_width(836 , 286);
     @include paddingPercent(286 , 63 , 0 , 0 , 0);
     @include media($sp) {
@@ -62,7 +71,6 @@
             justify-content: flex-start;
         }
     }
-    
 }
 .hissuThFx {
     letter-spacing: 0.17em;
@@ -104,7 +112,7 @@
         //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
         //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
         @include media($sp) {
-        
+            @include paddingPercent(350 , 21 , 17 , 21 , 17);
         }
     }
 }
@@ -119,6 +127,9 @@
     @include ontener_width(301 , 115);
     @include media($sp) {
         @include ontener_width(300 , 115);
+        .inputW100 {
+            @include paddingPercent(115 , 21 , 17 , 21 , 17);
+        }
     }
 }
 .hyphenNumMainForm {
