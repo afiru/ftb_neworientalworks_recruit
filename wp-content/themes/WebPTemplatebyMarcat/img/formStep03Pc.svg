@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345" height="88" viewBox="0 0 345 88">
+  <g id="グループ_1347" data-name="グループ 1347" transform="translate(-788 -600)">
+    <g id="グループ_603" data-name="グループ 603">
+      <circle id="楕円形_24" data-name="楕円形 24" cx="44" cy="44" r="44" transform="translate(788 600)" fill="#e5e5e5"/>
+      <circle id="楕円形_25" data-name="楕円形 25" cx="44" cy="44" r="44" transform="translate(917 600)" fill="#e5e5e5"/>
+      <circle id="楕円形_26" data-name="楕円形 26" cx="44" cy="44" r="44" transform="translate(1045 600)" fill="#006fdb"/>
+      <text id="入_力" data-name="入 力" transform="translate(832.769 651.5)" fill="#8b8b8b" font-size="18" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-20.566" y="0">入 力</tspan></text>
+      <text id="確_認" data-name="確 認" transform="translate(961 651.5)" fill="#8b8b8b" font-size="18" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-20.566" y="0">確 認</tspan></text>
+      <text id="完_了" data-name="完 了" transform="translate(1089.614 651.5)" fill="#fff" font-size="18" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-20.566" y="0">完 了</tspan></text>
+    </g>
+  </g>
+</svg>

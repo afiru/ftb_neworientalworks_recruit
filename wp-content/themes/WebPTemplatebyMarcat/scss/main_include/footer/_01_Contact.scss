@@ -71,10 +71,15 @@
 .arrowBtnFtContact {
     width: 100%;
     display: block;
-    background: url(../img/footer/arrowBtnFtContact.png) no-repeat 69% center;
+    background: url(../img/footer/arrowBtnFtContact.png) no-repeat;
+    background-position: 69% center;
     background-size: auto 55%;
+    @include media($tab){
+        background-position: 73% center;
+    }
     @include media($sp) {
-        background: url(../img/footer/arrowBtnFtContact.png) no-repeat 69% center;
+        background: url(../img/footer/arrowBtnFtContact.png) no-repeat;
+        background-position: 69% center;
         background-size: auto 55%;
     }
 }

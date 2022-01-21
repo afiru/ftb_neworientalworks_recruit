@@ -1,1 +1,211 @@
 @charset "utf-8";
+
+.contactWap {
+    @include marginPercent(1200 , 100 , auto , 459 , auto);
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(350 , 47 , auto , 185 , auto);
+    }
+}
+.formStep {
+    @include ontener_width(1200 , 345);
+    @include marginPercent(345 , 0 , auto , 0 , auto);
+    @include media($sp) {
+        @include ontener_width(350 , 268);
+    }
+    picture {
+        display: block;
+    }
+}
+.mainForm {
+    @include marginPercent(1200 , 116 , auto , 0 , auto);
+    @include media($sp) {
+        @include marginPercent(350 , 53 , auto , 0 , auto);
+    }
+}
+.tableMainForm {
+    @include ontener_width(1200 , 836);
+    @include marginPercent(836 , 0 , auto , 0 , auto);
+    @include media($sp) {
+        width: 100%;
+    }
+}
+.tableMainForm {
+    tr {
+        height: 65px;
+        vertical-align: middle;
+        @include media($sp) {
+            height: 17.333333333333332vw;
+        }
+        &:nth-child(1) {
+            .thMainForm {
+                @include paddingPercent(286 , 0 , 0 , 0 , 0);
+            }
+            .tdMainForm {
+                @include paddingPercent(550 , 0 , 0 , 0 , 0);
+                @include media($sp) {
+                    @include paddingPercent(350 , 10 , 0 , 0 , 0);
+                }
+            }    
+        }
+        &:nth-child(8) {
+            .thMainForm {
+                vertical-align: top;
+                @include paddingPercent(286 , 80 , 0 , 0 , 0);
+                @include media($sp) {
+                    @include paddingPercent(350 , 20 , 0 , 0 , 0);
+                }
+            }   
+        }
+    }  
+}
+.thMainForm {
+    text-align: left;  
+    @include ontener_width(836 , 286);
+    @include paddingPercent(286 , 63 , 0 , 0 , 0);
+    @include media($sp) {
+        width: 100%;
+        display: block;
+        @include paddingPercent(350 , 20 , 0 , 0 , 0);
+        .thFx {
+            justify-content: flex-start;
+        }
+    }
+}
+.hissuThFx {
+    letter-spacing: 0.17em;
+    @include ontener_width(286 , 60);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include ontener_width(350 , 62);
+    }
+}
+.titleThFx {
+    letter-spacing: 0.17em;
+    @include lineheight(16 , 17.25);
+    @include ontener_width(286 , 226);
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        
+    }
+}
+.tdMainForm {
+    width: 100%;
+    @include paddingPercent(550 , 63 , 0 , 0 , 0);
+    @include media($sp) {
+        display: block;
+        @include paddingPercent(350 , 10 , 0 , 0 , 0);
+    }
+    .inputW100 {
+        height: 60px;
+        width: 100%;
+        border: none;
+        background: #F4F4F4;
+        letter-spacing: 0.17em;
+        @include kadomaru(10px);
+        @include paddingPercent(550 , 22 , 32 , 22 , 32);
+        @include rs_font_size(18px,1.5vw,4.8vw);
+        //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+        //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+        @include media($sp) {
+            @include paddingPercent(350 , 21 , 17 , 21 , 17);
+        }
+    }
+}
+.postNumMainForm {
+    display: flex;
+    @include ontener_width(550 , 301);
+    @include media($sp) {
+        @include ontener_width(350 , 300);
+    }
+}
+.inputNumMainForm {
+    @include ontener_width(301 , 115);
+    @include media($sp) {
+        @include ontener_width(300 , 115);
+        .inputW100 {
+            @include paddingPercent(115 , 21 , 17 , 21 , 17);
+        }
+    }
+}
+.hyphenNumMainForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include ontener_width(301 , 71);
+    @include rs_font_size(20px,1.6666666666666667vw,5.333333333333333vw);
+    //フォント（px）【PC】:20px |【Tab】20px |【sp】 20px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.cl_AAAAAA {
+    color: #AAAAAA;
+}
+.inputTxtW100 {
+    height: 225px;
+    width: 100%;
+    border: none;
+    background: #F4F4F4;
+    letter-spacing: 0.17em;
+    @include kadomaru(10px);
+    @include paddingPercent(550 , 22 , 32 , 22 , 32);
+    @include rs_font_size(18px,1.5vw,4.8vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        height: 82.66666666666667vw;
+    }
+}
+.buttonConfirmWap {
+    @include ontener_width(1200 , 340);
+    @include marginPercent(340 , 154 , auto , 0 , auto);
+    @include media($sp) {
+        @include ontener_width(350 , 340);
+        @include marginPercent(340 , 95 , auto , 0 , auto);
+    }
+}
+.buttonConfirm {
+    cursor: pointer;
+    @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border: solid 2px #006FDB;
+    color: #006FDB;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    width: 100%;
+    @include kadomaru(50px);
+    @include media($sp) {
+        height: 16vw;
+        width: 100%;
+    }
+}
+.buttonConfirm{
+    &:after {
+        content:"";
+        height: 100%;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top:0;
+        left: 0; 
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+        background-size: auto 15%;
+        @include media($sp) {
+            background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+            background-size: auto 15%;
+        }
+    }
+}
+.error {
+    @include marginPercent(550 , 13 , 0 , 0 , 0);
+    @include media($sp) {
+        @include marginPercent(350 , 13 , 0 , 0 , 0);
+    }
+}
