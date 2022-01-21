@@ -1,0 +1,14 @@
+.topPrivacy {
+    @include marginPercent(1920 , 69 , auto , 0 , auto );
+    @include media($sp) {
+        @include ontener_width(375 , 350);
+        @include marginPercent(375 , 50 , auto , 0 , auto );
+    }
+    
+}
+.txtTopPrivacy {
+    @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include lineheight(16,30);
+}

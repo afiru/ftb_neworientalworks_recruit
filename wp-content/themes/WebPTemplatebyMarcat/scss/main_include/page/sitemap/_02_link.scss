@@ -1,0 +1,88 @@
+.sitemapWap {
+    @include marginPercent(1920 , 69 , auto , 354.3 , auto );
+    @include media($sp) {
+        @include marginPercent(375 , 71 , auto , 235 , auto );
+    }
+}
+.navMainSitemap {
+    @include ontener_width(1200 , 299);
+    min-height: 348px;
+    @include media($sp) {
+        @include ontener_width(375,350);
+        min-height: unset;
+        margin: auto;
+        &:nth-child(n+2) {
+            @include marginPercent(375 , 67.3 , auto , 0 , auto );
+        }
+        
+    }
+}
+.secMainSitemap {
+    @include ontener_width(299 , 220);
+    margin: auto;
+    @include media($sp) {
+        width: 100%;
+    }
+}
+.navMainSitemapB {
+    border-left: 1px solid #999999;
+    @include media($sp) {
+        border-left: none;
+        border-top: 1px solid #999;
+        @include paddingPercent(350 , 21 , 0 , 76.3 , 0 );
+    }
+}
+.navMainSitemapSpB {
+    @include media($sp) {
+        border-left: none;
+        border-bottom: 1px solid #999;
+    }  
+}
+.h2NavMainSitemap {
+    @include rs_font_size(17px,1.4166666666666667vw,4.533333333333333vw);
+    //フォント（px）【PC】:17px |【Tab】17px |【sp】 17px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+.txtNavMainSitemap {
+    @include marginPercent(220 , 3 , 0 , 0 , 0);
+    @include rs_font_size(12px,1vw,3.2vw);
+    //フォント（px）【PC】:12px |【Tab】12px |【sp】 12px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include marginPercent(160 , 3 , 0 , 0 , 0);
+    }
+}
+.ulMainSitemap {
+    @include marginPercent(220 , 43 , 0 , 0 , 0);
+    @include media($sp) {
+        @include marginPercent(320 , 32 , 0 , 0 , 0);
+    }  
+}
+.liMainSitemap {
+    @include marginPercent(185 , 20 , 0 , 0 , 0);
+    @include rs_font_size(16px,1.3333333333333333vw,3.7333333333333334vw);
+    //フォント（px）【PC】:16px |【Tab】16px |【sp】 14px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include marginPercent(160 , 18 , 0 , 0 , 0);
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        color: #00275B;
+    }
+}
+.arrowMainSitemap {
+    width: 100%;
+    display: block;
+    background: url(../img/page/sitemap/arrowMainSitemap.png) no-repeat 0% center;
+    background-size: auto 55%;
+    @include paddingPercent(128 , 0 , 0 , 0 , 15);
+    @include media($sp) {
+        background: url(../img/page/sitemap/arrowMainSitemap.png) no-repeat 0% center;
+        background-size: auto 55%;
+        @include paddingPercent(320 , 0 , 0 , 0 , 11);
+    }
+}

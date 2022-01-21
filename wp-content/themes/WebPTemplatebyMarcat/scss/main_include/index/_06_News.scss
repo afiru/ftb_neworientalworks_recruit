@@ -40,6 +40,8 @@
     }
 }
 .IndexNewsArchive {
+   text-decoration: none;
+   color: #000000;
    border-bottom: solid 1px #999999;
    justify-content: flex-start;
    @include paddingPercent(1200 , 20 , 0 , 20 , 23);
