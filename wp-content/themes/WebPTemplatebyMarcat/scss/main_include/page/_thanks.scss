@@ -1,1 +1,26 @@
 @charset "utf-8";
+
+.contactThanksSec {
+    @include marginPercent(1200 , 110 , 0 , 0 , 0);
+    @include media($sp) {
+        @include marginPercent(350 , 33 , 0 , 0 , 0);
+    }
+    .txtContactThanksSec {
+        font-weight: 600;
+        @include lineheight(20 , 35.5)
+        @include rs_font_size(20px,1.6666666666666667vw,3.7333333333333334vw);
+        //フォント（px）【PC】:20px |【Tab】20px |【sp】 14px
+        //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+        @include media($sp) {
+            @include ontener_width(350 , 322);
+            @include marginPercent(322 , 0 , auto , 0 , auto);
+        }
+    }
+    .btnContactThanksWap {
+        @include marginPercent(340 , 127 , auto , 361 , auto);
+        @include media($sp) {
+            @include ontener_width(350 , 340);
+            @include marginPercent(340 , 89 , auto , 186 , auto);
+        }
+    }
+}

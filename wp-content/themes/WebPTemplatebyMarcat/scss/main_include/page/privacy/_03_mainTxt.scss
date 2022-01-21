@@ -86,9 +86,6 @@
     text-decoration: none;
     letter-spacing: 0.05em;
     @include kadomaru(50px);
-    @include rs_font_size(16px,1.3333333333333333vw,2.6666666666666665vw);
-    //フォント（px）【PC】:16px |【Tab】16px |【sp】 10px
-    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
         height: 16vw;
     }
