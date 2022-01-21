@@ -112,15 +112,17 @@
     height: 337px;
     //@include ontener_width(1200 , 1120);
     //height: 17.552083333333332vw;
-    width: 58.333333333333336vw;
-    background: url(../img/index/bgindexCompanyPc.png) no-repeat center top;
+    //width: 58.333333333333336vw;
+    width: 100vw;
+    background: url(../img/index/bgindexCompanyPc.png) no-repeat left top;
     background-size:auto 100%;
     position: absolute;
     top:0;
-    left: 50%;
+    left: 60%;
     z-index: 99;
     @include media($tab){
-        left: 22%;
+        height: 25vw;
+        left: 38%;
     }
     @include media($sp){
         height: 53.6vw;
