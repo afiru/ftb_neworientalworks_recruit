@@ -27,6 +27,9 @@
 }
 .mainFooterBox {
     @include ontener_width(1200 , 762);
+    @include media($tab){
+        width: 65%;
+    }
     @include media($sp) {
         @include ontener_width(375 , 350);
         @include marginPercent(350 , 38.5 , auto , 0 , auto);

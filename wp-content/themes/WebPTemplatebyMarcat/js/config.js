@@ -50,8 +50,8 @@
 //    });
 //});
 
-//ハンバーガー
 $(function () {
+    //ハンバーガー
     $('.sp_menu_button').on('click',function(){
         console.log('---');
         $('.spHeaderNav').slideToggle();
@@ -63,6 +63,15 @@ $(function () {
     });
     $('.jsbtnSubNavi').on('click',function(){
         $(this).next('.spHeaderNavUlSub').slideToggle();
+        if($(this).hasClass('off')){
+            $(this).removeClass('off').addClass('on');
+        }else {
+            $(this).removeClass('on').addClass('off');
+        }
+    });
+    //沿革
+    $('.jsBtnCompanyOutlineMain').on('click',function(){
+         $(this).next('.trigerCompanyOutline').slideToggle();
         if($(this).hasClass('off')){
             $(this).removeClass('off').addClass('on');
         }else {

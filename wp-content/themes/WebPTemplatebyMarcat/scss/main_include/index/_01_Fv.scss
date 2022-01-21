@@ -104,11 +104,13 @@
         height: 100%;
         position: absolute;
         z-index: 998;
+        top:0;
+        right: 0%;
         @include kadomaru(100px);
         box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.2);
     }
 }
-.liIndexFvList01,.liIndexFvList01:before{
+.liIndexFvList01{
     top:0;
     right: 10%;
     @include media($sp){
@@ -116,7 +118,7 @@
         right: 3%;
     }
 }
-.liIndexFvList02,.liIndexFvList01:before{
+.liIndexFvList02{
     right: 0%;
     top:25%;
     @include media($sp){
@@ -124,7 +126,7 @@
         right: 26%;
     }
 }
-.liIndexFvList03,.liIndexFvList01:before{
+.liIndexFvList03{
     top:50%;
     right: 0%;
     @include media($sp){
@@ -132,7 +134,7 @@
         right: 52%;
     }
 }
-.liIndexFvList04,.liIndexFvList01:before{
+.liIndexFvList04{
     top:75%;
     right: 10%;
     @include media($sp){
@@ -210,9 +212,9 @@
     right: -5%;
     bottom: 0%;
     z-index: 999;
-    @include media($pc_wap){
+    @include media($tab){
         right: 2%;
-        bottom: -14%;
+        bottom: 0%;
     }
 }
 .txtScrollIndexFv{

@@ -33,14 +33,27 @@
     @include media($sp) {
         height: 21.333333333333332vw;
     }
+    &.on{
+        background: #006FDB;
+        color: #FFF;
+    }
 }
 .iconBtnCompanyOutlineMain {
     position: absolute;
     right: 5%;
+    width: 26px;
+    height: 26px;
 }
-.jsBtnCompanyOutlineMain {
-    &.off {
-    .bdBtnCompanyOutlineMain {
+.trigerCompanyOutline{
+    display: none;
+    margin: -1.5% auto 0 auto;
+    @include media($sp){
+        margin: -2.5% auto 0 auto;
+    }
+}
+
+.btnCompanyOutlineMain {
+    .bdBtnCompanyOutlineMain{
         display: block;
         position: absolute;
         left: 0;
@@ -49,41 +62,14 @@
         height: 4px;
         width: 26px;
         background: #006FDB;
-        &:nth-child(2) {
-            display: block;
-            position: absolute;
-            left: 11px;
-            right: 0;
-            bottom: -15px;
-            height: 26px;
-            width: 4px;
-            background: #006FDB;
-        }
+        top:50%;
+        transition-duration: 0.5s;
     }
+    &.off .bdBtnCompanyOutlineMain:nth-child(2){
+        transform: rotate(90deg);
     }
-    &.on {
-    .bdBtnCompanyOutlineMain {
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        height: 4px;
-        width: 26px;
-        background: #fff;
-        transform: rotate(-45deg);
-        &:nth-child(2) {
-            display: block;
-            position: absolute;
-            left: 11px;
-            right: 0;
-            bottom: -15px;
-            height: 26px;
-            width: 4px;
-            background: #fff;
-            transform: rotate(-45deg);
-        }
-    }
+    &.on .bdBtnCompanyOutlineMain{
+        background: #FFF;
     }
 }
 .txtBtnCompanyOutlineMain {
@@ -91,6 +77,9 @@
     @include rs_font_size(30px,2.5vw,6.4vw);
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 24px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+}
+.btnCompanyOutlineMain.on .txtBtnCompanyOutlineMain{
+    color: #FFF;
 }
 .trigerCompanyOutlineFx {
     display: flex;
