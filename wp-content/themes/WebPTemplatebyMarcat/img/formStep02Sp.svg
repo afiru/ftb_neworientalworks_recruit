@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="74" viewBox="0 0 268 74">
+  <g id="グループ_1347" data-name="グループ 1347" transform="translate(-54 -229)">
+    <g id="グループ_733" data-name="グループ 733" transform="translate(13)">
+      <circle id="楕円形_24" data-name="楕円形 24" cx="37" cy="37" r="37" transform="translate(41 229)" fill="#e5e5e5"/>
+      <text id="入_力" data-name="入 力" transform="translate(77.021 271.435)" fill="#8b8b8b" font-size="14" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-15.996" y="0">入 力</tspan></text>
+    </g>
+    <g id="グループ_732" data-name="グループ 732">
+      <circle id="楕円形_25" data-name="楕円形 25" cx="37" cy="37" r="37" transform="translate(151 229)" fill="#006fdb"/>
+      <text id="確_認" data-name="確 認" transform="translate(187.5 271.435)" fill="#fff" font-size="14" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-15.996" y="0">確 認</tspan></text>
+    </g>
+    <g id="グループ_731" data-name="グループ 731" transform="translate(-13)">
+      <path id="パス_464" data-name="パス 464" d="M38,0C58.987,0,76,16.565,76,37S58.987,74,38,74,0,57.435,0,37,17.013,0,38,0Z" transform="translate(259 229)" fill="#e5e5e5"/>
+      <text id="完_了" data-name="完 了" transform="translate(295.599 271.435)" fill="#4c4c4c" font-size="14" font-family="YuGothic-Bold, Yu Gothic" font-weight="700"><tspan x="-15.996" y="0">完 了</tspan></text>
+    </g>
+  </g>
+</svg>
