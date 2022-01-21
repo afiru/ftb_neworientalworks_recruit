@@ -6,7 +6,7 @@
     }
 }
 .titleIndexRecruit {
-    @include ontener_width(1200 , 555);
+    width: 47.25%;
     @include media($sp) {
         @include ontener_width(375 , 193);
         @include marginPercent(193 , 0 , auto , 0 , 10);
@@ -28,7 +28,7 @@
 }
 .navIndexRecruitWap {
     position: relative;
-    @include paddingPercent(794 , 70 , 0 , 70 , 0 );
+    @include paddingPercent(794 , 70 , 0 , 88 , 0 );
     @include media($sp) {
         @include paddingPercent(370 , 22 , 0 , 22 , 0 );
     }
@@ -78,17 +78,17 @@
 }
 .btnMoreIndexRecruitWap {
     position: relative;
-    @include marginPercent(794 , -30 , 0 , 0 , 90 );
+    @include marginPercent(794 , -33 , 0 , 0 , 90 );
     @include media($sp) {
         @include marginPercent(340 , 0 , 0 , 0 , 0 );
     }
 }
 .bgPhotoIndexRecruit {
-    width: 58.33%;
+    width: 68.33%;
     position: absolute;
     display: block;
-    top: 0;
-    left: 61%;
+    top: -10%;
+    left: 60%;
     @include media($sp) {
         width: 66.33%;
         top: -25%;

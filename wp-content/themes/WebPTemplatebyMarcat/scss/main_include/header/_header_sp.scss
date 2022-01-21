@@ -7,15 +7,15 @@
     @include ontener_width(375 , 350);
     margin: 0 auto;
 }
-.buttonPcHeader{
-    width: 213.32px;
+.buttonSpHeader{
+    width: 224.32px;
     display: block;
 }
 .sp_menu_button{
     width: 40px;
     height: 40px;
     background: #006FDB;
-    @include kadomaru(10px);
+    @include kadomaru(3px);
     position: relative;
     span{
         width: 22px;

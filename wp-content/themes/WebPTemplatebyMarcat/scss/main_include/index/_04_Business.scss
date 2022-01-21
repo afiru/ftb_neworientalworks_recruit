@@ -34,7 +34,7 @@
 }
 .navIndexBussiness {
     width: 100%;
-    @include marginPercent(1200 , 55 , 0 , 0 , 0);
+    @include marginPercent(1200 , 53 , 0 , 0 , 0);
     @include media($sp) {
         @include marginPercent(350 , 25 , 0 , 0 , 0);
     }

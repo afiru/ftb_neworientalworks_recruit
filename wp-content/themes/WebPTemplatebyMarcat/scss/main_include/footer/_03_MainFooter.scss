@@ -1,5 +1,5 @@
 .mainFooter {
-    @include paddingPercent(1200 , 52 , 0 , 146 , 0);
+    @include paddingPercent(1200 , 73 , 0 , 146 , 0);
     @include media($sp) {
         @include paddingPercent(375 , 33 , 0 , 49 , 0);
     }

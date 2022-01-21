@@ -1,17 +1,18 @@
 .indexCompany{
     background: #FFF;
-    @include marginPercent(1920 , 296 , auto , 0 , auto);
-    @include paddingPercent(1920 , 150 , 0 , 0 , 0);
+    @include marginPercent(1920 , 142 , auto , 0 , auto);
+    @include paddingPercent(1920 , 133 , 0 , 0 , 0);
     @include media($tab){
         padding: 10% 0 0% 0;
     }
     @include media($sp){
-        @include marginPercent(375 , 104 , auto , 0 , auto);
-        padding: 20% 0 20% 0;
+        margin: 21.73% auto 0 auto;
+        padding: 25% 0 20% 0;
     }
 }
 .indexCompanyInner{
-    height: 257px;
+    padding: 1% 0 0 0;
+    height: 318px;
     background: #004ADB;
     position: relative;
     @include media($sp){
@@ -24,16 +25,16 @@
     align-items: flex-start;
     flex-flow: row wrap;
     @include media($sp){
-        @include ontener_width(375 , 350);
+        width: 100%;
         margin: 0 auto;
     }
 }
 
 .titleIndexCompany{
     @include ontener_width(1200 , 403.66);
-    margin: -10% 0 0 0;
+    margin: -11.5% 0 0 0;
     @include media($sp){
-        margin: -20% 0 0 0;
+        margin: -25% 0 0 0;
         width: 100%;
     }
 }
@@ -49,19 +50,21 @@
     }
 }
 .txtTitleIndexCompany.txtTitleIndexCompany01{
-    @include marginPercent(400 , 24.6 , 0 , 0 , 0);
+    @include marginPercent(400 , 27.6 , 0 , 0 , 0);
     @include media($sp){
-        @include marginPercent(350 , 10 , 0 , 0 , 0);
+        margin: 3.85% 0 0 0;
     }
 }
 .navIndexCompany{
-    @include marginPercent(400 , 50 , 0 , 0 , 0);
+    @include marginPercent(400 , 26 , 0 , 0 , 0);
      @include media($sp){
         @include marginPercent(350 , 60 , 0 , 0 , 0);
     }
 }
 .ulIndexCompany{
-    
+    @include media($sp){
+        margin: 0 0 0 2%;
+    }
 }
 .liIndexCompany a{
     @include lineheight(20 , 35);
@@ -72,15 +75,16 @@
     color: #fff;
 }
 .btnIndexCompanyWap{
-    @include marginPercent(400 , 30 , 0 , 0 , 0);
+    @include marginPercent(400 , 38 , 0 , 0 , 0);
      @include media($sp){
-        @include ontener_width(350 , 340);
-        @include marginPercent(350 , 52 , auto , 0 , auto);
+        @include ontener_width(375 , 340);
+        margin: 12.15% auto 0 auto;
         position: relative;
     }
 }
 .btnIndexCompany{
-    @include ontener_width(400 , 340);
+    margin: 12.7%;
+    width: 84%;
     @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
     display: flex;
     align-items: center;
@@ -90,11 +94,12 @@
     color: #006FDB;
     font-weight: 600;
     text-decoration: none;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     @include kadomaru(50px);
     @include media($sp) {
         height: 16vw;
-        @include marginPercent(340 , 50 , auto , 0 , auto);
+        margin: 0 auto;
+        width: 100%;
     }
 }
 .arrowBtnIndexCompany {
@@ -108,8 +113,8 @@
     }
 }
 .bgindexCompany{
-    margin: -10% 0 0 0;
-    height: 337px;
+    margin: -11.5% 0 0 0;
+    height: 393px;
     //@include ontener_width(1200 , 1120);
     //height: 17.552083333333332vw;
     //width: 58.333333333333336vw;
@@ -118,10 +123,11 @@
     background-size:auto 100%;
     position: absolute;
     top:0;
-    left: 60%;
+    left: 49.5%;
     z-index: 99;
     @include media($tab){
         height: 25vw;
+        top:1%;
         left: 38%;
     }
     @include media($sp){
@@ -129,7 +135,7 @@
         @include ontener_width(350 , 180);
         top:5%;
         left: unset;
-        right: -8%;
+        right: -2%;
         background: url(../img/index/bgindexCompanySp.png) no-repeat center top;
         background-size:auto 100%;
     }

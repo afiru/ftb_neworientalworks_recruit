@@ -10,7 +10,8 @@
 }
 .buttonPcHeader{
     display: block;
-    @include ontener_width(1200 , 200);
+    width: 200px;
+    //@include ontener_width(1200 , 200);
 }
 .pcHeaderNav{
     @include ontener_width(1200 , 725);
@@ -61,7 +62,7 @@
     width: 1px;
     height: 21px;
     background: #006FDB;
-    transform:skewX(-25deg);
+    transform:skewX(-18deg);
 }
 
 .buttonContactHeader{
@@ -83,7 +84,7 @@
 }
 .arrowBottonPcHeader{
     width: 100%;
-    background: url(../img/icon/Wh_iconarrow.png) no-repeat 90% center;
+    background: url(../img/icon/Wh_iconarrow.png) no-repeat 50% center;
     background-size: auto 60%;
     display: block;
 }

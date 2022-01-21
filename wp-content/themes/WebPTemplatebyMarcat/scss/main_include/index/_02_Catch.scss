@@ -1,7 +1,7 @@
 .indexCatch{
-    @include marginPercent(1920 , 156 , auto , 0 , auto);
+    @include marginPercent(1920 , 4 , auto , 0 , auto);
     @include media($sp){
-        @include marginPercent(375 , 63 , auto , 0 , auto);
+        margin: 7.8% auto 0 auto;
         @include ontener_width(375 , 355);
     }
 }
@@ -9,18 +9,29 @@
     
 }
 .h1SecIndexCatch{
-    @include ontener_width(1200 , 671);
+    //@include ontener_width(1200 , 671);
+    width: 57%;
+    margin: 0 auto;
     @include media($sp){
         width: 100%;
     }
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 }
 .txtSecIndexCatch{
-    @include marginPercent(1200 , 104 , auto , 0 , auto);
+    @include marginPercent(1200 , 92 , auto , 0 , auto);
+    width: 56%;
+    font-weight: 600;
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
-    @include lineheight(16 , 40);
+    //@include lineheight(16 , 40);
+    line-height: 2.6;
     @include media($sp){
-        @include marginPercent(350 , 63 , auto , 0 , auto);
+        margin: 12% auto 0 0;
+        width: 100%;
     }
 }

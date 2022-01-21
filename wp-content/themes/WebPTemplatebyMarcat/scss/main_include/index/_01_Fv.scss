@@ -7,6 +7,7 @@
     }
 }
 .indexFv{
+    padding: 0 0 8% 0;
     @include media($sp){
         padding: 0 0 21% 0;
     }
@@ -111,35 +112,35 @@
     }
 }
 .liIndexFvList01{
-    top:0;
-    right: 10%;
+    top: 1%;
+    right: 11.5%;
     @include media($sp){
-        top:77%;
+        top:73%;
         right: 3%;
     }
 }
 .liIndexFvList02{
-    right: 0%;
-    top:25%;
+    right: -0.5%;
+    top: 24%;
     @include media($sp){
         top:85%;
-        right: 26%;
+        right: 23%;
     }
 }
 .liIndexFvList03{
-    top:50%;
-    right: 0%;
+    top: 53%;
+    right: -0.5%;
     @include media($sp){
         top:90%;
-        right: 52%;
+        right: 49%;
     }
 }
 .liIndexFvList04{
-    top:75%;
-    right: 10%;
+    top: 77%;
+    right: 11.5%;
     @include media($sp){
-        top:90%;
-        right: 77%;
+        top: 90%;
+        right: 74%;
     }
 }
 .btnIndexFv{
@@ -209,13 +210,19 @@
 }
 .scrollIndexFv{
     position: absolute;
-    right: -5%;
-    bottom: 0%;
+    right: 0%;
+    bottom: -5.5%;
     z-index: 999;
+    width: 76px;
+    height: 187.5px;
     @include media($tab){
         right: 2%;
-        bottom: 0%;
+        bottom: -9%;
     }
+     @include media($sp){
+        right: 2%;
+        bottom: -29%;
+     }
 }
 .txtScrollIndexFv{
     color: #00275B;
@@ -225,14 +232,21 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .borderBoxIndexFv{
-    
+    margin: 40% auto 0 auto;
+    height: 140px;
+    @include media($tab){
+    }
+    @include media($sp){
+        height: 140px;
+         margin: 24% auto 0 auto;
+    }
 }
 .brBoxIndexFv{
     display: block;
-    width: 1px;
-    height: 7.291666666666667vw;
+    margin: 0 auto;
+    width: 2px;
+    height: 100%;
     background: #006FDB;
-    margin: 15% auto 0 auto;
     @include media($sp){
         height: 19.866666666666667vw;
     }

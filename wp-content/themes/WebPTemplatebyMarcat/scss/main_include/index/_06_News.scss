@@ -34,7 +34,7 @@
 }
 .IndexNewsArchives {
     border-top: solid 1px #999999;
-    @include marginPercent(1200 , 42 , 0 , 0 , 0);
+    @include marginPercent(1200 , 37 , 0 , 0 , 0);
     @include media($sp) {
         @include marginPercent(348 , 30 , 0 , 0 , 0);
     }
