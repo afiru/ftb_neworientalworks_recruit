@@ -1,7 +1,7 @@
 .companySocial {
     @include marginPercent(1920 , 0 , 0 , 0 , 0);
     @include media($sp) {
-        @include marginPercent(375 , 76 , 0 , 0 , 0);
+        @include marginPercent(375 , 84 , 0 , 0 , 0);
     }
 }
 .mainCompanySocial {
@@ -20,6 +20,10 @@
 }
 .photoMainCompanySocial {
     @include ontener_width(342 , 311);
+    @include media($sp) {
+        @include ontener_width(350 , 311);
+        @include marginPercent(311 , 0 , auto , 0 , auto);
+    }
 }
 .txtPicMainCompanySocial {
     @include marginPercent(342 , 15 , 0 , 0 , 0);
@@ -68,8 +72,9 @@
     @include paddingPercent(700 , 21 , 0 , 21 , 196);
     @include marginPercent(700 , 58 , 0 , 0 , 0);
     @include media($sp) {
-        @include paddingPercent(350 , 16 , 43 , 15 , 115);
-        @include marginPercent(350 , 60 , 0 , 0 , 0);
+        @include lineheight(16 , 27);
+        @include paddingPercent(350 , 11.547 , 43 , 11.547 , 115);
+        @include marginPercent(350 , 58.797 , 0 , 0 , 0);
     }
 }
 

@@ -1,7 +1,7 @@
 .companyOutline {
     @include marginPercent(1920 , 191 , auto , 0 , auto);
     @include media($sp) {
-        @include marginPercent(375 , 107 , auto , 0 , auto);
+        @include marginPercent(375 , 116.250 , auto , 0 , auto);
     }
 }
 .companyOutlineMain {
@@ -11,7 +11,7 @@
     @include paddingPercent(1200 , 85 , 0 , 84 , 0);
     @include media($sp) {
         @include marginPercent(375 , -30 , 0 , 0 , 0);
-        @include paddingPercent(375 , 56 , 0 , 84 , 0);
+        @include paddingPercent(375 , 59.734 , 0 , 84 , 0);
     }
 }
 .companyOutlineMainWap {
@@ -44,6 +44,10 @@
     right: 3%;
     width: 26px;
     height: 26px;
+    @include media($sp) {
+        right: 6%;
+        top: 30%;
+    }
 }
 .trigerCompanyOutline{
     display: none;
@@ -83,6 +87,9 @@
     @include rs_font_size(30px,2.5vw,6.4vw);
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 24px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        letter-spacing: 0;
+    }
 }
 .btnCompanyOutlineMain.on .txtBtnCompanyOutlineMain{
     color: #FFF;
@@ -96,14 +103,24 @@
 }
 .trigerCompanyOutlineFx {
     &:nth-child(1) {
-        .yearCompanyOutline {
+    .yearCompanyOutline {
         @include paddingPercent(1200 , 40 , 0 , 20 , 40);
+        @include media($sp) {
+            padding: 6% 0% 0% 3.33%;
+        }
     }
     .dotCompanyOutline {
         @include paddingPercent(1200 , 40 , 0 , 20 , 39);
+        @include media($sp) {
+            width: 28%;
+            padding: 6% 0% 0% 8%;
+        }
     }
     .detailCompanyOutline {
         @include paddingPercent(1200 , 40 , 0 , 20 , 30);
+        @include media($sp) {
+            padding: 1% 0% 4% 3.33%;
+        }
     }
     }
 }
@@ -120,7 +137,7 @@
     @include media($sp) {
         letter-spacing: 0;
         @include ontener_width(350 , 101);
-        padding: 3% 0 0 3%;
+        padding: 4% 0 0 3%;
     }
 }
 .dotCompanyOutline {
@@ -128,7 +145,8 @@
     align-items: center;
     @include paddingPercent(68 , 0 , 0 , 0 , 39);
     @include media($sp) {
-        padding: 3% 0 0 8%;
+        width: 28%;
+        padding: 4% 0 0 8%;
     }
 }
 .detailCompanyOutline {
