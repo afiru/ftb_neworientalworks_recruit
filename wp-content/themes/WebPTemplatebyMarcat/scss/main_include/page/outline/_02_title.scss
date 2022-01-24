@@ -1,0 +1,9 @@
+.outlineCnt {
+    @include marginPercent(1200 , 66 , auto , 0 , auto);
+    @include media($sp){
+    margin-top: 12.4%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
