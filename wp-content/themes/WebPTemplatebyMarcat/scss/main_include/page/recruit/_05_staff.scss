@@ -1,8 +1,7 @@
 .bgRecruitStaff{
-    @include marginPercent(1920 , 111 , auto , 0 , auto);
-    padding-top: 1px;
-    height: 306px;
-    background: url(../img/page/recruit/bgRecruitStaffPc.png) no-repeat center bottom;
+    @include marginPercent(1920 , 159 , auto , 0 , auto);
+    height: 443px;
+    background: url(../img/page/recruit/bgRecruitStaffPc.png) no-repeat center top;
     background-size: auto;
     position: relative;
     @include media($tab){
@@ -10,6 +9,9 @@
         height: 66.13333333333334vw;
         background: url(../img/page/recruit/bgRecruitStaffSp.png) no-repeat center bottom;
         background-size: auto 100%;
+    }
+    @include media($sp) {
+        @include marginPercent(375 , 93 , auto , 0 , auto);
     }
 }
 .recruitStaffWap{
@@ -24,9 +26,15 @@
 .btnRecruitStaffCnt{
     @include ontener_width(1200 , 510);
     @include marginPercent(1200 , 0 , 0 , 0 , auto);
+    @include paddingPercent(510 , 189 , 0 , 0 , 0);
     @include media($tab) {
-        width: 100%;
+        width: 60%;
         text-align: right;
+        padding: 25.05% 0% 0% 0%;
+    }
+    @include media($sp) {
+        width: 100%;
+        padding: 20.5% 0% 0% 0%;
     }
 }
 .H2BtnRecruitStaffCnt{
@@ -42,7 +50,7 @@
     }
 }
 .btnRecruitStaff{
-    @include marginPercent(510 , 35 , auto , 0 , auto);
+    @include marginPercent(510 , 42 , auto , 0 , auto);
     @include ontener_width(510 , 340);
     @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
     display: flex;
@@ -57,7 +65,7 @@
     @include kadomaru(50px);
     @include media($sp) {
         height: 16vw;
-        margin: 6.7% auto 0 auto;
+        margin: 8.1% auto 0 auto;
         @include ontener_width(375 , 340);
     }
 }

@@ -4,7 +4,7 @@
     Sp:../img/page/recruit/bgCompanyPageFvSp.jpg
     -->
     <section class="titlePageFv">
-        <h1 class="cl_fff t_center h1TitlePageFv">私たちについて</h1>
-        <p class="t_center cl_fff txtTitlePageFv">COMPANY</p>
+        <h1 class="cl_fff t_center h1TitlePageFv">採用情報</h1>
+        <p class="t_center cl_fff txtTitlePageFv">RECRUIT</p>
     </section>
 </div>

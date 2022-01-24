@@ -1,11 +1,11 @@
 .recruitEntryBtnWap{
-    @include marginPercent(1200 , 110 , auto , 0 , auto);
+    @include marginPercent(1200 , 152 , auto , 0 , auto);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-flow: row wrap;
 }
 .recruitEntryBtn{
-    @include ontener_width(1200 , 568);
+    @include ontener_width(1200 , 590);
     @include media($sp){
         width: 100%;
     }
@@ -19,10 +19,10 @@
     }
 }
 .recruitEntryBtnWap02{
-    @include marginPercent(1200 , 78 , auto , 0 , auto);
+    @include marginPercent(1200 , 63 , auto , 0 , auto);
     @include media($sp){
         @include ontener_width(375 , 350);
-        @include marginPercent(375 , 55 , auto , 0 , auto);
+        @include marginPercent(375 , 43.125 , auto , 0 , auto);
     }
 }
 .recruitEntryBtn02Link{
@@ -41,7 +41,6 @@
     @include kadomaru(50px);
     @include media($sp) {
         height: 16vw;
-        @include marginPercent(340 , 50 , auto , 0 , auto);
         width: 100%;
     }
 }
