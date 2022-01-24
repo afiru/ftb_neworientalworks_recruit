@@ -1,25 +1,25 @@
 .companyMessage {
     @include marginPercent(1920 , 66.5 , auto , 0 , auto);
     @include media($sp) {
-        @include marginPercent(375 , 40 , auto , 0 , auto);
+        @include marginPercent(375 , 47.469 , auto , 0 , auto);
     }
 }
 .cntCompanyMessage {
     letter-spacing: 0.1em;
     @include marginPercent(1200 , 80.5 , auto , 0 , auto);
     @include media($sp) {
-        @include marginPercent(375 , 30 , auto , 0 , auto);
+        @include marginPercent(375 , 24.375 , auto , 0 , auto);
     }
 }
 .h2CntCompanyMessage {
     text-align: center;
     font-weight: 600;
-    @include lineheight(30 , 48)
+    @include lineheight(30 , 48);
     @include rs_font_size(30px,2.5vw,5.333333333333333vw);
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 20px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
-        
+        @include lineheight(20 , 38);
     }
 }
 .bgTxtCntCompanyMessage {
@@ -38,7 +38,7 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
         @include ontener_width(375 , 350)
-        @include marginPercent(350 , 39 , auto , 0 , auto);
+        @include marginPercent(350 , 26.766 , auto , 0 , auto);
     }
 }
 .namePageCompanyWap {
@@ -47,8 +47,8 @@
     @include ontener_width(1200 , 284);
     @include marginPercent(284 , 36 , 0 , 0 , auto);
     @include media($sp) {
-        @include ontener_width(375 , 350);
-        @include marginPercent(350 , 70 , 0 , 0 , 0);
+        @include ontener_width(375 , 372);
+        @include marginPercent(372 , 73 , 0 , 0 , 0);
     }
 }
 .positionPageCompany {

@@ -13,7 +13,7 @@
 .companyCompany {
     @include marginPercent(1200 , 246 , auto , 0 , auto);
     @include media($sp) {
-        @include marginPercent(375 , 171 , auto , 0 , auto);
+        @include marginPercent(375 , 181.875 , auto , 0 , auto);
     }
 }
 .companyCompanyMainWap{
@@ -44,7 +44,7 @@
     @include media($sp) {
         width: 100%;
         height: 215.46666666666667vw;
-        top:65%;
+        top: 60.5%;
         background: unset;
         background-image:url(../img/page/company/companyCompanyWapSp.png);
         background-size: 90% auto;
@@ -63,7 +63,7 @@
             @include ontener_width(336 , 300);
             //@include marginPercent(300 , 0 , auto , 0 , auto);
             margin: -20% 0 0 auto;
-            padding: 10% 5% 2% 5%;
+            padding: 7.5% 3.3% 15.5% 6%;
             background: #F6FBFF;
             display: block;
            z-index: -1;
@@ -73,7 +73,7 @@
         border-bottom: solid 1px #999999;
         @include media($sp){
             &:last-child{
-                border-bottom: unset;
+/*                border-bottom: unset;*/
             }
         }
     }
@@ -88,7 +88,7 @@
     @include media($sp) {
         width: 100%;
         display: block;
-        @include paddingPercent(300 , 20.5 , 0 , 7 , 0);
+        @include paddingPercent(300 , 23.094 , 0 , 7.453 , 0);
     }
 }
 .tdCompanyCompanyMain {
@@ -101,7 +101,8 @@
     @include media($sp) {
         width: 100%;
         display: block;
-        @include paddingPercent(300 , 0 , 0 , 28.5 , 0);
+        @include lineheight(18 , 28);
+        @include paddingPercent(300 , 0 , 0 , 24.891 , 0);
     }
 }
 
