@@ -23,6 +23,7 @@
 <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script type='text/javascript' src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js"></script>
+<script type='text/javascript' src="//jpostal-1006.appspot.com/jquery.jpostal.js"></script>
 <script type='text/javascript' src="<?php echo get_bloginfo('template_url'); ?>/js/animsition.min.js"></script>
 <script type="text/javascript" src='<?php echo get_bloginfo('template_url'); ?>/js/config.js'> </script>
 <script type="text/javascript" src='<?php echo get_bloginfo('template_url'); ?>/js/bxslider_setting.js'> </script>

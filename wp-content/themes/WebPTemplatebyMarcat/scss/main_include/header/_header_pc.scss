@@ -81,6 +81,10 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     text-decoration: none;
     text-align: center;
+    &:hover{
+        transition-duration: 0.5s;
+        background: #C2FF30 !important;
+    }
 }
 .arrowBottonPcHeader{
     width: 100%;

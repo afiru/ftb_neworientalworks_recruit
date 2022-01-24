@@ -2,11 +2,11 @@
     
 }
 .outlineLoop{
-    @include paddingPercent(1920 , 18 , 18 , 18 , 18);
+    @include paddingPercent(1920 , 15 , 18 , 18 , 18);
     @include marginPercent(1920 , 79.5 , auto , 0 , auto);
-    @include kadomaru(5px);
+    @include kadomaru(10px);
     @include media($sp){
-        @include paddingPercent(375 , 15 , 15 , 15 , 15);
+            padding: 3% 2% 3% 3%;
         @include marginPercent(375 , 40.5 , auto , 0 , auto);
         @include ontener_width(375 , 350);
          @include kadomaru(10px);
@@ -25,6 +25,7 @@
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 20px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp){
+        @include kadomaru(10px);
         height: 10.666666666666666vw;
     }
 }
@@ -33,6 +34,7 @@
     margin: 0 auto;
     @include media($sp){
         @include ontener_width(350 , 323);
+        margin: 2% auto 0 auto;
     }
 }
 .tableOutlineLoopPost{
@@ -54,34 +56,46 @@
     }
 }
 .thOutlineLoopPost{
-    @include paddingPercent(1100 , 30.5 , 0 , 30.5 , 21);
-    @include ontener_width(1100 , 130);
+    @include paddingPercent(1100 , 26.5 , 0 , 26.5 , 21);
+    width: 13.81%;
     font-weight: 600;
     text-align: left;
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp){
-        @include paddingPercent(300 , 19.5 , 0 , 6 , 0);
+        padding: 7.5% 0% 2% 0%;
         width: 100%;
         display: block;
     }
 }
 .tdOutlineLoopPost{
-    @include paddingPercent(1100 , 30.5 , 21 , 30.5 , 0);
+    @include paddingPercent(1100 , 26.5 , 0 , 26.5 , 0);
     @include ontener_width(1100 , 970);
     @include lineheight(16 , 28);
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp){
-        @include paddingPercent(300 , 0 , 0 , 19.5 , 0);
+        padding: 0% 0% 4.5% 0%;
         display: block;
         width: 100%;
     }
 }
+.tableOutlineLoopPost tr {
+    &:last-child {
+        border-bottom: none;
+        .thOutlineLoopPost{
+            @include paddingPercent(1100 , 26.5 , 0 , 0 , 0);
+            
+        }
+        .tdOutlineLoopPost{
+            @include paddingPercent(1100 , 26.5 , 0 , 0 , 0);
+        }
+    }
+}
 .btnToEntryWap{
-    @include marginPercent(1200 , 50 , auto , 0 , auto);
+    @include marginPercent(1200 , 55 , auto , 0 , auto);
     @include ontener_width(1200 , 340);
     @include media($sp){
         @include marginPercent(375 , 50 , auto , 0 , auto);
@@ -121,5 +135,19 @@
     background-position: 80% center;
     @include media($sp) {
         background-position: 80% center;
+    }
+}
+.outlineLoopA {
+    @include paddingPercent(1920 , 15 , 18 , 18 , 18);
+    @include marginPercent(1920 , 145.5 , auto , 0 , auto);
+    @include kadomaru(10px);
+    @include media($sp){
+        @include paddingPercent(375 , 15 , 15 , 15 , 15);
+        margin-top: 32.8%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include ontener_width(375 , 350);
+         @include kadomaru(10px);
     }
 }

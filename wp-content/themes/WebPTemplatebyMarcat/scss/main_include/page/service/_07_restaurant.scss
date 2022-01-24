@@ -8,12 +8,18 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .ServiceEstateFx{
+    margin: 1.5% auto 0 auto;
     align-items: center;
+    @include media($sp){
+        margin: 7.5% auto 0 auto;
+    }
 }
 .photoServiceEstate{
-    @include ontener_width(1200 , 518);
+    //@include ontener_width(1200 , 275);
+    width: 43%;
     @include media($sp){
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
     }
 }
 .txtServiceEstate{
