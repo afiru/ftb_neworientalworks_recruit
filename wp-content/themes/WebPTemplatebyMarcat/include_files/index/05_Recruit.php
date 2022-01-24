@@ -23,7 +23,7 @@
                         </a>
                     </li>
                     <li class="liIndexRecruit liIndexRecruit03">
-                        <a class="btnIndexRecruit" href="<?php echo get_the_permalink(30); ?>" target="">
+                        <a class="btnIndexRecruit" href="<?php echo get_the_permalink(35); ?>" target="">
                             <img class="nomal" loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/index/btnIndexRecruit03off.svg" alt="募集要項" width="216" height="216" />
                             <img class="hover" loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/index/btnIndexRecruit03on.svg" alt="募集要項" width="216" height="216" />
                         </a>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="btnMoreIndexRecruitWap">
-                <a class="btnMoreIndexRecruit" href="<?php echo get_the_permalink(30); ?>">
+                <a class="btnMoreIndexRecruit" href="<?php echo get_the_permalink(31); ?>">
                     <span class="arrowBtnMoreIndexRecruit">詳しくはこちら</span>
                     <!--
                     Bg:../img/index/arrowBtnMoreIndexRecruit.png

@@ -84,7 +84,7 @@
     @include media($sp) {
         height: 16vw;
         @include ontener_width(350 , 340);
-        @include marginPercent(340 , 20 , auto , 0 , auto);
+        margin: 6.88% auto 0 auto;
     }
 }
 .arrowBtnMoreIndexBusiness {

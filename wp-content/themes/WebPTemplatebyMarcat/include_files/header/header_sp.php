@@ -59,17 +59,17 @@
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">
-                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(6); ?>">
+                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#amusement"">
                         <span class="spHeaderNavLiSubmenu">アミューズメント事業</span>
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">
-                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(9); ?>">
+                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#eat"">
                         <span class="spHeaderNavLiSubmenu">飲食事業</span>
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">
-                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(2); ?>">
+                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#estate"">
                         <span class="spHeaderNavLiSubmenu">不動産事業</span>
                     </a>
                 </li>

@@ -1,7 +1,7 @@
 .footerContact {
     @include marginPercent(1920 , 182 , auto , 146 , auto);
     @include media($sp) {
-        @include marginPercent(375 , 120 , auto , 116 , auto);
+        margin: 32% auto 41.93% auto;
     }
 }
 .ftContact {
@@ -47,6 +47,7 @@
         width: 100%;
         text-align: center;
         @include marginPercent(375 , 5 , auto , 0 , auto);
+        letter-spacing: 0.05em;
     }
 }
 .btnFtContact {
