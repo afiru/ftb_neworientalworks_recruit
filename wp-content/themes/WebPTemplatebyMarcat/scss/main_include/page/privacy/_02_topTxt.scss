@@ -2,7 +2,10 @@
     @include marginPercent(1920 , 69 , auto , 0 , auto );
     @include media($sp) {
         @include ontener_width(375 , 350);
-        @include marginPercent(375 , 50 , auto , 0 , auto );
+    margin-top: 12.13%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     }
     
 }
