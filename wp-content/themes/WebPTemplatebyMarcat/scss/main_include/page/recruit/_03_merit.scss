@@ -1,12 +1,18 @@
 .recruitMerit{
-    @include marginPercent(1920 , 333 , auto , 0 , auto);
+    @include marginPercent(1920 , 205 , auto , 0 , auto);
     position: relative;
+    @include media($tab) {
+        margin: 2.67% auto 0 auto;
+    }
+    @include media($sp) {
+        @include marginPercent(375 , 186.375 , auto , 0 , auto);
+    }
 }
 .h1RecruitMerit{
     margin: -0.5% auto 0 auto;
     font-weight: 600;
-    @include rs_font_size(40px,3.3333333333333335vw,4.8vw);
-    //フォント（px）【PC】:40px |【Tab】40px |【sp】 18px
+    @include rs_font_size(40px,3.3333333333333335vw,6.4vw);
+    //フォント（px）【PC】:40pxpx |【Tab】40px |【sp】 24px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp){
         @include lineheight(24 , 32);
@@ -19,9 +25,9 @@
 }
 .bgRecruitMerit{
     @include marginPercent(1920 , -20 , auto , 0 , auto);
-    @include paddingPercent(1920 , 140 , 0 , 48 , 0);
+    @include paddingPercent(1920 , 141 , 0 , 60 , 0);
     @include media($sp){
-        @include paddingPercent(345 , 107 , 0 , 67 , 0);
+        @include paddingPercent(375 , 0 , 0 , 67 , 0);
     }
 }
 .recruitMeritWap{
@@ -31,26 +37,33 @@
     }
 }
 .recruitMeritCnt{
-    @include paddingPercent(360 , 72 , 23 , 27 , 23);
+    @include paddingPercent(360 , 72 , 23 , 36 , 23);
     @include ontener_width(1200 , 360);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     @include kadomaru(10px);
     background: #FFF;
+    @include media($tab) {
+        padding: 5% 2.38% 4% 2.38%;
+    }
     @include media($sp){
-        @include marginPercent(347 , 81 , auto , 0 , auto);
+        padding: 21% 7.38% 8% 7.38%;
+        @include marginPercent(347 , 105.828 , auto , 0 , auto);
         width: 100%;
+        &:nth-child(n+2) {
+            @include marginPercent(347 , 81 , auto , 0 , auto);
+        }
     }
 }
 .iconRecruitMerit{
     @include ontener_width(360 , 108);
     position: absolute;
-    top:-18%;
+    top:-16%;
     left: 0;
     right: 0;
     margin: 0 auto;
     @include media($sp){
-        @include ontener_width(375 , 104);
-        top:-10%;
+        @include ontener_width(350 , 104);
+        top: -15.5%;
     }
 }
 .secRecruitMeritCnt{
@@ -59,13 +72,16 @@
 }
 .h3RecruitMeritCnt{
     font-weight: 600;
-    @include lineheight(20 , 30);
+    @include lineheight(20 , 33);
     @include rs_font_size(20px,1.6666666666666667vw,5.333333333333333vw);
     //フォント（px）【PC】:20px |【Tab】20px |【sp】 20px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        @include lineheight(20 , 30);
+    }
 }
 .txtRecruitMeritCnt{
-    @include marginPercent(360 , 36.4 , auto , 0 , auto);
+    @include marginPercent(360 , 24.400 , auto , 0 , auto);
     @include lineheight(16 , 25);
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
