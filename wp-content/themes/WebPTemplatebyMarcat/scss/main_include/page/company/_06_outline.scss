@@ -29,6 +29,7 @@
     background: #fff;
     border: solid 2px #006FDB;
     width: 100%;
+    cursor: pointer;
     @include kadomaru(20px);
     @include media($sp) {
         height: 21.333333333333332vw;

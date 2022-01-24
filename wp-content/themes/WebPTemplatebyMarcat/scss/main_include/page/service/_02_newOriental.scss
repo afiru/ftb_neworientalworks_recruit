@@ -25,7 +25,7 @@
     //フォント（px）【PC】:18px |【Tab】18px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
      @include media($sp){
-        @include marginPercent(375 , 5 , auto , 0 , auto);
+        @include marginPercent(375 , 12.484 , auto , 0 , auto);
     }
 }
 .bdTitleCompanyWap{
