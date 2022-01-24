@@ -4,8 +4,17 @@
         @include marginPercent(375 , 39 , auto , 0 , auto);
     }
 }
-.companySocialWap{
-    
+.ServiceRestaurant{
+    @include marginPercent(1200 , 178 , auto , 0 , auto);
+    @include media($sp){
+        margin: 16% auto 0 auto;
+    }
+}
+.ServiceEstate{
+    @include marginPercent(1200 , 118 , auto , 0 , auto);
+    @include media($sp){
+        margin: 19.4% auto 0 auto;
+    }
 }
 .titleCompany{
     
@@ -70,6 +79,9 @@
     position: absolute;
     z-index: 1;
     display: inline-block;
+    @include media($sp){
+        letter-spacing: 0.02em;
+    }
 }
 .h1ShopService:after{
     content: "";
@@ -89,7 +101,7 @@
     @include marginPercent(1200 , 40 , auto , 0 , auto);
     justify-content: flex-start;
     @include media($sp){
-        @include marginPercent(375 , 40.5 , auto , 0 , auto);
+        margin: 10% auto 0 auto;
         @include ontener_width(375 , 350);
     }
 }
@@ -100,6 +112,7 @@
     display: flex;
     //justify-content: flex-start;
     @include media($sp){
+        margin: 0 auto 15.33% auto;
         width: 100%;
     }
 }
@@ -107,6 +120,9 @@
     //@include ontener_width(600 , 334);
     width: 46.66%;
     display: block;
+    @include media($sp){
+        width: 55.66%;
+    }
     img{
         display: block;
         width: 100%;
@@ -117,6 +133,9 @@
     //@include ontener_width(600 , 237);
     width: 49%;
     position: relative;
+    @include media($sp){
+        width: 40%;
+    }
 }
 .h3SecShopInfo{
     font-weight: 600;
@@ -169,15 +188,16 @@
     background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 92% center;
     background-size: auto 55%;
     @include media($sp) {
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 90% center;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 92% center;
         background-size: auto 55%;
     }
 }
 .shopRestaurantLxc{
-    @include paddingPercent(1920 , 115 , 0 , 115 , 0);
+    @include paddingPercent(1920 , 76 , 0 , 52 , 0);
     margin: -1.6% auto 0 auto;
     @include media($sp){
         margin: -7% auto 0 auto;
+        padding: 10% 0 0% 0;
     }
 }
 
