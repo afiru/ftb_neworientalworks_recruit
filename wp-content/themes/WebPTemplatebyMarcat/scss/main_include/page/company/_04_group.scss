@@ -1,7 +1,7 @@
 .bgCompanyGroup {
     background: url(../img/page/company/bgCompanyGroup.png) no-repeat;
     background-size: auto 100%;
-    background-position: bottom 0 right 0;
+    background-position: bottom 48px right 0;
     height: 39.84375vw;
     @include media($sp) {
         background-position: top 400px left 0;
@@ -11,13 +11,13 @@
     }
 }
 .companyGroup  {
-    @include marginPercent(1200 , 231 , auto , 0 , auto);
+    @include marginPercent(1200 , 161 , auto , 0 , auto);
     @include media($sp) {
         margin: 20% 0 0 0;
     }
 }
 .companyGroupMain {
-    margin: 0 0 0 0;
+    margin: -1.2% 0 0 0;
     @include ontener_width(1200 , 765);
     @include paddingPercent(765 , 71 , 0 , 0 , 0);
     @include media($sp) {
@@ -30,7 +30,7 @@
 .bgCompanyGroupMain {
     position: absolute;
     width: 500%;
-    height: 516px;
+    height: 482px;
     top: -5%;
     right: 0;
     background: #F2F2F2;
@@ -48,6 +48,7 @@
 }
 .ulCompanyGroupMain {
     margin: 0 auto 0 0;
+    border-top: solid 1px #999999;
     @include ontener_width(765 , 656);
     @include media($sp) {
         //@include ontener_width(336 , 300);

@@ -49,6 +49,14 @@
         background-size: auto 100%;
     }
 }
+.btnBtmNavCompanyCompany {
+    background: url(../img/btnBtmNavCompanyService.jpg) no-repeat center top;
+    background-size: auto 100%;
+    @include media($sp){
+        background: url(../img/btnBtmNavCompanyServiceSp.jpg) no-repeat center top;
+        background-size: auto 100%;
+    }
+}
 .h2SecBtmNav{
     @include rs_font_size(30px,2.5vw,8vw);
     //フォント（px）【PC】:30pxpx |【Tab】30px |【sp】 30px

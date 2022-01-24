@@ -1,7 +1,7 @@
 .bgCompanyCompany {
     background: url(../img/page/company/companyCompanyWap.png) no-repeat;
     background-size: auto 100%;
-    background-position: bottom 0 left 0;
+    background-position: bottom 11px left 0;
     //height: 765px;
     height: 39.84375vw;
     @include media($sp) {
@@ -11,7 +11,7 @@
     }
 }
 .companyCompany {
-    @include marginPercent(1200 , 231 , auto , 0 , auto);
+    @include marginPercent(1200 , 246 , auto , 0 , auto);
     @include media($sp) {
         @include marginPercent(375 , 171 , auto , 0 , auto);
     }
@@ -36,7 +36,7 @@
 .bgCompanyCompanyMain {
     position: absolute;
     width: 500%;
-    height: 630px;
+    height: 620px;
     top: -5%;
     left: 0;
     background: #F6FBFF;

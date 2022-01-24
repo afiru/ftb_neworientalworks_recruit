@@ -8,7 +8,7 @@
     </section>
     
     <section class="cntCompanyMessage">
-        <h2 class="h2CntCompanyMessage">「共尊共栄」を理念とし、<br>共に認め感謝し、共に学び成長し00、<br class="sp_only">共に豊かになる…。</h2>
+        <h2 class="h2CntCompanyMessage">「共尊共栄」を理念とし、<br>共に認め感謝し、共に学び成長し、<br class="sp_only">共に豊かになる…。</h2>
         <p class="txtCntCompanyMessage bgTxtCntCompanyMessage">
             <!--
                 Pc:../img/company/bgTxtCntCompanyMessage.png

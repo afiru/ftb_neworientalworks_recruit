@@ -18,7 +18,7 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .h3TitleCompany{
-    @include marginPercent(1200 , 5 , auto , 0 , auto);
+    @include marginPercent(1200 , 15 , auto , 0 , auto);
     letter-spacing: 0.05em;
     font-weight: 600;
     @include rs_font_size(18px,1.5vw,4.266666666666667vw);
@@ -29,7 +29,7 @@
     }
 }
 .bdTitleCompanyWap{
-    @include marginPercent(1200 , 18.5 , auto , 0 , auto);
+    @include marginPercent(1200 , 20 , auto , 0 , auto);
     @include media($sp){
         @include marginPercent(375 , 20.5 , auto , 0 , auto);
     }
