@@ -2,7 +2,7 @@
     @include paddingPercent(1920 , 196 , auto , 0 , auto);
     @include media($sp) {
         @include ontener_width(375 , 348);
-        @include paddingPercent(348 , 129 , auto , 0 , auto);
+        padding: 32.6% 0 0 0;
         @include marginPercent(348 , 0 , auto , 0 , auto);
     }
 }
@@ -36,7 +36,7 @@
     border-top: solid 1px #999999;
     @include marginPercent(1200 , 37 , 0 , 0 , 0);
     @include media($sp) {
-        @include marginPercent(348 , 30 , 0 , 0 , 0);
+        margin: 9.62% 0 0 0;
     }
 }
 .IndexNewsArchive {

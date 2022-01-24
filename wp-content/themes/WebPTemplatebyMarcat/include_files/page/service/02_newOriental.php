@@ -1,4 +1,4 @@
-<div class="ServiceCnt">
+<div id="amusement" class="ServiceCnt">
     <div class="wapper companySocialWap">
         <section class="titleCompany">
             <h2 class="t_center oswald cl_006FDB h2TitleCompany">AMUSEMENT</h2>

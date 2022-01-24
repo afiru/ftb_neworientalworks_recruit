@@ -84,11 +84,17 @@
 }
 .arrowBottonPcHeader{
     width: 100%;
-    background: url(../img/icon/Wh_iconarrow.png) no-repeat 50% center;
+    background: url(../img/icon/Wh_iconarrow.png) no-repeat;
+    background-position: 90% center;
     background-size: auto 60%;
     display: block;
+    @include media($sp){
+        background-position: 90% center;
+        background-size: auto 50%;
+    }
 }
 .buttonContactHeaderLink:hover .arrowBottonPcHeader{
-    background: url(../img/icon/Bl_iconarrow.png) no-repeat 90% center;
+    background: url(../img/icon/Bl_iconarrow.png) no-repeat;
+    background-position: 90% center;
     background-size: auto 60%;
 }
