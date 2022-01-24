@@ -1,9 +1,15 @@
 .bgCompanyGroup {
+    background: url(../img/page/company/bgCompanyGroupPc.png) no-repeat;
+background-size: auto 119.75%;
+    background-position: 62% -2.2vw;
+    @include media($tab) {
+        background: url(../img/page/company/bgCompanyGroupPc.png) no-repeat;
+        background-size: auto 100%;
+         background-position:top center;
+    }
+    @include media($sp) {
     background: url(../img/page/company/bgCompanyGroup.png) no-repeat;
     background-size: auto 100%;
-    background-position: bottom 48px right 0;
-    height: 39.84375vw;
-    @include media($sp) {
         background-position: top 400px left 0;
         //height: 106.13333333333334vw;
         height: 230vw;
@@ -17,9 +23,13 @@
     }
 }
 .companyGroupMain {
-    margin: -1.2% 0 0 0;
-    @include ontener_width(1200 , 765);
-    @include paddingPercent(765 , 71 , 0 , 0 , 0);
+
+    margin: -2.5% 0 0 0;
+    width: 63.55%;
+    padding-top: 102px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
     @include media($sp) {
         //@include ontener_width(375 , 336);
         width: 100%;
@@ -30,8 +40,8 @@
 .bgCompanyGroupMain {
     position: absolute;
     width: 500%;
-    height: 482px;
-    top: -5%;
+    height: 100%;
+    top: -0%;
     background: #F2F2F2;
     z-index: -1;
     right: 0;

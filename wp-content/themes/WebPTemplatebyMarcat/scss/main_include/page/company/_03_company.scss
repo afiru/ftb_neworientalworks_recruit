@@ -1,14 +1,20 @@
 .bgCompanyCompany {
+    background: url(../img/page/company/companyCompanyPc.jpg) no-repeat;
+    background-size: auto 100%;
+    background-position: top center;
+    //height: 765px;
+
+    @include media($sp) {
     background: url(../img/page/company/companyCompanyWap.png) no-repeat;
     background-size: auto 100%;
-    background-position: bottom 11px left 0;
-    //height: 765px;
-    height: 39.84375vw;
-    @include media($sp) {
         background: unset;
         //height: 106.13333333333334vw;
         height: 100%;
     }
+}
+.titleCompany {
+    position: relative;
+    z-index: 3;
 }
 .companyCompany {
     @include marginPercent(1200 , 246 , auto , 0 , auto);
@@ -22,8 +28,12 @@
     }
 }
 .companyCompanyMain {
+    z-index: 2;
     margin: 0 0 0 auto;
-    @include paddingPercent(815 , 41 , 0 , 0 , 0);
+    padding-top: 3.45%;
+    padding-bottom: 6%;
+    padding-left: 0px;
+    padding-right: 0px;
     @include ontener_width(1200 , 815);
     @include media($sp) {
         //@include ontener_width(375 , 336);
@@ -36,7 +46,7 @@
 .bgCompanyCompanyMain {
     position: absolute;
     width: 500%;
-    height: 620px;
+    height: 100%;
     top: -5%;
     left: 0;
     background: #F6FBFF;

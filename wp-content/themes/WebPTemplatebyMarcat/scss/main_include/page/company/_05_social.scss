@@ -1,5 +1,5 @@
 .companySocial {
-    @include marginPercent(1920 , 0 , 0 , 0 , 0);
+    @include marginPercent(1920 , 165 , 0 , 0 , 0);
     @include media($sp) {
         @include marginPercent(375 , 84 , 0 , 0 , 0);
     }
