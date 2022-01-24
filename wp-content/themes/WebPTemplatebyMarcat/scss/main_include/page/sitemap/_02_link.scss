@@ -1,7 +1,10 @@
 .sitemapWap {
     @include marginPercent(1920 , 69 , auto , 354.3 , auto );
     @include media($sp) {
-        @include marginPercent(375 , 71 , auto , 235 , auto );
+        margin-top: 16.93%;
+        margin-bottom: 62.66%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .navMainSitemap {
@@ -12,13 +15,16 @@
         min-height: unset;
         margin: auto;
         &:nth-child(n+2) {
-            @include marginPercent(375 , 67.3 , auto , 0 , auto );
+            margin-top: 19.5%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
         }
         
     }
 }
 .secMainSitemap {
-    @include ontener_width(299 , 220);
+    width: 71.57%;
     margin: auto;
     @include media($sp) {
         width: 100%;
@@ -29,7 +35,7 @@
     @include media($sp) {
         border-left: none;
         border-top: 1px solid #999;
-        @include paddingPercent(350 , 21 , 0 , 76.3 , 0 );
+        padding: 3% 0% 21.8% 0%;
     }
 }
 .navMainSitemapSpB {
@@ -39,34 +45,36 @@
     }  
 }
 .h2NavMainSitemap {
-    @include rs_font_size(17px,1.4166666666666667vw,4.533333333333333vw);
-    //フォント（px）【PC】:17px |【Tab】17px |【sp】 17px
-    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    padding: 4% 0 0 0;
+@include rs_font_size(23px,1.9166666666666667vw,6.53333vw);
+//フォント（px）【PC】:23px |【Tab】23px |【sp】 17px
+//設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     font-weight: 600;
-    letter-spacing: 0.01em;
+    padding: 3.5% 0 0 0;
+    letter-spacing: 0.1em;
 }
 .txtNavMainSitemap {
-    @include marginPercent(220 , 3 , 0 , 0 , 0);
-    @include rs_font_size(12px,1vw,3.2vw);
-    //フォント（px）【PC】:12px |【Tab】12px |【sp】 12px
-    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include marginPercent(220 , 10 , 0 , 0 , 0);
+@include rs_font_size(15.5px,1.2916666666666667vw,4.2vw);
+//フォント（px）【PC】:15.5px |【Tab】15.5px |【sp】 12px
+//設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
         @include marginPercent(160 , 3 , 0 , 0 , 0);
     }
 }
 .ulMainSitemap {
-    @include marginPercent(220 , 43 , 0 , 0 , 0);
+    @include marginPercent(220 , 46 , 0 , 0 , 0);
     @include media($sp) {
-        @include marginPercent(320 , 32 , 0 , 0 , 0);
+        margin: 12% 0% 0% 0%;
     }  
 }
 .liMainSitemap {
-    @include marginPercent(185 , 20 , 0 , 0 , 0);
-    @include rs_font_size(16px,1.3333333333333333vw,3.7333333333333334vw);
-    //フォント（px）【PC】:16px |【Tab】16px |【sp】 14px
+    @include marginPercent(185 , 31 , 0 , 0 , 0);
+    @include rs_font_size(19px,1.3333333333333333vw,5.2vw);
+    //フォント（px）【PC】:19pxpx |【Tab】16px |【sp】 12px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
-        @include marginPercent(160 , 18 , 0 , 0 , 0);
+        margin: 8.25% 0% 0% 0%;
     }
     a {
         display: block;
@@ -83,6 +91,6 @@
     @include media($sp) {
         background: url(../img/page/sitemap/arrowMainSitemap.png) no-repeat 0% center;
         background-size: auto 55%;
-        @include paddingPercent(320 , 0 , 0 , 0 , 11);
+        padding: 0% 0% 0% 5.43%;
     }
 }

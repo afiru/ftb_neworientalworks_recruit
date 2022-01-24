@@ -1,8 +1,11 @@
 .btmPrivacy {
-    @include marginPercent(1920 , 133, auto , 0 , auto );
+    @include marginPercent(1920 , 160, auto , 0 , auto );
     @include media($sp) {
         @include ontener_width(375 , 350);
-        @include marginPercent(375 , 30 , auto , 0 , auto );
+        margin-top: 13%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .h2BtmPrivacy {
@@ -10,17 +13,17 @@
     @include rs_font_size(20px,1.6666666666666667vw,4.8vw);
     //フォント（px）【PC】:20px |【Tab】20px |【sp】 18px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
-    @include paddingPercent(1200 , 0 , 0 , 47 , 0 );
+    @include paddingPercent(1200 , 0 , 0 , 50 , 0 );
     border-bottom: 1px solid #999;
     @include media($sp) {
-        @include paddingPercent(375 , 0 , 0 , 30 , 0 );
+        padding: 0% 0% 8.5% 0%;
     }
 }
 .secBtmPrivacy {
-    @include paddingPercent(1200 , 40 , 0 , 40 , 0 );
+    @include paddingPercent(1200 , 40 , 0 , 33 , 0 );
     border-bottom: 1px solid #999;
     @include media($sp) {
-        @include paddingPercent(350 , 30 , 0 , 70 , 0 );
+            padding: 8.57% 0% 21.5% 0%;
     }
 }
 .h3SecBtmPrivacy {
@@ -43,29 +46,32 @@
 .h3SecBtmPrivacy02 {
     @include marginPercent(1200 , 49 , 0 , 0 , 0 );
     @include media($sp) {
-        @include marginPercent(350 , 72 , 0 , 0 , 0 );
+        margin: 24.57% 0% 0% 0%;
     }
 }
 .h3SecBtmPrivacy03 {
     @include marginPercent(1200 , 36 , 0 , 0 , 0 );
     @include media($sp) {
-        @include marginPercent(350 , 80 , 0 , 0 , 0 );
+        margin: 10.85% 0% 0% 0%;
     }
 }
 .txtSecBtmPrivacySecond {
-    @include marginPercent(1200 , 95 , 0 , 0 , 0 );
+    @include marginPercent(1200 , 89 , 0 , 0 , 0 );
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include lineheight(16,30);
     font-weight: 600;
+    @include media($sp) {
+        margin: 14.91% 0% 0% 0%;
+    }
 }
 .secBtmPrivacyBnone {
     border-bottom: none;
 }
 
 .btnContactThanksWap {
-    @include marginPercent(1200 , 242 , auto , 140 , auto );
+    @include marginPercent(1200 , 206 , auto , 140 , auto );
     @include ontener_width(1200 , 340);
     @include media($sp) {
         @include ontener_width(350 , 350 );
