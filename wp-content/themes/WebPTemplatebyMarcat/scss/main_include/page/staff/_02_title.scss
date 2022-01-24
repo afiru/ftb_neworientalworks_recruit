@@ -1,7 +1,7 @@
 .staffMain{
-    @include marginPercent(1200 , 54 , auto , 0 , auto);
+    @include marginPercent(1200 , 67 , auto , 0 , auto);
     @include media($sp){
-        @include marginPercent(375 , 39 , auto , 0 , auto);
+        @include marginPercent(375 , 46.500 , auto , 0 , auto);
     }
 }
 .staffLoop{
@@ -11,17 +11,26 @@
 }
 .staffLoopLxcOdd {
     @include marginPercent(1200 , 0 , auto , 0 , auto);
-    @include paddingPercent(1920 ,74.5 , 0 , 51.4 , 0);
+    @include paddingPercent(1920 , 48.5 , 0 , 51.4 , 0);
     @include media($sp){
-        @include paddingPercent(375 ,30 , 0 , 50 , 0);
+        @include paddingPercent(375 , 13.453 , 0 , 0 , 0);
     }
 }
+.staffLoopLxc_3 {
+    @include media($sp) {
+        padding: 26% 0% 13.33% 0%;
+    }
+}
+.staffLoopTopEven {
+    flex-direction: row-reverse;
+}
 .staffLoopLxcEven {
-    @include marginPercent(1200 , 134 , auto , 0 , auto);
-    @include paddingPercent(1920 ,74.5 , 0 , 51.4 , 0);
+    @include marginPercent(1200 , 73 , auto , 0 , auto);
+    @include paddingPercent(1920 , 43 , 0 , 51.4 , 0);
     background: #FFFFF6;
     @include media($sp){
-        @include paddingPercent(375 ,30 , 0 , 50 , 0);
+        @include marginPercent(375 , 10 , auto , 0 , auto);
+        @include paddingPercent(375 , 80.625 , 0 , 50 , 0);
     }
 }
 .staffLoopTop {
@@ -36,11 +45,12 @@
 .photoStaffLoopTop{
     @include ontener_width(1200 , 393);
     @include media($sp){
-        width: 100%;
+        @include ontener_width(350 , 321);
+        @include marginPercent(321 , 0 , auto , 0 , auto);
     }
 }
 .secStaffLoopTop {
-    @include marginPercent(1200 , 98.5 , auto , 0 , auto);
+    @include marginPercent(1200 , 46.5 , auto , 0 , auto);
     @include ontener_width(1200 , 679);
     @include media($sp){
         @include marginPercent(375 , 58 , auto , 0 , auto);
@@ -55,16 +65,17 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .txtSecStaffLoopTop{
+    @include marginPercent(679 , 26 , 0 , 0 , 0);
     @include lineheight(16 ,30);
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp){
-        @include marginPercent(375 , 20, auto , 0 , auto);
+        @include marginPercent(375 , 12.766 , auto , 0 , auto);
     }
 }
 .staffBottom {
-    @include marginPercent(1200 , 24 , auto , 0 , auto);
+    @include marginPercent(1200 , 1 , auto , 0 , auto);
     @include media($sp){
         @include marginPercent(375 , 30, auto , 0 , auto);
         @include paddingPercent(375 , 0 , 13 , 0 , 13);
@@ -74,7 +85,7 @@
     @include ontener_width(1200 , 340);
     @include marginPercent(1200 , 24 , auto , 0 , auto);
     @include media($sp){
-        @include marginPercent(375 , 30, auto , 0 , auto);
+        @include marginPercent(375 , 36 , auto , 0 , auto);
         width: 100%;
     }
 }
