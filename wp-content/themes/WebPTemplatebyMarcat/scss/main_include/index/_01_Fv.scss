@@ -148,6 +148,8 @@
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+    cursor: pointer;
+    z-index: 9998;
     img{
         display: block;
         width: 100%;
