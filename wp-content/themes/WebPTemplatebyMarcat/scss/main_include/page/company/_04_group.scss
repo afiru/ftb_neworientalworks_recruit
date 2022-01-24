@@ -34,6 +34,7 @@
     top: -5%;
     background: #F2F2F2;
     z-index: -1;
+    right: 0;
     @include media($sp) {
         //height: 106.13333333333334vw;
         height: 215.46666666666667vw;
