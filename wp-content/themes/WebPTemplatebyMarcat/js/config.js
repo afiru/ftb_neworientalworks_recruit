@@ -82,4 +82,16 @@ $(function () {
             
 
     
-
+jQuery(function($){
+   $(window).ready( function() {
+        $('#num1').jpostal({
+           postcode : [
+              '#num1',
+              '#num2'
+           ],
+           address : {
+              '#address'  : '%3%4%5',
+           }
+        });
+     });
+});
