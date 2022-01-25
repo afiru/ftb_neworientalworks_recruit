@@ -1,6 +1,6 @@
 .indexCompany{
     background: #FFF;
-    @include marginPercent(1920 , 142 , auto , 0 , auto);
+    @include marginPercent(1920 , 167 , auto , 0 , auto);
     @include paddingPercent(1920 , 133 , 0 , 0 , 0);
     @include media($tab){
         padding: 10% 0 0% 0;
@@ -50,7 +50,8 @@
     }
 }
 .txtTitleIndexCompany.txtTitleIndexCompany01{
-    @include marginPercent(400 , 27.6 , 0 , 0 , 0);
+    letter-spacing: 0.11em;
+    @include marginPercent(400 , 28.6 , 0 , 0 , 0);
     @include media($sp){
         margin: 3.85% 0 0 0;
     }
