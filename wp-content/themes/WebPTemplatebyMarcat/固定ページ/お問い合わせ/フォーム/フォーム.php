@@ -4,7 +4,8 @@
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
                     <span class="cl_FF3D3B hissuThFx">必須</span>
-                    <span class="titleThFx">お名前(会社名)</span>
+                    <span class="titleThFx">お名前</span>
+                    <span class="titleThcap">(会社名)</span>
                 </div>
             </th>
             <td class="tdMainForm">[mwform_text name="お名前(会社名)" id="name" class="inputW100" size="60" maxlength="255" placeholder="山田太郎"]</td>
@@ -34,7 +35,8 @@
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
                     <span class="cl_FF3D3B hissuThFx">必須</span>
-                    <span class="titleThFx">メールアドレス<br>（確認用）</span>
+                    <span class="titleThFx">メールアドレス</span>
+                    <span class="titleThcap">（確認用）</span>
                 </div>
             </th>
             <td class="tdMainForm">[mwform_email name="メールアドレス（確認用）" id="re_mail" class="inputW100" size="60" maxlength="255" placeholder="neworientalworks@ne.jp"]</td>
@@ -53,7 +55,7 @@
         <tr>
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
-                    <span class="cl_FF3D3B hissuThFx">任意</span>
+                    <span class="cl_AAAAAA hissuThFx">任意</span>
                     <span class="titleThFx">郵便番号</span>
                 </div>
             </th>

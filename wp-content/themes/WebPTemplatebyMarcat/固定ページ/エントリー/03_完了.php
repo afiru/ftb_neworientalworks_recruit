@@ -15,7 +15,7 @@
         </p>
         <div class="btnContactThanksWap">
             <a href="[home_url]" class="btnContactThanks">
-                <span class="arrowBtnContactThanks">HOMEへ戻る</span>
+                <span class="arrowBtnContactThanks FormThanksarrow">HOMEへ戻る</span>
             </a>
         </div>
     </section>

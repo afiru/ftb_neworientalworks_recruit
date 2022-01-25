@@ -67,11 +67,16 @@
         top:0;
         left: 0; 
         transform: rotate(180deg);
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 77% center;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
         background-size: auto 15%;
+        background-position: 74% center;
+        @include media($tab){
+            background-position: 79% center;
+        }
         @include media($sp) {
-            background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 77% center;
+            background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
             background-size: auto 15%;
+            background-position: 74% center;
         }
     }
 }
@@ -104,11 +109,16 @@
         position: absolute;
         top:0;
         left: 0; 
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
         background-size: auto 15%;
+        background-position: 65% center;
+         @include media($tab){
+            background-position: 70% center;
+        }
         @include media($sp) {
-            background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+            background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
             background-size: auto 15%;
+            background-position: 65% center;
         }
     }
 }

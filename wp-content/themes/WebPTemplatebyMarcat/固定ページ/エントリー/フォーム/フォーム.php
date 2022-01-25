@@ -17,7 +17,8 @@
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
                     <span class="cl_FF3D3B hissuThFx">必須</span>
-                    <span class="titleThFx">希望勤務地<br>(アルバイトのみ)</span>
+                    <span class="titleThFx">希望勤務地</span>
+                    <span class="titleThcap">(アルバイトのみ)</span>
                 </div>
             </th>
             <td class="tdMainForm">[mwform_text name="希望勤務地" id="kinmuchi" class="inputW100" size="60" maxlength="255" placeholder="立花SOCIO"]</td>
@@ -53,7 +54,8 @@
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
                     <span class="cl_FF3D3B hissuThFx">必須</span>
-                    <span class="titleThFx">メールアドレス<br>(確認用)</span>
+                    <span class="titleThFx">メールアドレス</span>
+                    <span class="titleThcap">(確認用)</span>
                 </div>
             </th>
             <td class="tdMainForm">[mwform_email name="メールアドレス確認用" id="remail" class="inputW100" size="60" maxlength="255" placeholder="neworientalworks@ne.jp"]</td>
@@ -70,7 +72,7 @@
         <tr>
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
-                    <span class="cl_FF3D3B hissuThFx">任意</span>
+                    <span class="cl_AAAAAA hissuThFx">任意</span>
                     <span class="titleThFx">性別</span>
                 </div>
             </th>
@@ -83,7 +85,7 @@
         <tr>
             <th class="thMainForm">
                 <div class="display_flex_stretch thFx">
-                    <span class="cl_FF3D3B hissuThFx">任意</span>
+                    <span class="cl_AAAAAA hissuThFx">任意</span>
                     <span class="titleThFx">郵便番号</span>
                 </div>
             </th>

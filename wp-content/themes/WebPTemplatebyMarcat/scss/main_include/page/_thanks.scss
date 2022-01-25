@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .contactThanksSec {
-    @include marginPercent(1200 , 110 , 0 , 0 , 0);
+    @include marginPercent(1200 , 105 , 0 , 0 , 0);
     @include media($sp) {
         @include marginPercent(350 , 33 , 0 , 0 , 0);
     }
@@ -17,10 +17,25 @@
         }
     }
     .btnContactThanksWap {
-        @include marginPercent(340 , 127 , auto , 361 , auto);
+        @include marginPercent(340 , 120 , auto , 361 , auto);
         @include media($sp) {
             @include ontener_width(350 , 340);
             @include marginPercent(340 , 89 , auto , 186 , auto);
         }
+    }
+}
+.FormThanksarrow {
+    width: 100%;
+    display: block;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
+    background-size: auto 55%;
+    background-position: 71% center;
+    @include media($tab){
+        background-position: 76% center;
+    }
+    @include media($sp) {
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 90% center;
+        background-size: auto 55%;
+        background-position: 71% center;
     }
 }

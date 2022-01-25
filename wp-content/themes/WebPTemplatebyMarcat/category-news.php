@@ -6,7 +6,7 @@
     
     <article class="archivesNews">
         <?php if ( have_posts() ) while ( have_posts() ) : the_post();  ?>
-            <a href="<?php echo get_the_permalink($post->ID); ?>" class="display_flex_center display_row IndexNewsArchive">
+            <a href="<?php echo get_the_permalink($post->ID); ?>" class="display_flex_center display_row IndexNewsArchive IndexNewsArchivePage">
                 <time class="dateIndexNewsArchive"><?php echo get_the_date('Y.m.d',$post->ID); ?></time>
                 <?php getNewFlug(get_the_date('Y-m-d',$post->ID)); ?>
                 <h3 class="h3IndexNewsArchive"><?php echo stringOverFlow(get_the_title($post->ID),255); ?></h3>

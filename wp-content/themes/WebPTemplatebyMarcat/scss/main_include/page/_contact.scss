@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .contactWap {
-    @include marginPercent(1200 , 100 , auto , 459 , auto);
+    @include marginPercent(1200 , 72 , auto , 459 , auto);
     @include media($sp) {
         @include ontener_width(375 , 350);
         @include marginPercent(350 , 47 , auto , 185 , auto);
@@ -18,7 +18,8 @@
     }
 }
 .mainForm {
-    @include marginPercent(1200 , 116 , auto , 0 , auto);
+    //@include marginPercent(1200 , 116 , auto , 0 , auto);
+    margin: 8.9% auto 0 auto;
     @include media($sp) {
         @include marginPercent(350 , 53 , auto , 0 , auto);
     }
@@ -40,6 +41,9 @@
         &:nth-child(1) {
             .thMainForm {
                 @include paddingPercent(286 , 0 , 0 , 0 , 0);
+                @include media($sp){
+                    padding: 3.85% 0% 0% 0%;
+                }
             }
             .tdMainForm {
                 @include paddingPercent(550 , 0 , 0 , 0 , 0);
@@ -90,7 +94,19 @@
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
-        
+        width: auto;
+    }
+}
+.titleThcap{
+    @include lineheight(14 , 21.25);
+    @include ontener_width(286 , 226);
+    @include paddingPercent(286 , 0 , 0 , 0 , 60);
+    @include rs_font_size(14px,1.1666666666666667vw,3.7333333333333334vw);
+    //フォント（px）【PC】:14px |【Tab】14px |【sp】 14px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp){
+        width: auto;
+        padding: 0;
     }
 }
 .tdMainForm {
@@ -101,7 +117,7 @@
         @include paddingPercent(350 , 10 , 0 , 0 , 0);
     }
     .inputW100 {
-        height: 60px;
+        height: 64px;
         width: 100%;
         border: none;
         background: #F4F4F4;
@@ -113,6 +129,7 @@
         //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
         @include media($sp) {
             @include paddingPercent(350 , 21 , 17 , 21 , 17);
+            height: 17.333333333333332vw;
         }
     }
 }
@@ -195,16 +212,22 @@
         position: absolute;
         top:0;
         left: 0; 
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
         background-size: auto 15%;
+        background-position: 73% center;
+         @include media($tab){
+             background-position: 78% center;
+        }
         @include media($sp) {
             background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
             background-size: auto 15%;
+            background-position: 73% center;
         }
     }
 }
 .error {
     @include marginPercent(550 , 13 , 0 , 0 , 0);
+    font-size: 14px !important;
     @include media($sp) {
         @include marginPercent(350 , 13 , 0 , 0 , 0);
     }
