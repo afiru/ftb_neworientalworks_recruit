@@ -1,5 +1,5 @@
 <div class="wapper outlineLoopWap">
-    <section class="outlineLoop brder_006FDB">
+    <section id="employee" class="outlineLoop brder_006FDB">
         <?php 
             $args = array('cat'=>11,'posts_per_page'=>5,'order'=>'DESC','orderby'=>'date');
             $query1 = new WP_Query( $args );
@@ -28,7 +28,7 @@
         </a>
     </div>
     
-    <section class="outlineLoop brder_FFB330">
+    <section id="parttime" class="outlineLoop brder_FFB330 outlineLoopA">
         <?php 
             $args = array('cat'=>12,'posts_per_page'=>5,'order'=>'DESC','orderby'=>'date');
             $query1 = new WP_Query( $args );

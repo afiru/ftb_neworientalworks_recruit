@@ -15,15 +15,15 @@
     
 }
 .h1TitlePageFv{
-    letter-spacing: 0.33em;
+    letter-spacing: 0.10em;
     font-weight: 600;
     @include rs_font_size(30px,2.5vw,5.333333333333333vw);
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 20px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .txtTitlePageFv{
-    @include marginPercent(1920 , 5 , auto , 0 , auto);
-    letter-spacing: 0.3em;
+    @include marginPercent(1920 , 15 , auto , 0 , auto);
+    letter-spacing: 0.1em;
     @include rs_font_size(18px,1.5vw,4.266666666666667vw);
     //フォント（px）【PC】:18px |【Tab】18px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375pxw

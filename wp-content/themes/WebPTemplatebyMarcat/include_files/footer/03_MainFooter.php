@@ -55,7 +55,7 @@
                         <a href="<?php echo get_the_permalink(57); ?>"><span class="arrowMainFooter">スタッフインタビュー</span></a>
                     </li>
                     <li class="liMainFooter">
-                        <a href="<?php echo get_permalink(30); ?>"><span class="arrowMainFooter">募集要項</span></a>
+                        <a href="<?php echo get_permalink(35); ?>"><span class="arrowMainFooter">募集要項</span></a>
                     </li>
                     <li class="liMainFooter">
                         <a href="<?php echo get_permalink(37); ?>"><span class="arrowMainFooter">エントリー</span></a>
