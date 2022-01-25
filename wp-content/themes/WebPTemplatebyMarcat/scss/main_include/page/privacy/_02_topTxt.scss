@@ -1,17 +1,21 @@
 .topPrivacy {
-    @include marginPercent(1920 , 69 , auto , 0 , auto );
+    @include marginPercent(1920 , 67 , auto , 0 , auto );
     @include media($sp) {
         @include ontener_width(375 , 350);
-    margin-top: 12.13%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
+        margin-top: 12.3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
 .txtTopPrivacy {
+    letter-spacing: 0.056em;
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
-    @include lineheight(16,30);
+    @include lineheight(16 , 30);
+    @include media($sp) {
+        letter-spacing: 0;
+    }
 }

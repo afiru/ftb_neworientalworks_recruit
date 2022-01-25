@@ -8,10 +8,21 @@
 }
 
 //お知らせ一覧
+.archivesNews{
+    
+}
+.IndexNewsArchivePage{
+   @include paddingPercent(1200 , 30 , 0 , 30 , 23);
+   @include media($sp) {
+        //@include paddingPercent(348 , 20 , 0 , 20 , 0);
+        padding: 6.74% 0% 5.2% 0%;
+    }
+}
 .catNewsWap {
-    @include marginPercent(1200 , 70 , auto , 0 , auto);
+    @include marginPercent(1200 , 76 , auto , 0 , auto);
     @include media($sp) {
-        @include marginPercent(375 , 45 , auto , 0 , auto);
+        //@include marginPercent(375 , 45 , auto , 0 , auto);
+        margin: 13% auto 0 auto;
     }
 }
 .h2CatNewsWap {
@@ -25,16 +36,18 @@
     }
 }
 .archivesNews {
-    @include marginPercent(1200 , 57 , 0 , 0 , 0);
+    border-top:1px solid #999;
+    //@include marginPercent(1200 , 57 , 0 , 0 , 0);
+    @include marginPercent(1200 , 62 , 0 , 0 , 0);
     @include media($sp) {
         @include ontener_width(375 , 350);
         @include marginPercent(350 , 30 , auto , 0 , auto);
     }
 }
 .pagenateWap {
-    @include marginPercent(1200 , 120 , 0 , 260 , 0);
+    @include marginPercent(1200 , 128 , 0 , 260 , 0);
     @include media($sp) {
-        @include marginPercent(375 , 50 , 0 , 98 , 0);
+        margin: 15.33% auto 29.13% auto;
     }
 }
 .pagenate {
@@ -86,7 +99,6 @@
         @include marginPercent(375 , 0 , 0 , 0 , 5);
     }
 }
-
 .previouspostslink {
     text-decoration: none;
     color: #707070;
@@ -99,3 +111,4 @@
         @include marginPercent(375 , 0 , 0 , 0 , 5);
     }
 }
+

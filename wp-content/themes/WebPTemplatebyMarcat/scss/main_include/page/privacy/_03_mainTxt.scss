@@ -1,8 +1,8 @@
 .btmPrivacy {
-    @include marginPercent(1920 , 160, auto , 0 , auto );
+    @include marginPercent(1920 , 161 , auto , 0 , auto );
     @include media($sp) {
         @include ontener_width(375 , 350);
-        margin-top: 13%;
+        margin-top: 12.5%;
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto;
@@ -16,14 +16,14 @@
     @include paddingPercent(1200 , 0 , 0 , 50 , 0 );
     border-bottom: 1px solid #999;
     @include media($sp) {
-        padding: 0% 0% 8.5% 0%;
+        padding: 0% 0% 8.9% 0%;
     }
 }
 .secBtmPrivacy {
-    @include paddingPercent(1200 , 40 , 0 , 33 , 0 );
+    @include paddingPercent(1200 , 42 , 0 , 34 , 0 );
     border-bottom: 1px solid #999;
     @include media($sp) {
-            padding: 8.57% 0% 21.5% 0%;
+            padding: 9.3% 0% 21.6% 0%;
     }
 }
 .h3SecBtmPrivacy {
@@ -33,13 +33,15 @@
     font-weight: 600;
 }
 .txtSecBtmPrivacy {
-    @include marginPercent(1200 , 15 , 0 , 0 , 0 );
+    letter-spacing: 0.041em;
+    @include marginPercent(1200 , 12 , 0 , 0 , 0 );
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include lineheight(16,30);
     @include media($sp) {
-        @include marginPercent(350 , 15 , 0 , 0 , 0 );
+        letter-spacing: 0;
+        @include marginPercent(350 , 11.547 , 0 , 0 , 0 );
     }
 }
 
@@ -56,11 +58,11 @@
     }
 }
 .txtSecBtmPrivacySecond {
-    @include marginPercent(1200 , 89 , 0 , 0 , 0 );
+    @include marginPercent(1200 , 87 , 0 , 0 , 0 );
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
-    @include lineheight(16,30);
+    @include lineheight(16 , 31);
     font-weight: 600;
     @include media($sp) {
         margin: 14.91% 0% 0% 0%;
@@ -71,11 +73,11 @@
 }
 
 .btnContactThanksWap {
-    @include marginPercent(1200 , 206 , auto , 140 , auto );
+    @include marginPercent(1200 , 203 , auto , 140 , auto );
     @include ontener_width(1200 , 340);
     @include media($sp) {
         @include ontener_width(350 , 350 );
-        @include marginPercent(350 , 211 , auto , 121 , auto );
+        @include marginPercent(350 , 130.469 , auto , 121 , auto );
     }
 }
 
@@ -99,10 +101,10 @@
 .arrowBtnContactThanks {
     width: 100%;
     display: block;
-    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 92% center;
-    background-size: auto 55%;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+    background-size: auto 52%;
     @include media($sp) {
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 90% center;
-        background-size: auto 55%;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+        background-size: auto 52%;
     }
 }
