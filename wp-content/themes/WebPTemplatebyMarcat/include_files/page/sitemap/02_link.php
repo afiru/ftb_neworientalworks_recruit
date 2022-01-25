@@ -49,7 +49,7 @@
                     <a href="<?php echo get_the_permalink(57); ?>"><span class="arrowMainSitemap">スタッフインタビュー</span></a>
                 </li>
                 <li class="liMainSitemap">
-                    <a href="<?php echo get_permalink(30); ?>"><span class="arrowMainSitemap">募集要項</span></a>
+                    <a href="<?php echo get_permalink(35); ?>"><span class="arrowMainSitemap">募集要項</span></a>
                 </li>
                 <li class="liMainSitemap">
                     <a href="<?php echo get_permalink(37); ?>"><span class="arrowMainSitemap">エントリー</span></a>

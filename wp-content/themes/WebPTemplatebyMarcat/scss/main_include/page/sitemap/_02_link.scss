@@ -46,24 +46,28 @@
 }
 .h2NavMainSitemap {
     padding: 4% 0 0 0;
-@include rs_font_size(23px,1.9166666666666667vw,6.53333vw);
-//フォント（px）【PC】:23px |【Tab】23px |【sp】 17px
-//設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include rs_font_size(23px,1.9166666666666667vw,6.53333vw);
+    //フォント（px）【PC】:23px |【Tab】23px |【sp】 17px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     font-weight: 600;
     padding: 3.5% 0 0 0;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.14em;
+    @include media($sp) {
+        
+    }
 }
 .txtNavMainSitemap {
+    letter-spacing: 0.03em;
     @include marginPercent(220 , 10 , 0 , 0 , 0);
-@include rs_font_size(15.5px,1.2916666666666667vw,4.2vw);
-//フォント（px）【PC】:15.5px |【Tab】15.5px |【sp】 12px
-//設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include rs_font_size(15.5px,1.2916666666666667vw,4.2vw);
+    //フォント（px）【PC】:15.5px |【Tab】15.5px |【sp】 12px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
         @include marginPercent(160 , 3 , 0 , 0 , 0);
     }
 }
 .ulMainSitemap {
-    @include marginPercent(220 , 46 , 0 , 0 , 0);
+    @include marginPercent(220 , 49 , 0 , 0 , 0);
     @include media($sp) {
         margin: 12% 0% 0% 0%;
     }  
