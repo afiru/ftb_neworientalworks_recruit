@@ -1,12 +1,6 @@
 @charset "utf-8";
 
 .FormConfrim {
-    .tableMainForm tr:nth-child(1) .thMainForm {
-        vertical-align: bottom;
-    }
-    .tableMainForm tr:nth-child(1) .tdMainForm {
-        vertical-align: bottom;
-    }
     .postNumMainForm {
         align-items: center;
     }
@@ -38,6 +32,22 @@
         @include rs_font_size(18px,1.5vw,4.8vw);
         //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
         //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    }
+    .tableMainForm {
+        tr {
+            &:nth-child(8) {
+                .thMainForm {
+                    vertical-align: middle;
+                    @include paddingPercent(286 , 63 , 0 , 0 , 0);
+                    @include media($tab) {
+                        padding: 9% 0% 0% 0%;
+                    }
+                    @include media($sp) {
+                        padding: 17.14% 0% 0% 0%;
+                    }
+                }   
+            }
+        }
     }
 }
 .buttonThanksBack {
@@ -129,6 +139,21 @@
             background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
             background-size: auto 15%;
             background-position: 65% center;
+        }
+    }
+}
+
+//エントリー
+.FormConfrim {
+    tr {
+        &:nth-child(11) {
+            .thMainForm {
+                vertical-align: top;
+                @include paddingPercent(286 , 63 , 0 , 0 , 0);
+                @include media($sp) {
+                    padding: 17.14% 0% 0% 0%;
+                }
+            }   
         }
     }
 }

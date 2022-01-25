@@ -9,8 +9,8 @@
     
     <section class="contactThanksSec">
         <p class="t_center txtContactThanksSec">
-            メールを送信しました。お問い合わせいただき誠にありがとうございます。<br>
-            お問い合わせいただいた内容を確認し、ご返信させていただきます。<br>
+            メールを送信しました。<br class="sp_only">お問い合わせいただき誠にありがとうございます。<br>
+            お問い合わせいただいた内容を確認し、<br class="sp_only">ご返信させていただきます。<br>
             恐れ入りますが今しばらくお待ちください。
         </p>
         <div class="btnContactThanksWap">
