@@ -1,6 +1,12 @@
 @charset "utf-8";
 
 .FormConfrim {
+    .tableMainForm tr:nth-child(1) .thMainForm {
+        vertical-align: bottom;
+    }
+    .tableMainForm tr:nth-child(1) .tdMainForm {
+        vertical-align: bottom;
+    }
     .postNumMainForm {
         align-items: center;
     }
@@ -13,6 +19,10 @@
     .hyphenNumMainForm {
         @include ontener_width(301 , 20);
         @include paddingPercent(20 , 0 , 10 , 0 , 0);
+        @include media($tab) {
+            width: 9.64%;
+            padding: 0% 3% 0% 0%;
+        }
         @include media($sp) {
             width: 8.42%;
             padding: 0 0 0 0;

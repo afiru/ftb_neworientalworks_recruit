@@ -101,10 +101,10 @@
 .arrowBtnContactThanks {
     width: 100%;
     display: block;
-    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 92% center;
-    background-size: auto 55%;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+    background-size: auto 52%;
     @include media($sp) {
-        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 90% center;
-        background-size: auto 55%;
+        background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 73% center;
+        background-size: auto 52%;
     }
 }
