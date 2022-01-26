@@ -38,7 +38,7 @@
     @include media($sp) {
         //@include ontener_width(375 , 336);
         //@include paddingPercent(336 , 30 , 0 , 0 , 0);
-        padding: 19.92% 0% 115% 0%;
+        padding: 19.92% 0% 110% 0%;
         width: 100%;
         z-index: -1;
     }
@@ -53,7 +53,7 @@
     z-index: -1;
     @include media($sp) {
         width: 100%;
-        height: 215.46666666666667vw;
+        height: 102.466667vw;
         top: 60.5%;
         background: unset;
         background-image:url(../img/page/company/companyCompanyWapSp.png);
@@ -104,7 +104,7 @@
 .tdCompanyCompanyMain {
     text-align: left;
     @include lineheight(18 , 20);
-    @include paddingPercent(751 , 29.5 , 0 , 29.5 , 0);
+    @include paddingPercent(751 , 30 , 0 , 30 , 0);
     @include rs_font_size(18px,1.5vw,4.8vw);
     //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px

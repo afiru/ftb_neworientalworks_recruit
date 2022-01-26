@@ -36,6 +36,7 @@
     @include rs_font_size(18px,1.5vw,4.8vw);
     //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    letter-spacing: 0.001em;
     @include media($sp) {
         @include ontener_width(375 , 350)
         @include marginPercent(350 , 26.766 , auto , 0 , auto);
