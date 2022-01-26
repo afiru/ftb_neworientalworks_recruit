@@ -1,4 +1,4 @@
-<div class="ServiceCnt ServiceCnt03">
+<div id="" class="ServiceCnt ServiceCnt03">
     <section class="wapper shopService">
         <h1 class="h1ShopService"><span class="h1ShopServiceSpan">アミューズワークス運営</span></h1>
         <?php 

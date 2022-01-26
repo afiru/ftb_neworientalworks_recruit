@@ -9,7 +9,7 @@
 .indexFv{
     padding: 0 0 8% 0;
     @include media($sp){
-        padding: 0 0 21% 0;
+        padding: 0 0 23% 0;
     }
 }
 .indexFvWap{
@@ -82,8 +82,9 @@
     right: 0;
     margin: auto;
     @include media($sp){
-        top:56.266666666666666vw;
-        @include ontener_width(375 , 271);
+    top: 56.266666666666666vw;
+    width: 73.06%;
+    left: 1%;
     }
 }
 .navIndexFv{
@@ -222,8 +223,8 @@
         bottom: -9%;
     }
      @include media($sp){
-        right: 2%;
-        bottom: -29%;
+        right: 1.5%;
+        bottom: -30%;
      }
 }
 .txtScrollIndexFv{

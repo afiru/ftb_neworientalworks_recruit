@@ -58,7 +58,7 @@
     background: #F6FBFF;
     @include paddingPercent(375 , 34 , 0 , 175 , 0);
     overflow-y: auto;
-    position: fixed;
+    position: absolute;
     top:50px;
     width: 100%;
     z-index: 9999;

@@ -1,8 +1,8 @@
 .indexCatch {
     @include marginPercent(1920 , 5 , auto , 0 , auto);
     @include media($sp){
-        margin: 7.8% auto 0 auto;
-        @include ontener_width(375 , 355);
+margin: 4.9% auto 0 auto;
+    width: 94.66%;
     }
 }
 .secIndexCatch{
@@ -13,7 +13,7 @@
     width: 57%;
     margin: 0 auto;
     @include media($sp){
-        width: 100%;
+        width: 98%;
     }
     img{
         display: block;
@@ -31,7 +31,8 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     letter-spacing: 0.06em;
     @include media($sp){
-        margin: 12% auto 0 0;
+        margin: 14% auto 0 1%;
         width: 100%;
+        letter-spacing: 0;
     }
 }

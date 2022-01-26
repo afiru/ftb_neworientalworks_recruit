@@ -29,7 +29,7 @@
   
                 </ul>
             </nav>
-            <nav class="navMainFooter">
+            <nav class="navMainFooter navMainFooter02">
                 <h2 class="cl_fff h2NavMainFooter">BUSINESS</h2>
                 <p class="cl_fff txtNavMainFooter">事業内容</p>
                 <ul class="ulMainFooter">
@@ -62,7 +62,7 @@
                     </li>
                 </ul>
             </nav>
-            <nav class="navMainFooter">
+            <nav class="navMainFooter navMainFooter02">
                 <h2 class="cl_fff h2NavMainFooter">INFORMATION</h2>
                 <p class="cl_fff txtNavMainFooter">お知らせ・その他</p>
                 <ul class="ulMainFooter">
