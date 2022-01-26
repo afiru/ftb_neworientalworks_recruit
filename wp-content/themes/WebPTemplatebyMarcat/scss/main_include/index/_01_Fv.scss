@@ -74,11 +74,11 @@
     }
 }
 .logoIndexFv{
-    @include ontener_width(1200 , 622);
+    width: 55.83%;
     position: absolute;
     z-index: 99;
-    top:15.104166666666666vw;
-    left:0;
+    top: 14.5vw;
+    left: -9%;
     right: 0;
     margin: auto;
     @include media($sp){

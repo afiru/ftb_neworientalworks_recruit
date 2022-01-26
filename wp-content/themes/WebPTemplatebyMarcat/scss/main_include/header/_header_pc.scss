@@ -14,7 +14,8 @@
     //@include ontener_width(1200 , 200);
 }
 .pcHeaderNav{
-    @include ontener_width(1200 , 725);
+    width: 58.41%;
+    margin: 0 0 0 0%;
 }
 .pcHeaderUl{
     display: flex;
