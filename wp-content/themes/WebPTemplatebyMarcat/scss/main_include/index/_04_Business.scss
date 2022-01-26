@@ -2,7 +2,7 @@
     @include paddingPercent(1920 , 142 , 0 , 0 , 0);
     @include media($sp) {
         @include ontener_width(375 , 350)
-        @include paddingPercent(350 , 70 , 0 , 0 , 0);
+            padding: 8% 0% 0% 0%;
         @include marginPercent(350 , 0 , auto , 0 , auto);
     }
 }

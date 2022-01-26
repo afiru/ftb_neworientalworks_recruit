@@ -19,7 +19,7 @@
     }
 }
 .catNewsWap {
-    @include marginPercent(1200 , 77 , auto , 0 , auto);
+    @include marginPercent(1200 , 76 , auto , 0 , auto);
     @include media($sp) {
         //@include marginPercent(375 , 45 , auto , 0 , auto);
         margin: 13% auto 0 auto;

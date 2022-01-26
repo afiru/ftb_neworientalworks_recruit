@@ -1,22 +1,21 @@
 .indexCompany{
     background: #FFF;
-    @include marginPercent(1920 , 142 , auto , 0 , auto);
-    @include paddingPercent(1920 , 133 , 0 , 0 , 0);
+    @include marginPercent(1920 , 120 , auto , 0 , auto);
+    @include paddingPercent(1920 , 0 , 0 , 0 , 0);
     @include media($tab){
         padding: 10% 0 0% 0;
     }
     @include media($sp){
-        margin: 21.73% auto 0 auto;
-        padding: 25% 0 20% 0;
+        margin: 24.73% auto 0 auto;
+
     }
 }
 .indexCompanyInner{
     padding: 1% 0 0 0;
-    height: 318px;
-    background: #004ADB;
+
     position: relative;
     @include media($sp){
-        height: 52vw;
+        
     }
 }
 .indexCompanyWap{
@@ -24,24 +23,48 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-flow: row wrap;
+    z-index: 2;
+    @include marginPercent(1920 , 78 , auto , 0 , auto );
     @include media($sp){
         width: 100%;
         margin: 0 auto;
     }
 }
+.indexCompanyWap {
+    &:before {
+        content: '';
+        display: block;
+        background: #004ADB;
+        width: 500%;
+        height: 67%;
+        bottom: 0;
+        left: -25vw;
+        right: 0;
+        position: absolute;
+        z-index: 0;
+        
+        @include media($sp) {
+            height: 56%;
+            bottom: 20%;
+            left: 0;
+            right: 0;
+        }
+    }
+}
 
 .titleIndexCompany{
     @include ontener_width(1200 , 403.66);
-    margin: -11.5% 0 0 0;
+    
     @include media($sp){
-        margin: -25% 0 0 0;
+        
         width: 100%;
     }
 }
 .h1TitleIndexCompany{
     width: 100%;
     @include media($sp){
-        @include ontener_width(350 , 221);
+        width: 60.14%;
+        margin: 0 0 0 2%;
     }
     img{
         display: block;
@@ -50,15 +73,23 @@
     }
 }
 .txtTitleIndexCompany.txtTitleIndexCompany01{
-    @include marginPercent(400 , 27.6 , 0 , 0 , 0);
+    letter-spacing: 0.11em;
+    @include marginPercent(400 , 28.6 , 0 , 0 , 0);
+    @include rs_font_size(30px,2.5vw,5.366666666666667vw);
+    //フォント（px）【PC】:30px |【Tab】30px |【sp】 16px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp){
-        margin: 3.85% 0 0 0;
+        margin: 3.85% 0 0 3%;
+        letter-spacing: 0.21em;
     }
 }
 .navIndexCompany{
-    @include marginPercent(400 , 26 , 0 , 0 , 0);
+    position: relative;
+    z-index: 2;
+    @include marginPercent(400 , 55 , 0 , 0 , 0);
+    @include paddingPercent(400 , 0 , 0 , 40 , 0 );
      @include media($sp){
-        @include marginPercent(350 , 60 , 0 , 0 , 0);
+        margin: 15.14% 0% 0% 0%;
     }
 }
 .ulIndexCompany{
@@ -75,7 +106,7 @@
     color: #fff;
 }
 .btnIndexCompanyWap{
-    @include marginPercent(400 , 38 , 0 , 0 , 0);
+    @include marginPercent(400 , 20 , 0 , 0 , 0);
      @include media($sp){
         @include ontener_width(375 , 340);
         margin: 12.15% auto 0 auto;
@@ -83,7 +114,7 @@
     }
 }
 .btnIndexCompany{
-    margin: 12.7%;
+    margin: 0% 0 0 0;
     width: 84%;
     @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
     display: flex;
@@ -113,7 +144,7 @@
     }
 }
 .bgindexCompany{
-    margin: -11.5% 0 0 0;
+    
     height: 393px;
     //@include ontener_width(1200 , 1120);
     //height: 17.552083333333332vw;
@@ -122,22 +153,22 @@
     background: url(../img/index/bgindexCompanyPc.png) no-repeat left top;
     background-size:auto 100%;
     position: absolute;
-    top:0;
+    top: -13%;
     left: 49.5%;
     z-index: 99;
     @include media($tab){
         height: 25vw;
-        top:1%;
+        top: -15%;
         left: 38%;
     }
     @include media($sp){
-        height: 53.6vw;
-        @include ontener_width(350 , 180);
-        top:5%;
-        left: unset;
-        right: -2%;
-        background: url(../img/index/bgindexCompanySp.png) no-repeat center top;
-        background-size:auto 100%;
+height: 48.6vw;
+    width: 57.42%;
+    top: 16%;
+    left: unset;
+    right: -2%;
+    background: url(../img/index/bgindexCompanySp.png) no-repeat center top;
+    background-size: auto 100%;
     }
 }
 

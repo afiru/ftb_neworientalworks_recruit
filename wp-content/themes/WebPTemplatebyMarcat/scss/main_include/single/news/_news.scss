@@ -1,17 +1,20 @@
 .singleNews {
-    @include marginPercent(1200 , 78 , auto , 246 , auto);
+    @include marginPercent(1200 , 79 , auto , 246 , auto);
     @include media($sp) {
         @include ontener_width(375 , 350);
         //@include marginPercent(350 , 46 , auto , 125 , auto);
-        margin: 15% auto 35% auto;
+        margin: 14% auto 35.5% auto;
     }
 }
 .newIconTime {
     display: flex;
     .new {
-        @include marginPercent(80 , 0 , 40 , 0 , 0);
+        @include marginPercent(80 , 0 , 42 , 0 , 0);
+        @include media($tab) {
+            margin: 0% 3% 0% 0%;
+        }
         @include media($sp) {
-            @include marginPercent(80 , 0 , 9 , 0 , 0);
+            margin: 0% 12.4% 0% 0%;
         }
     }
 }
@@ -20,7 +23,7 @@
     align-items: center;
 }
 .cntSingleNews {
-    @include marginPercent(1200 , 10 , 0 , 0 , 0);
+    @include marginPercent(1200 , 14 , 0 , 0 , 0);
     @include media($sp) {
             //@include marginPercent(350 , 15 , 0 , 0 , 0);
             margin: 5.28% auto 0 auto;
@@ -32,15 +35,15 @@
     @include rs_font_size(25px,2.0833333333333335vw,4.8vw);
     //フォント（px）【PC】:25px |【Tab】25px |【sp】 18px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
-    @include paddingPercent(1200 , 0 , 0 , 29 , 0);
+    @include paddingPercent(1200 , 0 , 0 , 25 , 0);
     @include media($sp) {
-        @include paddingPercent(350 , 0 , 0 , 17 , 0);
+        @include paddingPercent(350 , 0 , 0 , 19 , 0);
     }
 }
 .singleNewsLxc {
     @include marginPercent(1200 , 29 , 0 , 0 , 0);
     @include media($sp) {
-        @include marginPercent(350 , 27 , 0 , 0 , 0);
+        @include marginPercent(350 , 23 , 0 , 0 , 0);
     }
     h1{
         clear: both;
@@ -142,9 +145,9 @@
     }
 }
 .btnSingleNewsWap {
-    @include marginPercent(1200 , 177 , auto , 0 , auto);
+    @include marginPercent(1200 , 176 , auto , 0 , auto);
     @include media($sp) {
-        @include marginPercent(350 , 161 , auto , 0 , auto);
+        @include marginPercent(350 , 157.484 , auto , 0 , auto);
     }
 }
 .btnSingleNews {
@@ -172,6 +175,9 @@
     display: block;
     background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 80% center;
     background-size: auto 55%;
+    @include media($tab) {
+        background-position: 90% center;
+    }
     @include media($sp) {
         background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 83% center;
         background-size: auto 55%;
