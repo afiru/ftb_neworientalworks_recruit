@@ -30,7 +30,7 @@
                     <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/picMainCompanySocialLxc.png" alt="活動実績" width="121" height="121" />
                 </figure>
                 <p class="txtMainCompanySocialLxc">
-                    新型コロナウィルスで蔓延時に次亜塩素酸水を<br>無料で地域のお客様にお配りさせて頂きました。
+                    新型コロナウィルスで<br class="sp_only">蔓延時に次亜塩素酸水を<br>無料で地域のお客様に<br class="sp_only">お配りさせて頂きました。
                 </p>
             </section>
         </div>

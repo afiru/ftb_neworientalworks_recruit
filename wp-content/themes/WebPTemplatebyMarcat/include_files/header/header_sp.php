@@ -59,17 +59,17 @@
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">
-                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#amusement"">
+                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#amusement">
                         <span class="spHeaderNavLiSubmenu">アミューズメント事業</span>
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">
-                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#eat"">
+                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#eat">
                         <span class="spHeaderNavLiSubmenu">飲食事業</span>
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">
-                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#estate"">
+                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(30); ?>#estate">
                         <span class="spHeaderNavLiSubmenu">不動産事業</span>
                     </a>
                 </li>
@@ -107,13 +107,8 @@
             </div>
             <ul class="spHeaderNavUlSub spHeaderNavUlSub01">
                  <li class="spHeaderNavLiSub">
-                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(1); ?>">
+                     <a class="spHeaderNavLiSubLink" href="<?php echo get_category_link(1); ?>">
                         <span class="spHeaderNavLiSubmenu">お知らせ</span>
-                    </a>
-                </li>
-                 <li class="spHeaderNavLiSub">
-                     <a class="spHeaderNavLiSubLink" href="<?php echo get_permalink(2); ?>">
-                        <span class="spHeaderNavLiSubmenu">グループ会社内容</span>
                     </a>
                 </li>
                  <li class="spHeaderNavLiSub">

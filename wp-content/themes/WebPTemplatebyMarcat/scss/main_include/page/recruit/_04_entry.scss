@@ -1,5 +1,5 @@
 .recruitEntryBtnWap{
-    @include marginPercent(1200 , 152 , auto , 0 , auto);
+    @include marginPercent(1200 , 153 , auto , 0 , auto);
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
@@ -19,13 +19,16 @@
     }
 }
 .recruitEntryBtnWap02{
-    @include marginPercent(1200 , 63 , auto , 0 , auto);
+    @include marginPercent(1200 , 65 , auto , 0 , auto);
     @include media($sp){
         @include ontener_width(375 , 350);
         @include marginPercent(375 , 43.125 , auto , 0 , auto);
     }
 }
 .recruitEntryBtn02Link{
+@include rs_font_size(18px,1.5vw,4.8vw);
+//フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+//設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include ontener_width(1200 , 340);
     margin: 0 auto;
    @include buttontype14_kai(#FFF,#006FDB,2px,#FFF,#C2FF30,#C2FF30,#006FDB);

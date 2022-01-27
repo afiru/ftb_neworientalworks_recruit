@@ -1,40 +1,40 @@
 .bgCompanyGroup {
     background: url(../img/page/company/bgCompanyGroupPc.png) no-repeat;
-background-size: auto 119.75%;
+    background-size: auto 121.75%;
     background-position: 62% -2.2vw;
     @include media($tab) {
-        background: url(../img/page/company/bgCompanyGroupPc.png) no-repeat;
-        background-size: auto 100%;
-         background-position:top center;
+    background-size: auto 100%;
+    background-position: 41% 8.8vw;
     }
     @include media($sp) {
-    background: url(../img/page/company/bgCompanyGroup.png) no-repeat;
-    background-size: auto 100%;
-        background-position: top 400px left 0;
+        padding: 0 0 83% 0;
+        background: url(../img/page/company/bgCompanyGroup.png) no-repeat;
+        background-size: auto 40%;
+        background-position: top 140vw right -6vw;
         //height: 106.13333333333334vw;
-        height: 230vw;
-        background: unset;
+        //height: 230vw;
+        //background: unset;
     }
 }
+
 .companyGroup  {
-    @include marginPercent(1200 , 161 , auto , 0 , auto);
+    @include marginPercent(1200 , 169 , auto , 0 , auto);
     @include media($sp) {
-        margin: 0 0 0 0;
+        margin: 2% 0 0 0;
     }
 }
 .companyGroupMain {
-
-    margin: -2.5% 0 0 0;
+    margin: -2.8% 0 0 0;
     width: 63.55%;
-    padding-top: 102px;
-    padding-bottom: 70px;
+    padding-top: 104px;
+    padding-bottom: 86px;
     padding-left: 0px;
     padding-right: 0px;
     @include media($sp) {
         //@include ontener_width(375 , 336);
         width: 100%;
         z-index: -1;
-        margin: -16% 0 0 0;
+        margin: -35% 0 0 0;
     }
 }
 .bgCompanyGroupMain {
@@ -51,9 +51,9 @@ background-size: auto 119.75%;
         width: 100%;
         top:108%;
         background: unset;
-        background:url(../img/page/company/bgCompanyGroupSp.png) no-repeat right bottom;
-        background-size: 100% auto;
-        height: 81.466667vw;
+        //background:url(../img/page/company/bgCompanyGroupSp.png) no-repeat right bottom;
+        //background-size: 100% auto;
+        //height: 81.466667vw;
     }
 }
 .ulCompanyGroupMain {
@@ -69,7 +69,7 @@ background-size: auto 119.75%;
 .liCompanyGroupMain {
     font-weight: 600;
     border-bottom: solid 1px #999999;
-    @include paddingPercent(656 , 29.5 , 0 , 29.5 , 0);
+    @include paddingPercent(656 , 30 , 0 , 30 , 0);
     @include rs_font_size(20px,1.6666666666666667vw,4.266666666666667vw);
     //フォント（px）【PC】:20px |【Tab】20px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px

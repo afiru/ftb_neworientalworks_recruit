@@ -53,7 +53,6 @@
 $(function () {
     //ハンバーガー
     $('.sp_menu_button').on('click',function(){
-        console.log('---');
         $('.spHeaderNav').slideToggle();
         if($(this).hasClass('off')){
             $(this).removeClass('off').addClass('on');
@@ -61,6 +60,7 @@ $(function () {
             $(this).removeClass('on').addClass('off');
         }
     });
+
     $('.jsbtnSubNavi').on('click',function(){
         $(this).next('.spHeaderNavUlSub').slideToggle();
         if($(this).hasClass('off')){
@@ -68,6 +68,13 @@ $(function () {
         }else {
             $(this).removeClass('on').addClass('off');
         }
+    });
+    
+    $('.spHeaderNavLiSub a').on('click',function(){
+        $('.spHeaderNav').fadeOut(500);
+        $('.spHeaderNavUlSub').fadeOut(500);
+        $('.sp_menu_button').removeClass('on').addClass('off');
+        $('.jsbtnSubNavi').removeClass('on').addClass('off');
     });
     //沿革
     $('.jsBtnCompanyOutlineMain').on('click',function(){
@@ -107,9 +114,11 @@ jQuery(function($){
         }, 100);
     }
     $('a[href^="#"]').click(function () {
+
         var href = $(this).attr("href");
         var target = $(href);
         var position = target.offset().top - headerHeight;
         $('body,html').stop().animate({scrollTop: position}, 500);
+
     });
 });

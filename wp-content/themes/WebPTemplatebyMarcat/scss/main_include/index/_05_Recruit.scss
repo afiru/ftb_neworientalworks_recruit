@@ -16,6 +16,7 @@
     @include ontener_width(555 , 365);
     @include media($sp) {
         width: 100%;
+            margin: -2% 0 0 -3%;
     }
 }
 .navIndexRecruit {    
@@ -23,20 +24,20 @@
     @include marginPercent(1200 , 30 , 0 , 0 , 0);
     @include media($sp) {
         @include ontener_width(375 , 370);
-        @include marginPercent(370 , 10 , 0 , 0 , 0);
+        margin: 3.7% 0% 0% 0%;
     }
 }
 .navIndexRecruitWap {
     position: relative;
     @include paddingPercent(794 , 70 , 0 , 88 , 0 );
     @include media($sp) {
-        @include paddingPercent(370 , 22 , 0 , 22 , 0 );
+        padding: 5.94% 0% 7.94% 0%;
     }
 }
 .bgIndexRecruit {
     position: absolute;
     width: 500%;
-    height: 100%;
+    height: 98.25%;
     top: 0;
     right: 0;
     background: #004ADB;
@@ -78,10 +79,21 @@
 }
 .btnMoreIndexRecruitWap {
     position: relative;
-    @include marginPercent(794 , -33 , 0 , 0 , 90 );
+    @include marginPercent(794 , -41 , 0 , 0 , 90 );
     @include media($sp) {
         @include marginPercent(340 , 0 , 0 , 0 , 0 );
     }
+    .btnMoreIndexRecruit {
+        @include media($sp) {
+            margin-top: 12.92%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+.btnMoreIndexRecruitWap .btnMoreIndexRecruitWap {
+    width: 48.44%; 
 }
 .bgPhotoIndexRecruit {
     width: 68.33%;
@@ -126,5 +138,11 @@
     @include media($sp) {
         background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 74% center;
         background-size: auto 55%;
+    }
+}
+.indexRecruit .txtTitleIndexCompany {
+    @include media($sp) {
+        margin: 4.51% 0% 0% -3%;
+        font-size: 5.26667vw;
     }
 }

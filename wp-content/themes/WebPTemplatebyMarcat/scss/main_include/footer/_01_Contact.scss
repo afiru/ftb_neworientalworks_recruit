@@ -1,7 +1,7 @@
 .footerContact {
     @include marginPercent(1920 , 182 , auto , 146 , auto);
     @include media($sp) {
-        margin: 32% auto 41.93% auto;
+        margin: 32% auto 30.93% auto;
     }
 }
 .ftContact {
@@ -26,6 +26,7 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
         width: 100%;
+        letter-spacing: 0.08em;
     }
 }
 .ftContactFx {
@@ -47,7 +48,7 @@
         width: 100%;
         text-align: center;
         @include marginPercent(375 , 5 , auto , 0 , auto);
-        letter-spacing: 0.05em;
+        letter-spacing: 0.01em;
     }
 }
 .btnFtContact {

@@ -2,10 +2,11 @@
     @include paddingPercent(1920 , 196 , auto , 0 , auto);
     @include media($sp) {
         @include ontener_width(375 , 348);
-        padding: 32.6% 0 0 0;
+        padding: 33.9% 0 0 0;
         @include marginPercent(348 , 0 , auto , 0 , auto);
     }
 }
+
 .indexNewsFx {
     justify-content: flex-start;
     @include ontener_width(1200 , 416);
@@ -19,6 +20,7 @@
         width: 100%;
     }
 }
+
 .txtTitleIndexCompany {
     font-weight: 600;
     letter-spacing: 0.21em;
@@ -32,7 +34,14 @@
         @include marginPercent(120 , 0 , 0 , 0 , 0);
     }
     @include media($sp) {
+        
         @include marginPercent(133 , 10 , 0 , 0 , 0);
+    }
+}
+.indexNews .txtTitleIndexCompany {
+    @include media($sp) {
+            font-size: 4.26667vw;
+        margin: 7.51% 0% 0% -1%;
     }
 }
 .IndexNewsArchives {
@@ -53,7 +62,7 @@
     }
 }
 .dateIndexNewsArchive {
-    @include ontener_width(1200 , 162);
+    width: 12%;
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px

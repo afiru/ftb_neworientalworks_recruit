@@ -6,7 +6,7 @@ footer {
     @include paddingPercent(1920 , 17 , 0 , 17 , 0);
     @include media($sp) {
         @include lineheight(11 , 13.25)
-        @include paddingPercent(375 , 17 , 0 , 17 , 0);
+            padding: 5.53% 0% 4.53% 0%;
     }
 }
 

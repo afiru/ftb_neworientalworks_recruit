@@ -1,7 +1,10 @@
 .btmNav{
     @include marginPercent(1920 , 245 , auto , 0 , auto);
     @include media($sp){
-        @include marginPercent(375 , 59 , auto , 0 , auto);
+    margin-top: 25.73%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 .ulBtmNav{

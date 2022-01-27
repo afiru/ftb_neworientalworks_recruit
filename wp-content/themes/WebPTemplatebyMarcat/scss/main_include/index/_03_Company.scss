@@ -1,13 +1,12 @@
 .indexCompany{
     background: #FFF;
-    @include marginPercent(1920 , 120 , auto , 0 , auto);
+    @include marginPercent(1920 , 81 , auto , 0 , auto);
     @include paddingPercent(1920 , 0 , 0 , 0 , 0);
     @include media($tab){
         padding: 10% 0 0% 0;
     }
     @include media($sp){
-        margin: 24.73% auto 0 auto;
-
+        margin: 24.99% auto 0 auto;
     }
 }
 .indexCompanyInner{
@@ -37,7 +36,7 @@
         background: #004ADB;
         width: 500%;
         height: 67%;
-        bottom: 0;
+        bottom: 0px;
         left: -25vw;
         right: 0;
         position: absolute;
@@ -106,7 +105,7 @@
     color: #fff;
 }
 .btnIndexCompanyWap{
-    @include marginPercent(400 , 20 , 0 , 0 , 0);
+    @include marginPercent(400 , 19 , 0 , 0 , 0);
      @include media($sp){
         @include ontener_width(375 , 340);
         margin: 12.15% auto 0 auto;

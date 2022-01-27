@@ -1,7 +1,13 @@
 .companySocial {
     @include marginPercent(1920 , 165 , 0 , 0 , 0);
     @include media($sp) {
-        @include marginPercent(375 , 84 , 0 , 0 , 0);
+            margin: 7.06% 0% 0% 0%;
+    }
+}
+.companySocial .h2TitleCompany {
+    @include media($sp) {
+        letter-spacing: 0.13em;
+            font-size: 8.25vw;
     }
 }
 .mainCompanySocial {
@@ -64,6 +70,7 @@
 .txtMainCompanySocialLxc {
     font-weight: 600;
     background: #F2F2F2;
+    letter-spacing: 0.16em;
     @include lineheight(18 , 26);
     @include rs_font_size(18px,1.5vw,4.266666666666667vw);
     //フォント（px）【PC】:18pxpx |【Tab】18px |【sp】 16px
@@ -72,6 +79,7 @@
     @include paddingPercent(700 , 21 , 0 , 21 , 196);
     @include marginPercent(700 , 58 , 0 , 0 , 0);
     @include media($sp) {
+        letter-spacing: -0.02em;
         @include lineheight(16 , 27);
         @include paddingPercent(350 , 11.547 , 43 , 11.547 , 115);
         @include marginPercent(350 , 58.797 , 0 , 0 , 0);

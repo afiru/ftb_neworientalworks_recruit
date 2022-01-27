@@ -3,11 +3,11 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    background: url(../img/page/service/bgServicePageFvPc.jpg);
+    background: url(../img/page/service/bgServicePageFvPc.jpg) no-repeat top center;
     background-size: auto 100%;
     @include media($sp){
         height: 40vw;
-        background: url(../img/page/service/bgServicePageFvSp.jpg);
+        background: url(../img/page/service/bgServicePageFvSp.jpg) no-repeat top center;
         background-size: auto 100%;
     }
 }
