@@ -22,7 +22,10 @@
     @include marginPercent(1200 , 65 , auto , 0 , auto);
     @include media($sp){
         @include ontener_width(375 , 350);
-        @include marginPercent(375 , 43.125 , auto , 0 , auto);
+    margin-top: 10.5%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 .recruitEntryBtn02Link{

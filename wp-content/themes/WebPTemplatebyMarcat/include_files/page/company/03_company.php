@@ -33,7 +33,7 @@
                 </tr>
                 <tr>
                     <th class="thCompanyCompanyMain">事業所</th>
-                    <td class="tdCompanyCompanyMain">本社 / <br class="sp_only">大阪府茨木市舟木町12番26号<br>本社運営事務所 / <br class="sp_only">大阪府茨木市西駅前町5-30佐々木ビル2F</td>
+                    <td class="tdCompanyCompanyMain tdCompanyCompanyMain02">本社 / <br class="sp_only">大阪府茨木市舟木町12番26号<br>本社運営事務所 / <br class="sp_only">大阪府茨木市西駅前町5-30佐々木ビル2F</td>
                 </tr>
                 <tr>
                     <th class="thCompanyCompanyMain">従業員数</th>

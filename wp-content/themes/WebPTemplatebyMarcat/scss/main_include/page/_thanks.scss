@@ -29,11 +29,14 @@
     }
 }
 .FormThanksarrow {
+    @include rs_font_size(18px,1.5vw,4.8vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     width: 100%;
     display: block;
     background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
     background-size: auto 55%;
-    background-position: 71% center;
+    background-position: 72% center;
     @include media($tab){
         background-position: 76% center;
     }

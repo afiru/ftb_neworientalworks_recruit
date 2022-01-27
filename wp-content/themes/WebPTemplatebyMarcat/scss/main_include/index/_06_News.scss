@@ -68,7 +68,7 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
         letter-spacing: 0.03em;
-        @include ontener_width(348 , 96);
+        @include ontener_width(348 , 110);
     }
 }
 .new {
@@ -96,6 +96,7 @@
     //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
+        width: 100%;
         @include marginPercent(348 , 10 , 0 , 0 , 0);
     }
 }

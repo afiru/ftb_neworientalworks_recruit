@@ -20,7 +20,10 @@
 .mainForm {
     margin: 9.4% auto 0 auto;
     @include media($sp) {
-        @include marginPercent(350 , 39.188 , auto , 0 , auto);
+        margin-top: 5.19%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .tableMainForm {
@@ -191,13 +194,16 @@
 }
 .buttonConfirmWap {
     @include ontener_width(1200 , 340);
-    @include marginPercent(340 , 152 , auto , 0 , auto);
+    @include marginPercent(340 , 72 , auto , 0 , auto);
     @include media($tab) {
         margin: 12.7% auto 0 auto;
     }
     @include media($sp) {
         @include ontener_width(350 , 340);
-        @include marginPercent(340 , 92 , auto , 0 , auto);
+        margin-top: 30.05%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .buttonConfirm {
@@ -213,6 +219,9 @@
     text-decoration: none;
     letter-spacing: 0.05em;
     width: 100%;
+@include rs_font_size(18px,1.5vw,4.8vw);
+//フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+//設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include kadomaru(50px);
     @include media($sp) {
         height: 16vw;
@@ -263,6 +272,7 @@ tr {
     &:nth-child(8) {
         .tdMainFormFx {
             @include ontener_width(550 , 165);
+                margin: 2% 0 0 0;
             @include media($sp) {
                 @include ontener_width(350 , 165);
             }

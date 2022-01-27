@@ -2,11 +2,22 @@
     
 }
 .outlineLoop{
-    @include paddingPercent(1920 , 15 , 18 , 18 , 18);
+    @include paddingPercent(1920 , 15 , 18 , 23 , 18);
     @include marginPercent(1920 , 79.5 , auto , 0 , auto);
     @include kadomaru(10px);
     @include media($sp){
-            padding: 3% 2% 3% 3%;
+        padding: 3% 2% 3% 3%;
+        @include marginPercent(375 , 40.5 , auto , 0 , auto);
+        @include ontener_width(375 , 350);
+         @include kadomaru(10px);
+    }
+}
+.outlineLoopA {
+    @include paddingPercent(1920 , 15 , 18 , 22 , 18);
+    @include marginPercent(1920 , 85.5 , auto , 0 , auto);
+    @include kadomaru(10px);
+    @include media($sp){
+        padding: 3% 2% 3% 3%;
         @include marginPercent(375 , 40.5 , auto , 0 , auto);
         @include ontener_width(375 , 350);
          @include kadomaru(10px);
@@ -95,7 +106,7 @@
     }
 }
 .btnToEntryWap{
-    @include marginPercent(1200 , 55 , auto , 0 , auto);
+    @include marginPercent(1200 , 51 , auto , 0 , auto);
     @include ontener_width(1200 , 340);
     @include media($sp){
         @include marginPercent(375 , 50 , auto , 0 , auto);
@@ -104,6 +115,9 @@
 }
 .btnToEntry{
     @include buttontype14_kai(#FFF,#FFF,2px,#FFF,#C2FF30,#C2FF30,#006FDB);
+    @include rs_font_size(18px,1.5vw,4.8vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     display: flex;
     align-items: center;
     text-align: center;

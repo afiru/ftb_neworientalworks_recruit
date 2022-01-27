@@ -53,7 +53,21 @@
     @include marginPercent(1200 , 46.5 , auto , 0 , auto);
     @include ontener_width(1200 , 679);
     @include media($sp){
-        @include marginPercent(375 , 58 , auto , 0 , auto);
+    margin-top: 19.46%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+        width: 100%;
+    }
+}
+.staffLoopLxcEven .secStaffLoopTop {
+    @include marginPercent(1200 , 46.5 , auto , 0 , 0);
+    @include ontener_width(1200 , 679);
+    @include media($sp){
+    margin-top: 19.46%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
         width: 100%;
     }
 }
@@ -63,6 +77,7 @@
     @include rs_font_size(25px,2.0833333333333335vw,5.333333333333333vw);
     //フォント（px）【PC】:25px |【Tab】25px |【sp】 20px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    letter-spacing: 0.05em;
 }
 .txtSecStaffLoopTop{
     @include marginPercent(679 , 26 , 0 , 0 , 0);
@@ -83,7 +98,7 @@
 }
 .staffBottomBox{
     @include ontener_width(1200 , 340);
-    @include marginPercent(1200 , 24 , auto , 0 , auto);
+    @include marginPercent(1200 , 24 , 0 , 0 , 0);
     @include media($sp){
         @include marginPercent(375 , 36 , auto , 0 , auto);
         width: 100%;
