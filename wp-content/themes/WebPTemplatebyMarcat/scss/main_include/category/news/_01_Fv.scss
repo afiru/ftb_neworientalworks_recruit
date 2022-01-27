@@ -15,7 +15,12 @@
    @include paddingPercent(1200 , 30 , 0 , 30 , 23);
    @include media($sp) {
         //@include paddingPercent(348 , 20 , 0 , 20 , 0);
-        padding: 6.74% 0% 5.2% 0%;
+        padding: 6.74% 0% 4.2% 0%;
+    }
+}
+.IndexNewsArchivePage .h3IndexNewsArchive {
+    @include media($sp) {
+        margin: 5.87% 0% 0% 0%;
     }
 }
 .catNewsWap {

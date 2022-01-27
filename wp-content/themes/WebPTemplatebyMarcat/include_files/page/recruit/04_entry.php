@@ -15,7 +15,7 @@
     </a>
 </div>
 <div class="wapper recruitEntryBtnWap02">
-    <a class="recruitEntryBtn02Link" href="<?php echo get_permalink(35); ?>#parttime">
+    <a class="recruitEntryBtn02Link" href="<?php echo get_permalink(37); ?>">
         <span class="recruitEntryArrow02">エントリー</span>
     </a>
 </div>

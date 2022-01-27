@@ -37,7 +37,7 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include paddingPercent(1200 , 0 , 0 , 25 , 0);
     @include media($sp) {
-        @include paddingPercent(350 , 0 , 0 , 19 , 0);
+        padding: 0% 0% 5.32% 0%;
     }
 }
 .singleNewsLxc {
@@ -160,7 +160,10 @@
     color: #006FDB;
     font-weight: 600;
     text-decoration: none;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.01em;
+    @include rs_font_size(18px,1.5vw,4.8vw);
+    //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
+    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include kadomaru(50px);
     @include ontener_width(1200 , 340);
     @include marginPercent(340 , 0 , auto , 0 , auto);
@@ -173,7 +176,7 @@
 .arrowBtnSingleNews {
     width: 100%;
     display: block;
-    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 80% center;
+    background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 83% center;
     background-size: auto 55%;
     @include media($tab) {
         background-position: 90% center;
