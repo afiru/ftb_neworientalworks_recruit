@@ -1,5 +1,5 @@
 .recruitMerit{
-    @include marginPercent(1920 , 205 , auto , 0 , auto);
+    @include marginPercent(1920 , 165 , auto , 0 , auto);
     position: relative;
     @include media($tab) {
         margin: 2.67% auto 0 auto;
@@ -9,11 +9,13 @@
     }
 }
 .h1RecruitMerit{
-    margin: -0.5% auto 0 auto;
+    margin: -0.2% auto 0 auto;
     font-weight: 600;
     @include rs_font_size(40px,3.3333333333333335vw,6.4vw);
     //フォント（px）【PC】:40pxpx |【Tab】40px |【sp】 24px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    letter-spacing: 0.15em;
+    font-feature-settings: "palt";
     @include media($sp){
         @include lineheight(24 , 32);
         position: absolute;

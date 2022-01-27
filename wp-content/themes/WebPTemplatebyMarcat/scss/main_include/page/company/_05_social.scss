@@ -1,7 +1,13 @@
 .companySocial {
     @include marginPercent(1920 , 165 , 0 , 0 , 0);
     @include media($sp) {
-        margin: 4.06% 0% 0% 0%;
+            margin: 7.06% 0% 0% 0%;
+    }
+}
+.companySocial .h2TitleCompany {
+    @include media($sp) {
+        letter-spacing: 0.13em;
+            font-size: 8.25vw;
     }
 }
 .mainCompanySocial {

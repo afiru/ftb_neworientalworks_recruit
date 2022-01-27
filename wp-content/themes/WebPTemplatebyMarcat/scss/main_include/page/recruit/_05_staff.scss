@@ -5,10 +5,7 @@
     background-size: auto;
     position: relative;
     @include media($tab){
-        @include marginPercent(375 , 58 , auto , 0 , auto);
-        height: 66.13333333333334vw;
-        background: url(../img/page/recruit/bgRecruitStaffSp.png) no-repeat center bottom;
-        background-size: auto 100%;
+
     }
     @include media($sp) {
         @include marginPercent(375 , 93 , auto , 0 , auto);
@@ -25,12 +22,16 @@
 }
 .btnRecruitStaffCnt{
     @include ontener_width(1200 , 510);
-    @include marginPercent(1200 , 0 , 0 , 0 , auto);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 52%;
+    margin-right: 0px;
     @include paddingPercent(510 , 189 , 0 , 0 , 0);
     @include media($tab) {
-        width: 60%;
+        width: 58%;
+        margin-left: 42%;
         text-align: right;
-        padding: 25.05% 0% 0% 0%;
+        padding: 177px 0% 3% 0%;
     }
     @include media($sp) {
         width: 100%;

@@ -8,7 +8,7 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .ServiceEstateFx{
-    margin: 1.5% auto 0 auto;
+    margin: 1% auto 0 auto;
     align-items: center;
     @include media($sp){
         margin: 7.5% auto 0 auto;
@@ -16,20 +16,25 @@
 }
 .photoServiceEstate{
     //@include ontener_width(1200 , 275);
-    width: 43%;
+    width: 46%;
     @include media($sp){
         width: 95%;
         margin: 0 auto;
     }
 }
 .txtServiceEstate{
-    @include ontener_width(1200 , 504);
-    @include lineheight(18 , 38);
+    width: 42.7%;
+    line-height: 1.60111;
+    margin: -2.5% 6% 0 0;
     @include rs_font_size(18px,1.5vw,4.8vw);
     //フォント（px）【PC】:18px |【Tab】18px |【sp】 18px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp){
         @include ontener_width(375 , 350);
-        @include marginPercent(375 , 44 , auto , 0 , auto);
+        margin-top: 9.13%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 2.0;
     }
 }

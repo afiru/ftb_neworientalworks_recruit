@@ -19,6 +19,7 @@
     //フォント（px）【PC】:30px |【Tab】30px |【sp】 20px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include media($sp) {
+        letter-spacing: 0;
         @include lineheight(20 , 38);
     }
 }
@@ -39,7 +40,10 @@
     letter-spacing: 0.001em;
     @include media($sp) {
         @include ontener_width(375 , 350)
-        @include marginPercent(350 , 26.766 , auto , 0 , auto);
+        margin-top: 7.34%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .namePageCompanyWap {

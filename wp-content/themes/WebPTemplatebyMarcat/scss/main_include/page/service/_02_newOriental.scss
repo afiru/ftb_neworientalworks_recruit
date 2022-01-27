@@ -1,11 +1,52 @@
 .ServiceCnt{
-    @include marginPercent(1200 , 54 , auto , 0 , auto);
+    @include marginPercent(1200 , 66 , auto , 0 , auto);
     @include media($sp){
-        @include marginPercent(375 , 39 , auto , 0 , auto);
+    margin-top: 12.4%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+.ServiceCnt02{
+    @include marginPercent(1200 , 102 , auto , 0 , auto);
+    @include media($sp){
+        margin-top: -1.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.ServiceCnt03{
+    @include marginPercent(1200 , 88 , auto , 0 , auto);
+    @include media($sp){
+        margin-top: -0.4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.ServiceCnt04{
+    @include marginPercent(1200 , 128 , auto , 0 , auto);
+    @include media($sp){
+        margin-top: -0.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.ServiceCnt05{
+    @include marginPercent(1200 , 112 , auto , 0 , auto);
+    @include media($sp){
+    margin-top: -1.6%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 .ServiceRestaurant{
-    @include marginPercent(1200 , 178 , auto , 0 , auto);
+    @include marginPercent(1200 , 177 , auto , 0 , auto);
     @include media($sp){
         margin: 16% auto 0 auto;
     }
@@ -25,6 +66,9 @@
     @include rs_font_size(40px,3.3333333333333335vw,8vw);
     //フォント（px）【PC】:40px |【Tab】40px |【sp】 30px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($sp) {
+        letter-spacing: 0.13em;
+    }
 }
 .h3TitleCompany{
     @include marginPercent(1200 , 15 , auto , 0 , auto);
@@ -56,7 +100,10 @@
 .shopServiceMargin{
     @include marginPercent(1200 , 88 , auto , 0 , auto);
     @include media($sp){
-        @include marginPercent(375 , 47 , auto , 0 , auto);
+margin-top: 13.53%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 .h1ShopService{

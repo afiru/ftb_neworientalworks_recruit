@@ -7,19 +7,20 @@
     background-position: 41% 8.8vw;
     }
     @include media($sp) {
-    padding: 0 0 83% 0;
-    background: url(../img/page/company/bgCompanyGroup.png) no-repeat;
-    background-size: auto 40%;
-    background-position: top 509px right -21px;
-    //height: 106.13333333333334vw;
-    //height: 230vw;
-    //background: unset;
+        padding: 0 0 83% 0;
+        background: url(../img/page/company/bgCompanyGroup.png) no-repeat;
+        background-size: auto 40%;
+        background-position: top 140vw right -6vw;
+        //height: 106.13333333333334vw;
+        //height: 230vw;
+        //background: unset;
     }
 }
+
 .companyGroup  {
     @include marginPercent(1200 , 169 , auto , 0 , auto);
     @include media($sp) {
-        margin: 0 0 0 0;
+        margin: 2% 0 0 0;
     }
 }
 .companyGroupMain {
