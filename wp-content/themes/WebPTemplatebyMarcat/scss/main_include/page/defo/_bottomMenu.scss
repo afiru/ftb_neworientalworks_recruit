@@ -29,35 +29,51 @@
     }
 }
 .btnBtmNavCompanyAboutus{
+    transition-duration: 0.5s;
     background: url(../img/btnBtmNavCompanyAboutus.jpg) no-repeat center top;
     background-size: auto 100%;
     @include media($sp){
         background: url(../img/btnBtmNavCompanyAboutusSp.jpg) no-repeat center top;
         background-size: auto 100%;
     }
+    &:hover {
+        background-size: auto 110%;
+    }
 }
 .btnBtmNavCompanyService{
+    transition-duration: 0.5s;
     background: url(../img/btnBtmNavCompanyService.jpg) no-repeat center top;
     background-size: auto 100%;
     @include media($sp){
         background: url(../img/btnBtmNavCompanyServiceSp.jpg) no-repeat center top;
         background-size: auto 100%;
     }
+    &:hover {
+        background-size: auto 110%;
+    }
 }
 .btnBtmNavCompanyRecruit{
+    transition-duration: 0.5s;
     background: url(../img/btnBtmNavCompanyRecruit.jpg) no-repeat center top;
     background-size: auto 100%;
     @include media($sp){
         background: url(../img/btnBtmNavCompanyRecruitSp.jpg) no-repeat center top;
         background-size: auto 100%;
     }
+    &:hover {
+        background-size: auto 110%;
+    }
 }
 .btnBtmNavCompanyCompany {
+    transition-duration: 0.5s;
     background: url(../img/btnBtmNavCompanyService.jpg) no-repeat center top;
     background-size: auto 100%;
     @include media($sp){
         background: url(../img/btnBtmNavCompanyServiceSp.jpg) no-repeat center top;
         background-size: auto 100%;
+    }
+    &:hover {
+        background-size: auto 110%;
     }
 }
 .h2SecBtmNav{
