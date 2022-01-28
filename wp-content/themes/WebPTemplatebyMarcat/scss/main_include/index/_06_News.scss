@@ -85,6 +85,9 @@
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16pxpx |【Tab】16px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include media($tab) {
+        margin: 0% 3.5% 0% 0%;
+    }
     @include media($sp) {
         height: 8vw;
         @include ontener_width(348 , 80);

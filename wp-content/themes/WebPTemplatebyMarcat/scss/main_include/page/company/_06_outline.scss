@@ -134,6 +134,10 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     @include ontener_width(1200 , 159);
     @include paddingPercent(159 , 20 , 0 , 20 , 40);
+    @include media($tab){
+        width: 14.25%;
+        padding: 2% 0% 1.66% 3.33%;
+    }
     @include media($sp) {
         letter-spacing: 0;
         @include ontener_width(350 , 101);
@@ -144,6 +148,9 @@
     display: flex;
     align-items: center;
     @include paddingPercent(68 , 0 , 0 , 0 , 39);
+    @include media($tab) {
+        padding: 0% 0% 0% 3.25%;
+    }
     @include media($sp) {
         width: 28%;
         padding: 4% 0 0 8%;
