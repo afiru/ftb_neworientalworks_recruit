@@ -110,7 +110,7 @@
         }
     }
     .dotCompanyOutline {
-        @include paddingPercent(1200 , 40 , 0 , 20 , 39);
+        @include paddingPercent(1200 , 40 , 0 , 20 , 28);
         @include media($sp) {
             width: 28%;
             padding: 6% 0% 0% 8%;
@@ -147,7 +147,7 @@
 .dotCompanyOutline {
     display: flex;
     align-items: center;
-    @include paddingPercent(68 , 0 , 0 , 0 , 39);
+    @include paddingPercent(68 , 0 , 0 , 0 , 28);
     @include media($tab) {
         padding: 0% 0% 0% 3.25%;
     }
@@ -157,7 +157,7 @@
     }
 }
 .detailCompanyOutline {
-    letter-spacing: 0.03em;
+    letter-spacing: 0.00em;
     @include lineheight(16 , 26);
     @include rs_font_size(16px,1.3333333333333333vw,4.266666666666667vw);
     //フォント（px）【PC】:16px |【Tab】16px |【sp】 16px

@@ -33,7 +33,7 @@
                 <section class="secRecruitMeritCnt">
                     <h3 class="t_center h3RecruitMeritCnt">教育・サポート体制が<br>充実しているので安心!</h3>
                     <p class="text_justify txtRecruitMeritCnt">
-                        現場第一主義で、ある程度の権限を頂けるため仕事の責任が大きいがやりがいがあり自身の成長につながります。<br>教育面については皆でサポートするので色々相談できる環境です。
+                        現場第一主義で、ある程度の権限を頂けるため仕事の責任も大きいがやりがいがあり自身の成長につながります。<br>教育面については皆でサポートするので色々相談できる環境です。
                     </p>
                 </section>
             </div>

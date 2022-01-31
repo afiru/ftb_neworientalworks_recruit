@@ -2,7 +2,7 @@
 <div class="bg_fff footerContact">
     <div class="wapper fotterContactWap">
         <section class="ftContact">
-            <h2 class="t_center h2FtContact">お気軽にお問い合せください</h2>
+            <h2 class="t_center h2FtContact">お気軽にお問い合わせください</h2>
             <div class="display_flex_center display_row ftContactFx">
                 <a class="oswald telFtContactFx">TEL:072-623-1886</a>
                 

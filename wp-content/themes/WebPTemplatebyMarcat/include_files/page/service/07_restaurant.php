@@ -18,7 +18,7 @@
                     </a>
                     <section class="secShopInfo">
                         <h3 class="h3SecShopInfo">つけ麺　いちもり</h3>
-                        <p class="txtShopInfo">〒567-0828<br>大阪府茨木市舟木町12-26 </p>
+                        <p class="txtShopInfo">大阪府茨木市舟木町12-26 </p>
                         <a class="telShopInfo" href="tel:072-622-5701">TEL/072-622-5701</a>
 
                         <div class="btnSecShopInfoWap">
