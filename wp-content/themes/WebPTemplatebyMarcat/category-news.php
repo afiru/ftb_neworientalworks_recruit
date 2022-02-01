@@ -9,7 +9,7 @@
             <a href="<?php echo get_the_permalink($post->ID); ?>" class="display_flex_center display_row IndexNewsArchive IndexNewsArchivePage">
                 <time class="dateIndexNewsArchive"><?php echo get_the_date('Y.m.d',$post->ID); ?></time>
                 <?php getNewFlug(get_the_date('Y-m-d',$post->ID)); ?>
-                <h3 class="h3IndexNewsArchive"><?php echo stringOverFlow(get_the_title($post->ID),255); ?></h3>
+                <h3 class="h3IndexNewsArchive"><?php echo stringOverFlow(get_the_title($post->ID),102); ?></h3>
             </a>
         <?php endwhile; // end of the loop. ?>
     </article>

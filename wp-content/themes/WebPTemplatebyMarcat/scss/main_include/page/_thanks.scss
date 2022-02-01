@@ -24,7 +24,10 @@
         }
         @include media($sp) {
             @include ontener_width(350 , 340);
-            @include marginPercent(340 , 80 , auto , 186 , auto);
+            margin-top: 36.52%;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
@@ -43,6 +46,6 @@
     @include media($sp) {
         background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat 90% center;
         background-size: auto 55%;
-        background-position: 71% center;
+        background-position: 72% center;
     }
 }

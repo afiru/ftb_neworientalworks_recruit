@@ -22,6 +22,7 @@
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
 .txtTitlePageFv{
+    font-family: 'Oswald', sans-serif;
     @include marginPercent(1920 , 15 , auto , 0 , auto);
     letter-spacing: 0.1em;
     @include rs_font_size(18px,1.5vw,4.266666666666667vw);

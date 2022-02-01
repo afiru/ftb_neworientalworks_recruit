@@ -39,6 +39,7 @@
     }
 }
 .telFtContactFx {
+    font-weight: 400;
     color: #006FDB;
     @include rs_font_size(46px,3.8333333333333335vw,10.666666666666666vw);
     //フォント（px）【PC】:46px |【Tab】46px |【sp】 40px

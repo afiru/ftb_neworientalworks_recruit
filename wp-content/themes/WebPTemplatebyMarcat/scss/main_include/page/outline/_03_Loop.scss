@@ -141,14 +141,14 @@
     background-size: auto 55%;
     @include media($sp) {
         background: url(../img/index/arrowBtnMoreIndexRecruit.png) no-repeat;
-        background-position: 75% center;
+        background-position: 80% center;
         background-size: auto 55%;
     }
 }
 .btnToEntry .btnToEntryarrow02{
     background-position: 80% center;
     @include media($sp) {
-        background-position: 80% center;
+        background-position: 84% center;
     }
 }
 .outlineLoopA {

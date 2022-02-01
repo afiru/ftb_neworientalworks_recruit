@@ -78,6 +78,9 @@
     //フォント（px）【PC】:25px |【Tab】25px |【sp】 20px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
     letter-spacing: 0.05em;
+    @include media($sp) {
+        letter-spacing: 0.0em;
+    }
 }
 .txtSecStaffLoopTop{
     @include marginPercent(679 , 26 , 0 , 0 , 0);
