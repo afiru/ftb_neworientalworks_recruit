@@ -12,10 +12,10 @@
                             <a href="<?php echo get_the_permalink(2); ?>#message">・代表メッセージ</a>
                         </li>
                         <li class="liIndexCompany">
-                            <a href="<?php echo get_the_permalink(2); ?>#outline">・沿革</a>
+                            <a href="<?php echo get_the_permalink(2); ?>#group">・グループ会社内容</a>
                         </li>
                         <li class="liIndexCompany">
-                            <a href="<?php echo get_the_permalink(2); ?>#group">・グループ会社内容</a>
+                            <a href="<?php echo get_the_permalink(2); ?>#outline">・沿革</a>
                         </li>
                     </ul>
                     <div class="btnIndexCompanyWap">

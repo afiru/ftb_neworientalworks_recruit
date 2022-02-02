@@ -97,6 +97,7 @@
     }
 }
 .liIndexCompany a{
+    font-weight: 600;
     @include lineheight(20 , 35);
     @include rs_font_size(20px,1.6666666666666667vw,4.266666666666667vw);
     //フォント（px）【PC】:20px |【Tab】20px |【sp】 16px
