@@ -43,7 +43,7 @@
                     <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">昭和37年3月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
-                        <p class="cl_00275B detailCompanyOutline">3月パチンコホール「毎日会館」「阿南会館」売却</p>
+                        <p class="cl_00275B detailCompanyOutline">パチンコホール「毎日会館」「阿南会館」売却</p>
                     </div>
                     <div class="bg_fff display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">昭和38年12月</p>
