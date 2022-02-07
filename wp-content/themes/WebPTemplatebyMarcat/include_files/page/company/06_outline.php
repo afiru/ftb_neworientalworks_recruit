@@ -292,6 +292,60 @@
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
                         <p class="cl_00275B detailCompanyOutline">創業者 中原春雄 会長に就任</p>
                     </div>
+                    
+                    <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
+                        <p class="cl_00275B yearCompanyOutline">平成20年12月</p>
+                        <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
+                        <p class="cl_00275B detailCompanyOutline">
+                            会社分割により3社を設立<br>ニューオリエンタルワークス株式会社<br>株式会社オーパスワン<br>株式会社アミューズワークス
+                        </p>
+                    </div>
+                    <div class="bg_fff display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
+                        <p class="cl_00275B yearCompanyOutline">平成22年4月</p>
+                        <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
+                        <p class="cl_00275B detailCompanyOutline">
+                            「立花SOCIO」改装オープン
+                        </p>
+                    </div>
+                    <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
+                        <p class="cl_00275B yearCompanyOutline">平成24年4月</p>
+                        <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
+                        <p class="cl_00275B detailCompanyOutline">
+                            「SOCIO西店」改装オープン
+                        </p>
+                    </div>
+                    <div class="bg_fff display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
+                        <p class="cl_00275B yearCompanyOutline">平成26年10月</p>
+                        <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
+                        <p class="cl_00275B detailCompanyOutline">
+                            JR茨木駅前に「つけ麺 いちもり」開店
+                        </p>
+                    </div>
+                    <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
+                        <p class="cl_00275B yearCompanyOutline">平成29年4月</p>
+                        <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
+                        <p class="cl_00275B detailCompanyOutline">
+                            新東洋興業株式会社法人設立50周年祝賀会開催
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="companyOutlineMainLxc">
+                <div class="po_re btnCompanyOutlineMain jsBtnCompanyOutlineMain off">
+                    <p class="t_center cl_00275B txtBtnCompanyOutlineMain">令和元年～</p>
+                    <div class="po_re iconBtnCompanyOutlineMain">
+                        <span class="bdBtnCompanyOutlineMain"></span>
+                        <span class="bdBtnCompanyOutlineMain"></span>
+                    </div>
+                </div>
+                <div class="bg_fff trigerCompanyOutline">
+
+                    <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
+                        <p class="cl_00275B yearCompanyOutline">令和3年5月</p>
+                        <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
+                        <p class="cl_00275B detailCompanyOutline">グループの主軸を新東洋興業株式会社からニューオリエンタルワークス株式会社に変更し<br>運営事務所を茨本市舟木町12-26から茨本市西駅前町5-30 佐々木ビル2階に移転</p>
+                    </div>
                 </div>
             </div>
         </div>

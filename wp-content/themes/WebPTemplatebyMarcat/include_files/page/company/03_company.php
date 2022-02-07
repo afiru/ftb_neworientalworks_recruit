@@ -16,6 +16,10 @@
             <div class="bgCompanyCompanyMain"></div>
             <table>
                 <tr>
+                    <th class="thCompanyCompanyMain">会社名</th>
+                    <td class="tdCompanyCompanyMain">ニューオリエンタルワークス株式会社</td>
+                </tr>
+                <tr>
                     <th class="thCompanyCompanyMain">事業内容</th>
                     <td class="tdCompanyCompanyMain">遊技業、飲食業、不動産業</td>
                 </tr>
