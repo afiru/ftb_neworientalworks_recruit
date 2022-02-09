@@ -44,7 +44,7 @@
         </p>
         <p class="text_justify txtSecBtmPrivacySecond">
             【個人情報取扱い窓口】<br>
-            株式会社ニューオリエンタルワークス<br>
+            ニューオリエンタルワークス株式会社<br>
             〒567-0828 大阪府茨木市西駅前町5-30<br class="sp_only">佐々木ビル2F<br>
             TEL：072-623-1886
         </p>

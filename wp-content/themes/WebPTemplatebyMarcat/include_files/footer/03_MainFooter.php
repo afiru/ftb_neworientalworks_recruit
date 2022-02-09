@@ -5,7 +5,7 @@
                 <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/footer/logoMainFooter.svg" alt="new oriental works" width="417.2" height="55.57" />
             </a>
             <p class="cl_fff txtLogoMainFooter">
-                〒567-0828<br>大阪府茨木市舟木町12-26 
+                〒567-0032<br>大阪府茨木市西駅前町5-30佐々木ビル2F 
             </p>
         </div>
         <div class="display_flex_stretch display_row mainFooterBox">

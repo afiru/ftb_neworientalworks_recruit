@@ -30,7 +30,7 @@
                     <span class="titleThFx">お名前</span>
                 </div>
             </th>
-            <td class="tdMainForm">[mwform_text name="お名前" id="name" class="inputW100" size="60" maxlength="255" placeholder="山田太郎"]</td>
+            <td class="tdMainForm">[mwform_text name="お名前" id="name" class="inputW100" size="60" maxlength="255" placeholder="山田　太郎"]</td>
         </tr>
         <tr>
             <th class="thMainForm">
@@ -39,7 +39,7 @@
                     <span class="titleThFx">フリガナ</span>
                 </div>
             </th>
-            <td class="tdMainForm">[mwform_text name="フリガナ" id="kana" class="inputW100" size="60" maxlength="255" placeholder="ヤマダタロウ"]</td>
+            <td class="tdMainForm">[mwform_text name="フリガナ" id="kana" class="inputW100" size="60" maxlength="255" placeholder="ヤマダ　タロウ"]</td>
         </tr>
         <tr>
             <th class="thMainForm">
@@ -93,7 +93,7 @@
                 <div class="postNumMainForm">
                     <div class="inputNumMainForm">[mwform_text name="郵便番号1" id="num1" class="inputW100" size="60" maxlength="255" placeholder="567"]</div>
                     <div class="hyphenNumMainForm">-</div>
-                    <div class="inputNumMainForm">[mwform_text name="郵便番号2" id="num2" class="inputW100" size="60" maxlength="255" placeholder="0828"]</div>
+                    <div class="inputNumMainForm">[mwform_text name="郵便番号2" id="num2" class="inputW100" size="60" maxlength="255" placeholder="0032"]</div>
                 </div>
             </td>
         </tr>
@@ -104,7 +104,7 @@
                     <span class="titleThFx">住所</span>
                 </div>
             </th>
-            <td class="tdMainForm">[mwform_text name="住所" id="address" class="inputW100" size="60" maxlength="255" placeholder="大阪府茨木市舟木町12-26"]</td>
+            <td class="tdMainForm">[mwform_text name="住所" id="address" class="inputW100" size="60" maxlength="255" placeholder="大阪府茨木市西駅前町5-30佐々木ビル2F"]</td>
         </tr>
         <tr>
             <th class="thMainForm">
@@ -119,7 +119,7 @@
 </div>
 
 <div class="buttonConfirmWap ">
-    [mwform_bconfirm class="buttonConfirm" value="confirm"]入力内容の確認[/mwform_bconfirm]
+    [mwform_bconfirm class="buttonConfirm" value="confirm"]確認画面に進む[/mwform_bconfirm]
 </div>
 
 <div class="buttonThanksBack">

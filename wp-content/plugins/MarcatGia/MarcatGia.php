@@ -272,20 +272,20 @@ function meta_headcustomtags() {
         $description = SCF::get_term_meta($cat,'category','seo_description');
         $now_url = get_category_link($cat);
         $blog_title = get_bloginfo('name');
-        $aiosp_opengraph_dimg = $catdate['OGimage'];
-		$headcustomtag = <<<EOM
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="$title" />
-		<meta property="og:description" content="$description" />
-		<meta property="og:url" content="$now_url" />
-		<meta property="og:site_name" content="$blog_title" />
-		<meta property="og:image" content="$aiosp_opengraph_dimg" />
-		<meta property="og:image:secure_url" content="$aiosp_opengraph_dimg" />
-		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:title" content="$blog_title" />
-		<meta name="twitter:description" content="$description" />
-		<meta name="twitter:image" content="$aiosp_opengraph_dimg" />
-		EOM;
+        $aiosp_opengraph_dimg = $catdate['upload_image_00'];
+$headcustomtag = <<<EOM
+<meta property="og:type" content="website" />
+<meta property="og:title" content="$title" />
+<meta property="og:description" content="$description" />
+<meta property="og:url" content="$now_url" />
+<meta property="og:site_name" content="$blog_title" />
+<meta property="og:image" content="$aiosp_opengraph_dimg" />
+<meta property="og:image:secure_url" content="$aiosp_opengraph_dimg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="$blog_title" />
+<meta name="twitter:description" content="$description" />
+<meta name="twitter:image" content="$aiosp_opengraph_dimg" />
+EOM;
 		echo $headcustomtag;
 	}
 }

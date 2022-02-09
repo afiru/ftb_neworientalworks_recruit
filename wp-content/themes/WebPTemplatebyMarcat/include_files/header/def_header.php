@@ -8,7 +8,6 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <meta http-equiv="expires" content="86400">
 <meta http-equiv="Content-Language" content="ja">
-<meta name="Robots" content="noodp">
 <meta name="Author" content="Marcatucube">
 <meta name="copyright" content="" />
 <meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
