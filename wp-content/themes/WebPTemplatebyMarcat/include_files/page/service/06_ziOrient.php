@@ -1,4 +1,4 @@
-<!--<div class="ServiceCnt ServiceCnt05">
+<div class="ServiceCnt ServiceCnt05">
     <section class="wapper shopService">
         <h1 class="h1ShopService"><span class="h1ShopServiceSpan">株式会社ジ・オリエント運営</span></h1>
         <?php 
@@ -6,7 +6,7 @@
             $query1 = new WP_Query( $args );
             if ( $query1->have_posts() ): 
         ?>
-        <article class="display_flex_stretch display_row shopInfo">
+        <!--<article class="display_flex_stretch display_row shopInfo">
             <?php $i=1; while ( $query1->have_posts() ):$query1->the_post(); ?>
             <div class="display_flex_stretch shopInfoCnt">
                 <a class="photoShopInfo" href="<?php echo scf::get('url'); ?>" target="_blank">
@@ -25,7 +25,7 @@
                 </section>
             </div>
             <?php $i++; endwhile; wp_reset_postdata(); ?>
-        </article>
+        </article>-->
         <?php endif; ?>
     </section>
-</div>-->
+</div>

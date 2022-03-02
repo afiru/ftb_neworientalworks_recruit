@@ -30,9 +30,11 @@
             グループ一丸となって邁進して参ります。
         </p>
         
-        <p class="display_flex_stretch_bottom namePageCompanyWap">
+        <p class="display_flex_center namePageCompanyWap">
             <span class="positionPageCompany">代表取締役</span>
-            <span class="namePageCompany">中原 鎮宏</span>
+            <span class="namePageCompany">
+                <img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/namePageCompany.jpg" alt="" width="319" height="70" />
+            </span>
         </p>
     </section>
 </div>

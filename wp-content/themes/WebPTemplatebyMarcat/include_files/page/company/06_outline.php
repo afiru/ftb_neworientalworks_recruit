@@ -202,21 +202,21 @@
                 </div>
                 <div class="bg_fff trigerCompanyOutline">
 
-                    <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
+                    <!--<div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">平成4年6月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
                         <p class="cl_00275B detailCompanyOutline">株式会社オリエントフーズを株式会社ジ・オリエントに商号変更</p>
-                    </div>
+                    </div>-->
                     <div class="bg_fff display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">平成5年12月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
                         <p class="cl_00275B detailCompanyOutline">高槻市辻子3丁目にパチンコホール「高槻SOCIO」開店</p>
                     </div>
-                    <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
+                    <!---<div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">​平成10年5月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
                         <p class="cl_00275B detailCompanyOutline">阪急茨木市駅前 SOCIO-1の2~3階部分にパチンコホール「B-WAVE」開店</p>
-                    </div>
+                    </div>-->
                     <div class="bg_fff display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">​平成11年3月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
@@ -247,16 +247,16 @@
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
                         <p class="cl_00275B detailCompanyOutline">東京新橋に和風ダイニング・バー「玄新橋店」開店</p>
                     </div>
-                    <div class="bg_fff display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
+                    <!---<div class="bg_fff display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">平成14年8月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
                         <p class="cl_00275B detailCompanyOutline">阪急茨木市駅前パチンコホール「B-WAVE」3階増床オープン</p>
-                    </div>
-                    <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
+                    </div>-->
+                    <!---<div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">平成14年12月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
                         <p class="cl_00275B detailCompanyOutline">阪急茨木市駅前パチンコホール「阪急会館」「新東洋」改装オープン</p>
-                    </div>
+                    </div>-->
                     <div class="bg_fff display_flex_stretch display_row bgTrigerCompanyOutlineFx02 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">平成14年12月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>

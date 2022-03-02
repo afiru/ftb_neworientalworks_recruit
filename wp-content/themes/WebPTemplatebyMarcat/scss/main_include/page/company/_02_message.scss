@@ -58,22 +58,24 @@
 }
 .positionPageCompany {
     letter-spacing: 0.08em;
-    @include rs_font_size(20px,1.6666666666666667vw,4.8vw);
-    //フォント（px）【PC】:20pxpx |【Tab】20px |【sp】 18px
-    //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+@include rs_font_size(18px,1.5vw,4.266666666666667vw);
+//フォント（px）【PC】:18px |【Tab】18px |【sp】 16px
+//設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+     @include ontener_width(284 , 100);
     @include media($sp) {
-        @include ontener_width(350 , 99);
+        @include ontener_width(350 , 85);
     }
 }
 .namePageCompany {
     letter-spacing: 0.25em;
-    @include marginPercent(284 , 0 , 0 , 0 , 18);
+    @include marginPercent(284 , 0 , 0 , 0 , 0);
     @include rs_font_size(28px,2.3333333333333335vw,6.4vw);
     //フォント（px）【PC】:28px |【Tab】28px |【sp】 24px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
+    @include ontener_width(284 , 170);
     @include media($sp) {
         @include ontener_width(350 , 134);
-        @include marginPercent(134 , 0 , 0 , 0 , 10);
+        @include marginPercent(134 , 0 , 0 , 0 , 0);
     }
 }
 
