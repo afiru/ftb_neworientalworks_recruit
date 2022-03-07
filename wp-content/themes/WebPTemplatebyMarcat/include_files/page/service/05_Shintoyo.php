@@ -1,4 +1,4 @@
-<div class="ServiceCnt ServiceCnt04">
+<!---<div class="ServiceCnt ServiceCnt04">
     <section class="wapper shopService">
         <h1 class="h1ShopService"><span class="h1ShopServiceSpan">新東洋興業株式会社運営</span></h1>
         <?php 
@@ -28,4 +28,4 @@
         </article>-->
         <?php endif; ?>
     </section>
-</div>
+</div>-->

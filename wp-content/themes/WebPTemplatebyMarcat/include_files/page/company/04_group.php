@@ -15,10 +15,11 @@
         <div class="po_re companyGroupMain">
             <div class="bgCompanyGroupMain"></div>
             <ul class="ulCompanyGroupMain">
+		<li class="liCompanyGroupMain">新東洋興業株式会社</li>
                 <li class="liCompanyGroupMain">株式会社アミューズワークス</li>
                 <li class="liCompanyGroupMain">株式会社オーパスワン </li>
-                <!---<li class="liCompanyGroupMain">新東洋興業株式会社</li>-->
-                <!---<li class="liCompanyGroupMain">株式会社ジ・オリエント</li>-->
+                
+                <!--<li class="liCompanyGroupMain">株式会社ジ・オリエント</li>-->
             </ul>
         </div>
     </div>

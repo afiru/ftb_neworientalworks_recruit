@@ -344,7 +344,7 @@
                     <div class="bg_F2F2F2 display_flex_stretch display_row bgTrigerCompanyOutlineFx01 trigerCompanyOutlineFx">
                         <p class="cl_00275B yearCompanyOutline">令和3年5月</p>
                         <p class="cl_8B8B8B dotCompanyOutline"><img loading="lazy" src="<?php echo get_bloginfo('template_url'); ?>/img/page/company/dotCompanyOutline.svg" alt="ドット" width="68" height="5" /></p>
-                        <p class="cl_00275B detailCompanyOutline">グループの主軸を新東洋興業株式会社からニューオリエンタルワークス株式会社に変更し<br>運営事務所を茨本市舟木町12-26から茨本市西駅前町5-30 佐々木ビル2階に移転</p>
+                        <p class="cl_00275B detailCompanyOutline">グループの主軸を新東洋興業株式会社からニューオリエンタルワークス株式会社に変更し<br>運営事務所を茨木市舟木町12-26から茨木市西駅前町5-30 佐々木ビル2階に移転</p>
                     </div>
                 </div>
             </div>
