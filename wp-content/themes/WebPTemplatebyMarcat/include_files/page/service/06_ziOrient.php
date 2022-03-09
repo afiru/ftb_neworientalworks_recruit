@@ -1,4 +1,4 @@
-<!---<div class="ServiceCnt ServiceCnt05">
+<!--<div class="ServiceCnt ServiceCnt05">
     <section class="wapper shopService">
         <h1 class="h1ShopService"><span class="h1ShopServiceSpan">株式会社ジ・オリエント運営</span></h1>
         <?php 

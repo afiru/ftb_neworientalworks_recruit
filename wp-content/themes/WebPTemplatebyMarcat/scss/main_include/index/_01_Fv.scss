@@ -230,7 +230,7 @@
 .txtScrollIndexFv{
     color: #00275B;
     letter-spacing: 0.24em;
-    @include rs_font_size(18px,1.5vw,4.266666666666667vw);
+    @include rs_font_size(17px,1.5vw,4.266666666666667vw);
     //フォント（px）【PC】:18px |【Tab】18px |【sp】 16px
     //設定サイズ（px）【PC】:1200px |【Tab】1200px |【sp】 375px
 }
